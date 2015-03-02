@@ -51,6 +51,9 @@ function readAmounts() {
         if( err ) return console.log(err);
 
         for( var i = 0; i < result.length; i++ ) {
+            if( result[i].crop && result[i].crop.indexOf('/') > -1 ) {
+                result[i].crop = result[i].crop.replace(/\//,'and');
+            }
             addAmount(result[i]);
         }
 
