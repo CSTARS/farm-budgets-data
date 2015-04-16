@@ -1,8 +1,8 @@
 category,class,units,description
 boundary,geography,,"[Standard Code for Naming Geographic Features](https://github.com/CSTARS/farm-budgets-data/wiki/Geographic-Codes)"
-irr-land-rent,,acr_us,Irrigated Land Rent
-nonirr-land-rent,,acr_us,Non irrigated Land Rent
-oes452091,labor,hr,[45-2091 Agricultural Equipment Operators](http://www.bls.gov/oes/current/oes452091.htm)
-oes452092,labor,hr,[45-2092 Farmworkers and Laborers, Crop, Nursery, and Greenhouse](http://www.bls.gov/oes/current/oes452092.htm)
-oes533032,labor,hr,[53-3032 Heavy and Tractor-Trailer Truck Drivers](http://www.bls.gov/oes/current/oes533032.htm)
+irr-land-rent,,acr_us,"Irrigated Land Rent"
+nonirr-land-rent,,acr_us,"Non irrigated Land Rent"
+oes452091,labor,hr,"[45-2091 Agricultural Equipment Operators](http://www.bls.gov/oes/current/oes452091.htm)"
+oes452092,labor,hr,"[45-2092 Farmworkers and Laborers, Crop, Nursery, and Greenhouse](http://www.bls.gov/oes/current/oes452092.htm)"
+oes533032,labor,hr,"[53-3032 Heavy and Tractor-Trailer Truck Drivers](http://www.bls.gov/oes/current/oes533032.htm)"
 
