@@ -1,0 +1,31 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Nitrogen (dry),WA,,,lb,60
+,Phosphorous (dry),WA,,,lb,12
+,Sulfur (dry),WA,,,lb,15
+,Roundup,WA,,,oz,18
+,Ammonium Sulfate,WA,,,oz,50
+,M90,WA,,,oz,3
+,Achieve SC,WA,,,oz,9.2
+,Starane+Sword,WA,,,oz,22
+,Barley Seed,WA,,,lb,80
+,Labor (Machine),WA,,,acre,0.97
+,Fuel,WA,,,gal,8.18
+,Lubricants,WA,,,acre,1
+,Repair,WA,,,acre,1
+,Rental Sprayer,WA,,,acre,2
+,Nitrogen (dry),WA,,,lb,60
+,Phosphorous (dry),WA,,,lb,12
+,Sulfur (dry),WA,,,lb,15
+,Roundup,WA,,,oz,18
+,Ammonium Sulfate,WA,,,oz,50
+,M90,WA,,,oz,3
+,Achieve SC,WA,,,oz,9.2
+,Starane+Sword,WA,,,oz,22
+,Barley Seed,WA,,,lb,80
+,Labor (Machine),WA,,,acre,0.97
+,Fuel,WA,,,gal,8.18
+,Lubricants,WA,,,acre,1
+,Repair,WA,,,acre,1
+,Rental Sprayer,WA,,,acre,2
+,oes452091,WA,,,hours,0.97
+,oes452092,WA,,,hours,0

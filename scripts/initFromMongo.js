@@ -1,5 +1,6 @@
 var MongoClient = require('mongodb').MongoClient;
 var fs = require('fs');
+var csv = require('fast-csv');
 var fips = require('./fips.json');
 
 var data = {}, costs, amounts;
@@ -64,7 +65,7 @@ function readAmounts() {
             addAmount(result[i]);
         }
 
-        writeFs();
+        addLabor();
     });
 }
 
@@ -90,6 +91,32 @@ function addAmount(amount) {
     );
 }
 
+function addLabor() {
+  var labor = [];
+  fs.createReadStream(__dirname+'/Labor_Summary_bly.csv')
+    .pipe(csv())
+    .on("data", function(row){
+        if( row[2] == '' || row[0] == '' || row[0] == 'State' ) return;
+
+        var state = row[0];
+        var crop = row[1];
+
+        if( crop == 'Corn Grain' ) crop = 'Corn Grains';
+        if( crop == 'Lentils' ) crop = 'Lentil';
+        if( crop == 'Sugarbeets' ) crop = 'Sugar Beets';
+        if( crop == 'Fescue Seet' ) crop = 'Fescue Seed';
+
+        if( !data[state] ) data[state] = { amounts : {}};
+        if( !data[state].amounts[crop] ) data[state].amounts[crop] = {default : []};
+
+        data[state].amounts[crop].default.push(['', 'oes452091', fips[state][2], '', '', 'hours', row[3]])
+        data[state].amounts[crop].default.push(['', 'oes452092', fips[state][2], '', '', 'hours', row[4]])
+    })
+    .on("end", function(){
+      writeFs();
+    });
+}
+
 function writeFs() {
     console.log(data);
     console.log(dir);
@@ -101,15 +128,17 @@ function writeFs() {
 }
 
 function writeDir(dir, data) {
-  if( !fs.exists(dir+'UCD') ) fs.mkdirSync(dir+'UCD');
+  if( !fs.existsSync(dir+'UCD') ) fs.mkdirSync(dir+'UCD');
   dir = dir+'UCD';
 
   for( var state in data ) {
-    var filename = state.replace(/\s/g,'_')+'-costs.csv';
-    writeCsv(dir+'/'+filename, data[state].costs.default);
+    if(  data[state].costs ) {
+      var filename = fips[state][2]+'-costs.csv';
+      writeCsv(dir+'/'+filename, data[state].costs.default);
+    }
 
     for( var crop in data[state].amounts ) {
-      var filename = state.replace(/\s/g,'_')+'-'+crop.replace(/\s/g,'_');
+      var filename = fips[state][2]+'-'+crop.replace(/\s/g,'_');
 
       writeCsv(dir+'/'+filename+'.csv', data[state].amounts[crop].default);
     }

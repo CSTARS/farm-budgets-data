@@ -1,0 +1,43 @@
+budget_id,commodity,location,phase,material,unit,amount
+,11-52-0,CA,,,lb,75
+,Lorsban 4E,CA,,,pint,2
+,Lannate 90 SP,CA,,,lb,0.5
+,Treflan TR 10,CA,,,lb,20
+,Select Max,CA,,,floz,16
+,Velpar L,CA,,,pint,2
+,Karmex,CA,,,lb,1.5
+,Labor (Machine),CA,,,hrs,0.58
+,Labor (non-machine),CA,,,hrs,1.82
+,Fuel - Gas,CA,,,gal,0.83
+,Fuel - Diesel,CA,,,gal,0.08
+,Maintenance,CA,,,,0
+,Repair,CA,,,,1
+,Air Application,CA,,,,2
+,Ground Application,CA,,,,3
+,Swath Rake,CA,,,,7
+,Roadside Hay,CA,,,ton,8
+,Tissue Analysis,CA,,,each,0.05
+,Broadcast Fertilizer,CA,,,,1
+,Water,CA,,,acin,54
+,11-52-0,CA,,,lb,75
+,Lorsban 4E,CA,,,pint,2
+,Lannate 90 SP,CA,,,lb,0.5
+,Treflan TR 10,CA,,,lb,20
+,Select Max,CA,,,floz,16
+,Velpar L,CA,,,pint,2
+,Karmex,CA,,,lb,1.5
+,Labor (Machine),CA,,,hrs,0.58
+,Labor (non-machine),CA,,,hrs,1.82
+,Fuel - Gas,CA,,,gal,0.83
+,Fuel - Diesel,CA,,,gal,0.08
+,Maintenance,CA,,,,0
+,Repair,CA,,,,1
+,Air Application,CA,,,,2
+,Ground Application,CA,,,,3
+,Swath Rake,CA,,,,7
+,Roadside Hay,CA,,,ton,8
+,Tissue Analysis,CA,,,each,0.05
+,Broadcast Fertilizer,CA,,,,1
+,Water,CA,,,acin,54
+,oes452091,CA,,,hours,0.58
+,oes452092,CA,,,hours,1.82

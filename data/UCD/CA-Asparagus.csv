@@ -1,0 +1,14 @@
+budget_id,commodity,location,phase,material,unit,amount
+,UN32,CA,,,lbN,90
+,Ridomil Gold EC,CA,,,floz,4
+,Rally 40 WSP,CA,,,oz,5
+,Karmex DF,CA,,,lb,2
+,Di-Syston,CA,,,pt,1
+,Lorsban 4E,CA,,,pt,2
+,Labor (Machine),CA,,,hr,19.4
+,Labor (non-machine),CA,,,hr,12.14
+,Fuel - Diesel,CA,,,gal,51.3
+,Packing,CA,,,crt,133
+,Additional Cost of harvest,CA,,,crt,133
+,oes452091,CA,,,hours,19.4
+,oes452092,CA,,,hours,12.14

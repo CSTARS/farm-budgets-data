@@ -1,0 +1,18 @@
+budget_id,commodity,location,phase,material,unit,amount
+,16-20-0-14,OR,,,lb,100
+,33-0-0-12,OR,,,lb,110
+,Axiom OZ,OR,,,oz,10
+,Harmony Extra,OR,,,oz,0.3
+,Mustang 1.5 EW,OR,,,gal,0.0313
+,Osprey,OR,,,oz,3.2
+,Slug Bait,OR,,,lb,5
+,Stratego,OR,,,oz,10
+,Wheat,OR,,,lb,100
+,Labor (Machine),OR,,,hr,0.9039
+,Labor (non-machine),OR,,,hr,0.2106
+,Fuel - Diesel,OR,,,gal,12.6081
+,Maintenance,OR,,,,1
+,Wheat Assesment,OR,,,,56
+,Transport to PDX,OR,,,,56
+,oes452091,OR,,,hours,0.9
+,oes452092,OR,,,hours,0.21

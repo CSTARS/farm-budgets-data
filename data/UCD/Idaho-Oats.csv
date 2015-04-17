@@ -1,8 +1,0 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Nitrogen (dry),ID,,,lb,55
-,Sulfur (dry),ID,,,lb,10
-,Roundup,ID,,,oz,24
-,Labor (Machine),ID,,,acre,1.22
-,Fuel - Diesel,ID,,,gal,7.02
-,Maintenance and Repair,ID,,,,1
-,Rental Sprayer,ID,,,acre,2

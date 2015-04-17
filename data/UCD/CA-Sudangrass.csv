@@ -1,0 +1,20 @@
+budget_id,commodity,location,phase,material,unit,amount
+,80-0-0,CA,,,lb N,140
+,Clarity,CA,,,pint,1
+,Prowl H20,CA,,,pint,3
+,Susan Seed,CA,,,lb,150
+,Labor (Machine),CA,,,hr,1.02
+,Labor (non-machine),CA,,,hr,0.5
+,Fuel - Gas,CA,,,gal,0.95
+,Fuel - Diesel,CA,,,gal,4.79
+,Lube,CA,,,,1
+,Repair,CA,,,,1
+,Plant,CA,,,acre,1
+,Injection-Sidedress,CA,,,acre,1
+,Swath,CA,,,acre,2
+,Rake,CA,,,acre,2
+,Bale,CA,,,bales,100
+,Roadside Bales,CA,,,bales,100
+,Water,CA,,,acin,28
+,oes452091,CA,,,hours,1.02
+,oes452092,CA,,,hours,0.5
