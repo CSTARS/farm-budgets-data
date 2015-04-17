@@ -7,5 +7,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Fuel - Diesel,OR,,,gal,13
 ,Sawdust,OR,,,units,3.67
 ,Harvest,OR,,,lbs,16200
-,oes452091,OR,,,hours,100
-,oes452092,OR,,,hours,0
+,oes452091,OR,,,hr,100
+,oes452092,OR,,,hr,0

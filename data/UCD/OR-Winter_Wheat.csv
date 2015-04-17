@@ -14,5 +14,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Maintenance,OR,,,,1
 ,Wheat Assesment,OR,,,,56
 ,Transport to PDX,OR,,,,56
-,oes452091,OR,,,hours,0.9
-,oes452092,OR,,,hours,0.21
+,oes452091,OR,,,hr,0.9
+,oes452092,OR,,,hr,0.21

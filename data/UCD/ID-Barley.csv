@@ -19,5 +19,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Repair,ID,,,acre,1
 ,Custom Fertilize,ID,,,acre,1
 ,Custom Combining,ID,,,acre,1
-,oes452091,ID,,,hours,1.62
-,oes452092,ID,,,hours,0
+,oes452091,ID,,,hr,1.62
+,oes452092,ID,,,hr,0

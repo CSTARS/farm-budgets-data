@@ -48,5 +48,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Crop Insurance,WA,,,,4.9
 ,Gopher Control,WA,,,,1
 ,Management,WA,,,,1
-,oes452091,WA,,,hours,0
-,oes452092,WA,,,hours,0
+,oes452091,WA,,,hr,0
+,oes452092,WA,,,hr,0

@@ -39,5 +39,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Tissue Analysis,CA,,,each,0.05
 ,Broadcast Fertilizer,CA,,,,1
 ,Water,CA,,,acin,54
-,oes452091,CA,,,hours,0.58
-,oes452092,CA,,,hours,1.82
+,oes452091,CA,,,hr,0.58
+,oes452092,CA,,,hr,1.82

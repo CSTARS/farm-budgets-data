@@ -16,5 +16,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Commission Assess,OR,,,cwt,17
 ,Purity and Germ,OR,,,cwt,17
 ,Seed Cleand and Bag,OR,,,cwt,17
-,oes452091,OR,,,hours,1.27
-,oes452092,OR,,,hours,0.19
+,oes452091,OR,,,hr,1.27
+,oes452092,OR,,,hr,0.19

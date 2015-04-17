@@ -34,5 +34,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Irrigation,ID,,,acin,28
 ,Storage Operating Costs,ID,,,cwt,465
 ,Storage Repairs,ID,,,ac,1
-,oes452091,ID,,,hours,6.3
-,oes452092,ID,,,hours,4.86
+,oes452091,ID,,,hr,6.3
+,oes452092,ID,,,hr,4.86

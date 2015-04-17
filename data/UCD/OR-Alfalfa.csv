@@ -15,5 +15,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Labor (Machine),OR,,,,5.04
 ,Labor (non-machine),OR,,,,5.7695
 ,Haul and Stack,OR,,,,4.5
-,oes452091,OR,,,hours,5.04
-,oes452092,OR,,,hours,5.77
+,oes452091,OR,,,hr,5.04
+,oes452092,OR,,,hr,5.77

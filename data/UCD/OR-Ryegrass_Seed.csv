@@ -14,5 +14,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Seed Clean and Bag,OR,,,lb,1750
 ,Commision Assess,OR,,,cwt,17.5
 ,Seed Test,OR,,,cwt,17.5
-,oes452091,OR,,,hours,1.56
-,oes452092,OR,,,hours,0.24
+,oes452091,OR,,,hr,1.56
+,oes452092,OR,,,hr,0.24

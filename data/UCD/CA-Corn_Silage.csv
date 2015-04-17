@@ -12,5 +12,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Harvest,CA,,,ton,26
 ,Plant,CA,,,acre,1
 ,Water,CA,,,acin,44
-,oes452091,CA,,,hours,1.85
-,oes452092,CA,,,hours,0.9
+,oes452091,CA,,,hr,1.85
+,oes452092,CA,,,hr,0.9

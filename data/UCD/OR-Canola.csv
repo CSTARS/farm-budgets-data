@@ -29,5 +29,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Transport,OR,,,cwt,42.5
 ,Commision Assess,OR,,,cwt,25.5
 ,Seed Test,OR,,,cwt,25.5
-,oes452091,OR,,,hours,0.95
-,oes452092,OR,,,hours,25
+,oes452091,OR,,,hr,0.95
+,oes452092,OR,,,hr,25

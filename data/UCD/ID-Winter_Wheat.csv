@@ -13,5 +13,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Repair,ID,,,acre,1
 ,Sprayer,ID,,,acre,1
 ,Riper Shooter,ID,,,acre,1
-,oes452091,ID,,,hours,1.3
-,oes452092,ID,,,hours,0
+,oes452091,ID,,,hr,1.3
+,oes452092,ID,,,hr,0

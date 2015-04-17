@@ -16,5 +16,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Pest Control Consultant,CA,,,,1
 ,Wheat Assesment,CA,,,,86.8
 ,Water,CA,,,acin,20
-,oes452091,CA,,,hours,0.82
-,oes452092,CA,,,hours,0.75
+,oes452091,CA,,,hr,0.82
+,oes452092,CA,,,hr,0.75

@@ -109,8 +109,8 @@ function addLabor() {
         if( !data[state] ) data[state] = { amounts : {}};
         if( !data[state].amounts[crop] ) data[state].amounts[crop] = {default : []};
 
-        data[state].amounts[crop].default.push(['', 'oes452091', fips[state][2], '', '', 'hours', row[3]])
-        data[state].amounts[crop].default.push(['', 'oes452092', fips[state][2], '', '', 'hours', row[4]])
+        data[state].amounts[crop].default.push(['', 'oes452091', fips[state][2], '', '', 'hr', row[3]])
+        data[state].amounts[crop].default.push(['', 'oes452092', fips[state][2], '', '', 'hr', row[4]])
     })
     .on("end", function(){
       writeFs();

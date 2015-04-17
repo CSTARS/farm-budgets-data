@@ -17,5 +17,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Ground Application,ID,,,acre,2
 ,Harvest,ID,,,ton,30
 ,Water,ID,,,acre,1
-,oes452091,ID,,,hours,2.6
-,oes452092,ID,,,hours,3.8
+,oes452091,ID,,,hr,2.6
+,oes452092,ID,,,hr,3.8

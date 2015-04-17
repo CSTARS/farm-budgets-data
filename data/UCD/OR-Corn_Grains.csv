@@ -29,5 +29,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Haul Local,OR,,,cwt,129
 ,Assesment,OR,,,cwt,129
 ,Seed Test,OR,,,cwt,129
-,oes452091,OR,,,hours,2.6
-,oes452092,OR,,,hours,4.25
+,oes452091,OR,,,hr,2.6
+,oes452092,OR,,,hr,4.25

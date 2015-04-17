@@ -13,5 +13,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Planting,CA,,,thou,39
 ,Postharvest and packaging,CA,,,box,582
 ,Water,CA,,,acin,30
-,oes452091,CA,,,hours,4.56
-,oes452092,CA,,,hours,5
+,oes452091,CA,,,hr,4.56
+,oes452092,CA,,,hr,5

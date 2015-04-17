@@ -13,5 +13,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Rental Sprayer,ID,,,acre,1
 ,Custom Aerial Spray,ID,,,acre,1
 ,Crop Insurance,ID,,,acre,1
-,oes452091,ID,,,hours,1.2
-,oes452092,ID,,,hours,0
+,oes452091,ID,,,hr,1.2
+,oes452092,ID,,,hr,0

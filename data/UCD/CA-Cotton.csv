@@ -21,5 +21,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Air Application,CA,,,acre,6
 ,Cotton Assesment,CA,,,bale,3.25
 ,Water,CA,,,acin,30
-,oes452091,CA,,,hours,4.73
-,oes452092,CA,,,hours,6.8
+,oes452091,CA,,,hr,4.73
+,oes452092,CA,,,hr,6.8

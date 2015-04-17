@@ -31,5 +31,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Harvest for Grain,CA,,,ton,5
 ,Haul Local,CA,,,cwt,180
 ,Water,CA,,,acin,44
-,oes452091,CA,,,hours,3.36
-,oes452092,CA,,,hours,1.95
+,oes452091,CA,,,hr,3.36
+,oes452092,CA,,,hr,1.95

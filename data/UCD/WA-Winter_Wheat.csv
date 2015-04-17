@@ -16,5 +16,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Sprayer,WA,,,,2
 ,Riper Shooter,WA,,,,1
 ,Stuble Shredder,WA,,,,0.5
-,oes452091,WA,,,hours,1.16
-,oes452092,WA,,,hours,0
+,oes452091,WA,,,hr,1.16
+,oes452092,WA,,,hr,0

@@ -12,5 +12,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Repair,WA,,,acre,1
 ,Rental Sprayer,WA,,,acre,2
 ,Custom Aerial Spray,WA,,,acre,1
-,oes452091,WA,,,hours,0.95
-,oes452092,WA,,,hours,0
+,oes452091,WA,,,hr,0.95
+,oes452092,WA,,,hr,0

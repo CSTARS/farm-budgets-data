@@ -27,5 +27,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Lubricants,WA,,,acre,1
 ,Repair,WA,,,acre,1
 ,Rental Sprayer,WA,,,acre,2
-,oes452091,WA,,,hours,0.97
-,oes452092,WA,,,hours,0
+,oes452091,WA,,,hr,0.97
+,oes452092,WA,,,hr,0

@@ -40,5 +40,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Haul Local,ID,,,bu,190
 ,Water,ID,,,acre,1
 ,Crop Insurance,ID,,,acre,1
-,oes452091,ID,,,hours,2.6
-,oes452092,ID,,,hours,4.25
+,oes452091,ID,,,hr,2.6
+,oes452092,ID,,,hr,4.25

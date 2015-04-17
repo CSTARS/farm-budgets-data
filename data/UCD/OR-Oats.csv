@@ -7,5 +7,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Labor (non-machine),OR,,,hr,0.2106
 ,Fuel - Diesel,OR,,,gal,10.7117
 ,Maintenance and Repair,OR,,,,1
-,oes452091,OR,,,hours,0.68
-,oes452092,OR,,,hours,0.21
+,oes452091,OR,,,hr,0.68
+,oes452092,OR,,,hr,0.21

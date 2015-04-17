@@ -31,5 +31,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Rental Sprayer,WA,,,acre,1
 ,Custom Aerial Spray,WA,,,acre,1
 ,Rental Ripper Shooter,WA,,,acre,1
-,oes452091,WA,,,hours,0.99
-,oes452092,WA,,,hours,0
+,oes452091,WA,,,hr,0.99
+,oes452092,WA,,,hr,0

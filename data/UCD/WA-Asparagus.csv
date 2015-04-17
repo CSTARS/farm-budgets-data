@@ -8,5 +8,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Spot Spray Roundup,WA,,,GAL,36
 ,Wheat,WA,,,lb,90
 ,Fuel - Diesel,WA,,,gal,10.93
-,oes452091,WA,,,hours,
-,oes452092,WA,,,hours,
+,oes452091,WA,,,hr,
+,oes452092,WA,,,hr,

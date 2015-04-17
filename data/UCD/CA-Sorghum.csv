@@ -16,5 +16,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Harvest Combine Grain,CA,,,,4
 ,Harvest: Haul Grain,CA,,,,4
 ,Water,CA,,,acin,30
-,oes452091,CA,,,hours,1.67
-,oes452092,CA,,,hours,0.5
+,oes452091,CA,,,hr,1.67
+,oes452092,CA,,,hr,0.5
