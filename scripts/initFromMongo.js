@@ -1,5 +1,6 @@
 var MongoClient = require('mongodb').MongoClient;
 var fs = require('fs');
+var fips = require('./fips.json');
 
 var data = {}, costs, amounts;
 var dir = __dirname+'/../data/';
@@ -15,6 +16,12 @@ MongoClient.connect('mongodb://localhost:27017/farmBudgets', function(err, db) {
   readCosts();
 });
 
+// prep fips
+var tmp = {};
+for( var i = 0; i < fips.length; i++ ) {
+  tmp[fips[i][0]] = fips[i];
+}
+fips = tmp;
 
 function readCosts() {
     costs.find({}).toArray(function(err, result){
@@ -40,9 +47,9 @@ function addCost(cost) {
 
     var stateCosts = data[cost.state].costs;
 
-    if( !stateCosts[cost.budget] ) stateCosts[cost.budget] = [['item','cost','units']];
+    if( !stateCosts[cost.budget] ) stateCosts[cost.budget] = [['price_id','item','location','year','auth_id','price','unit']];
     stateCosts[cost.budget].push(
-        [cost.item, cost.cost, cost.unit]
+        ['', cost.item, fips[cost.state][2], '', 'UCD', cost.cost, cost.unit]
     );
 }
 
@@ -76,10 +83,10 @@ function addAmount(amount) {
 
     var stateCrop = stateAmounts[amount.crop]
 
-    if( !stateCrop[amount.budget] ) stateCrop[amount.budget] = [['item','amount','units']];
+    if( !stateCrop[amount.budget] ) stateCrop[amount.budget] = [['budget_id', 'commodity', 'location', 'phase', 'material', 'unit', 'amount']];
 
     stateCrop[amount.budget].push(
-        [amount.item, amount.amount, amount.unit]
+        ['', amount.item, fips[amount.state][2], '', '', amount.unit, amount.amount]
     );
 }
 
@@ -94,17 +101,22 @@ function writeFs() {
 }
 
 function writeDir(dir, data) {
-    for( var key in data ) {
-        if( Array.isArray(data[key]) ) {
-            writeCsv(dir+key+'.csv', data[key]);
-        } else {
-            if( !fs.existsSync(dir+key) ) fs.mkdirSync(dir+key);
-            writeDir(dir+key+'/', data[key]);
-        }
+  if( !fs.exists(dir+'UCD') ) fs.mkdirSync(dir+'UCD');
+  dir = dir+'UCD';
+
+  for( var state in data ) {
+    var filename = state.replace(/\s/g,'_')+'-costs.csv';
+    writeCsv(dir+'/'+filename, data[state].costs.default);
+
+    for( var crop in data[state].amounts ) {
+      var filename = state.replace(/\s/g,'_')+'-'+crop.replace(/\s/g,'_');
+
+      writeCsv(dir+'/'+filename+'.csv', data[state].amounts[crop].default);
     }
+  }
 }
 
-function writeCsv(file, arr, key) {
+function writeCsv(file, arr) {
     if( fs.existsSync(file) ) fs.unlinkSync(file);
 
     for( var i = 0; i < arr.length; i++ ) {

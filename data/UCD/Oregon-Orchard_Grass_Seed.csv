@@ -1,0 +1,20 @@
+budget_id,commodity,location,phase,material,unit,amount
+,16-16-16,OR,,,lb,200
+,40-0-0-6,OR,,,lb,235
+,0-0-60,OR,,,lb,40
+,Apogee,OR,,,lb,0.5
+,Surfactant-Induce,OR,,,gal,0.15
+,Axiom LB,OR,,,lb,0.75
+,Goal,OR,,,gal,0.05
+,Diuron,OR,,,lb,2
+,Kerb,OR,,,lb.,0.4
+,Bravo,OR,,,gal,0.5
+,Banvel,OR,,,gal,0.125
+,2,4-D,OR,,,gal,0.2
+,Labor (Machine),OR,,,hr,1.0905
+,Labor (non-machine),OR,,,hr,0.1936
+,Fuel - Diesel,OR,,,gal,8.5001
+,Maintenance and Repair,OR,,,,1
+,Clean Seed Orchdgr,OR,,,cwt,8
+,Commision Assess,OR,,,cwt,8
+,Seed Test,OR,,,cwt,8

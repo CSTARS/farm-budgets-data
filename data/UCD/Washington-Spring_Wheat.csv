@@ -1,0 +1,13 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Nitrogen,WA,,,lb,76
+,Phosphorous,WA,,,lb,10
+,Sulfur,WA,,,lb,10.5
+,2,4-D,WA,,,oz,10
+,Maverick1,WA,,,oz,0.33
+,Discover,WA,,,oz,3.2
+,Wheat,WA,,,lb,70
+,Labor (Machine),WA,,,acre,0.6412
+,Fuel - Diesel,WA,,,gal,4.3828
+,Maintenance and Repair,WA,,,acre,1
+,Rental Sprayer,WA,,,acre,2
+,Rental Fertilizer Applicator,WA,,,acre,1

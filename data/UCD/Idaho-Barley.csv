@@ -1,0 +1,21 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Nitrogen (dry),ID,,,lb,24
+,Phosphorous (dry),ID,,,lb,70
+,Sulfur (dry),ID,,,lb,20
+,Barley Seed,ID,,,lb,80
+,Labor (Machine),ID,,,acre,1.62
+,Fuel,ID,,,gal,6.14
+,Lubricants,ID,,,acre,1
+,Repair,ID,,,acre,1
+,Custom Fertilize,ID,,,acre,1
+,Custom Combining,ID,,,acre,1
+,Nitrogen (dry),ID,,,lb,24
+,Phosphorous (dry),ID,,,lb,70
+,Sulfur (dry),ID,,,lb,20
+,Barley Seed,ID,,,lb,80
+,Labor (Machine),ID,,,acre,1.62
+,Fuel,ID,,,gal,6.14
+,Lubricants,ID,,,acre,1
+,Repair,ID,,,acre,1
+,Custom Fertilize,ID,,,acre,1
+,Custom Combining,ID,,,acre,1

@@ -1,0 +1,36 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Dry Nitrogen - Preplant,ID,,,lb,180
+,Dry P2O5,ID,,,lb,220
+,K2O,ID,,,lb,205
+,Sulfur,ID,,,lb,80
+,Micronutrients,ID,,,ac,2
+,Liquid Nitrogen,ID,,,lb,150
+,Liquid P2O5,ID,,,lb,40
+,Metam Sodium,ID,,,gal,40
+,Admire Pro,ID,,,oz,8
+,Quadris,ID,,,oz,8
+,Outlook 6EC,ID,,,oz,20
+,Sencor 75DF,ID,,,lb,0.75
+,Prowl 3.3EC,ID,,,qt,1
+,Endura (2x),ID,,,oz,11
+,Dithane F45 Rainshield,ID,,,qt,1.6
+,Headline,ID,,,oz,6
+,Leverage 2.7,ID,,,oz,3.75
+,Reglone,ID,,,qt,1
+,Potato Seed,ID,,,cwt,23
+,Labor (Machine),ID,,,hr,6.3
+,Labor (Irrigation),ID,,,hr,2.16
+,Labor (other),ID,,,hr,2.7
+,Fuel - Gas,ID,,,gal,2.8
+,Fuel - Diesel,ID,,,gal,28.8
+,Lubricants,ID,,,acre,1
+,Repair,ID,,,acre,1
+,Custom Fertilize,ID,,,acre,2
+,Water Assesment,ID,,,acre,1
+,Consultant,ID,,,acre,1
+,Custom Air Spray,ID,,,acre,3
+,Fumigation,ID,,,acre,1
+,Fees Assesment,ID,,,cwt,442
+,Irrigation,ID,,,acin,28
+,Storage Operating Costs,ID,,,cwt,465
+,Storage Repairs,ID,,,ac,1

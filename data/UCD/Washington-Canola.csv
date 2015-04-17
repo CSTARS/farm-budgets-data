@@ -1,0 +1,33 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Canola,WA,,,lb,1500
+,Nitrogen (dry),WA,,,lb,100
+,Phosphorous (dry),WA,,,lb,15
+,Sulfur (dry),WA,,,lb,15
+,Roundup,WA,,,oz,10
+,Ammonium Sulfate,WA,,,oz,50
+,M90,WA,,,oz,1.5
+,Capture,WA,,,acre,1
+,Canola,WA,,,lb,4
+,Labor (Machine),WA,,,acre,0.99
+,Fuel,WA,,,gal,9.01
+,Lubricants,WA,,,acre,1
+,Repair,WA,,,acre,1
+,Rental Sprayer,WA,,,acre,1
+,Custom Aerial Spray,WA,,,acre,1
+,Rental Ripper Shooter,WA,,,acre,1
+,Canola,WA,,,lb,1500
+,Nitrogen (dry),WA,,,lb,100
+,Phosphorous (dry),WA,,,lb,15
+,Sulfur (dry),WA,,,lb,15
+,Roundup,WA,,,oz,10
+,Ammonium Sulfate,WA,,,oz,50
+,M90,WA,,,oz,1.5
+,Capture,WA,,,acre,1
+,Canola,WA,,,lb,4
+,Labor (Machine),WA,,,acre,0.99
+,Fuel,WA,,,gal,9.01
+,Lubricants,WA,,,acre,1
+,Repair,WA,,,acre,1
+,Rental Sprayer,WA,,,acre,1
+,Custom Aerial Spray,WA,,,acre,1
+,Rental Ripper Shooter,WA,,,acre,1

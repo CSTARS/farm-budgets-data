@@ -1,0 +1,23 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Alcala,CA,,,lb,16
+,UN32,CA,,,lbN,180
+,13-0-45,CA,,,lb,10
+,Orthene,CA,,,oz,3.25
+,Zephyr,CA,,,floz,8
+,Carbine 50WG,CA,,,oz,2.5
+,Leverage,CA,,,floz,5
+,Assail 70WP,CA,,,oz,1.1
+,Finish 6 Pro,CA,,,pint,2
+,Ginstar,CA,,,floz,10
+,Defol 5,CA,,,gal,1
+,Roundup Ultra Max,CA,,,floz,32
+,Triflurex HFP,CA,,,pt,1.5
+,Staple,CA,,,floz,0.38
+,Shark EW,CA,,,floz,1.5
+,Mepex Gin Our,CA,,,floz,2
+,Labor (Machine),CA,,,hr,4.73
+,Labor (non-machine),CA,,,hr,6.8
+,Fuel - Diesel,CA,,,gal,34.43
+,Air Application,CA,,,acre,6
+,Cotton Assesment,CA,,,bale,3.25
+,Water,CA,,,acin,30

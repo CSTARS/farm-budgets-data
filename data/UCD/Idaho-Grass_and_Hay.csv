@@ -1,0 +1,7 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Nitrogen (dry),ID,,,lb,90
+,Labor (Machine),ID,,,hr,2.78
+,Fuel - Diesel,ID,,,gal,6.73
+,Maintenance,ID,,,,1
+,Repair,ID,,,,1
+,Baling,ID,,,bales,100

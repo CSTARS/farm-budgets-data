@@ -1,0 +1,33 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Canola,ID,,,lb,1500
+,Nitrogen (dry),ID,,,lb,100
+,Phosphorous (dry),ID,,,lb,15
+,Sulfur (dry),ID,,,lb,15
+,Roundup,ID,,,oz,12
+,Ammonium Sulfate,ID,,,oz,50
+,M90,ID,,,oz,1.5
+,Capture,ID,,,acre,5
+,Canola,ID,,,lb,4
+,Labor (Machine),ID,,,acre,1.27
+,Fuel,ID,,,gal,7.69
+,Lubricants,ID,,,acre,1
+,Repair,ID,,,acre,1
+,Rental Sprayer,ID,,,acre,1
+,Custom Aerial Spray,ID,,,acre,1
+,Rental Ripper Shooter,ID,,,acre,1
+,Canola,ID,,,lb,1500
+,Nitrogen (dry),ID,,,lb,100
+,Phosphorous (dry),ID,,,lb,15
+,Sulfur (dry),ID,,,lb,15
+,Roundup,ID,,,oz,12
+,Ammonium Sulfate,ID,,,oz,50
+,M90,ID,,,oz,1.5
+,Capture,ID,,,acre,5
+,Canola,ID,,,lb,4
+,Labor (Machine),ID,,,acre,1.27
+,Fuel,ID,,,gal,7.69
+,Lubricants,ID,,,acre,1
+,Repair,ID,,,acre,1
+,Rental Sprayer,ID,,,acre,1
+,Custom Aerial Spray,ID,,,acre,1
+,Rental Ripper Shooter,ID,,,acre,1

@@ -1,0 +1,16 @@
+budget_id,commodity,location,phase,material,unit,amount
+,40-0-0-6,OR,,,lb,340
+,0-0-60,OR,,,lb,35
+,Surfactant-Induce,OR,,,lb,0.03
+,Glyphosate GAL1,OR,,,gal,0.085
+,Banvel,OR,,,gal,0.0195
+,2,4-D,OR,,,gal,0.0625
+,Labor (Machine),OR,,,hr,1.5599
+,Labor (non-machine),OR,,,hr,0.2382
+,Fuel - Diesel,OR,,,gal,8.6127
+,Maintenance and Repair,OR,,,,1
+,Surfactant-Induce,OR,,,gal,0.03
+,Lime,OR,,,ton,0.4
+,Seed Clean and Bag,OR,,,lb,1750
+,Commision Assess,OR,,,cwt,17.5
+,Seed Test,OR,,,cwt,17.5

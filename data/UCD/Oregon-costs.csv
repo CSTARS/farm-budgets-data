@@ -1,0 +1,110 @@
+price_id,item,location,year,auth_id,price,unit
+,Rodent Control,OR,,UCD,1.29,
+,Insecticide,OR,,UCD,20,
+,Weed Control,OR,,UCD,25.17,
+,Haul and Stack,OR,,UCD,3.87,
+,Sawdust,OR,,UCD,90,units
+,Harvest,OR,,UCD,0.74,lbs
+,Canola,OR,,UCD,0.17,lb
+,Phosphorous (dry),OR,,UCD,2.11,lb
+,Roundup Original Max,OR,,UCD,0.6,oz
+,11-52-0,OR,,UCD,0.32,
+,Dry Sulfur,OR,,UCD,254.87,
+,Nitrogen (dry),OR,,UCD,0.99,lb
+,Sulfur (dry),OR,,UCD,0.41,lb
+,Assure II,OR,,UCD,2.16,oz
+,M90,OR,,UCD,0.02,oz
+,Capture,OR,,UCD,18.36,acre
+,Canola,OR,,UCD,6,lb
+,Fuel,OR,,UCD,2.5,gal
+,Transport,OR,,UCD,0.27,cwt
+,Commision Assess,OR,,UCD,0.49,cwt
+,Dry Nitrogen,OR,,UCD,0.5,lb
+,Dry P2O5,OR,,UCD,0.55,lb
+,K20,OR,,UCD,0.8,lb
+,Sulfur,OR,,UCD,0.25,lb
+,Micro-Tech,OR,,UCD,7.3,qt
+,Counter 15G L-N-L,OR,,UCD,2.4,lb
+,Ammonium Sulfate,OR,,UCD,0.58,lb
+,Corn,OR,,UCD,160,bag
+,Labor (Machine),OR,,UCD,19,hr
+,Labor (non-machine),OR,,UCD,10.65,hr
+,Fuel - Diesel,OR,,UCD,2.5,gal
+,Haul Local,OR,,UCD,0.27,cwt
+,Assesment,OR,,UCD,0.49,cwt
+,Seed Test,OR,,UCD,0.19,cwt
+,Fuel - Gas,OR,,UCD,2.3,gal
+,Lube,OR,,UCD,4.35,acre
+,Repair,OR,,UCD,15.3,acre
+,Ground Application,OR,,UCD,7.75,acre
+,Water,OR,,UCD,46,acre
+,11-52-0,OR,,UCD,0.32,
+,Dry Sulfur,OR,,UCD,254.87,
+,Rodent Control,OR,,UCD,1.29,
+,Insecticide,OR,,UCD,20,
+,Weed Control,OR,,UCD,25.17,
+,Haul and Stack,OR,,UCD,3.87,
+,Sawdust,OR,,UCD,90,units
+,Harvest,OR,,UCD,0.74,lbs
+,Canola,OR,,UCD,0.17,lb
+,Nitrogen (dry),OR,,UCD,0.99,lb
+,Phosphorous (dry),OR,,UCD,2.11,lb
+,Sulfur (dry),OR,,UCD,0.41,lb
+,Assure II,OR,,UCD,2.16,oz
+,M90,OR,,UCD,0.02,oz
+,Capture,OR,,UCD,18.36,acre
+,Canola,OR,,UCD,6,lb
+,Fuel,OR,,UCD,2.5,gal
+,Transport,OR,,UCD,0.27,cwt
+,Dry Nitrogen,OR,,UCD,0.5,lb
+,Dry P2O5,OR,,UCD,0.55,lb
+,K20,OR,,UCD,0.8,lb
+,Sulfur,OR,,UCD,0.25,lb
+,Micro-Tech,OR,,UCD,7.3,qt
+,Counter 15G L-N-L,OR,,UCD,2.4,lb
+,Roundup Original Max,OR,,UCD,0.6,oz
+,Ammonium Sulfate,OR,,UCD,0.58,lb
+,Corn,OR,,UCD,160,bag
+,Haul Local,OR,,UCD,0.27,cwt
+,Assesment,OR,,UCD,0.49,cwt
+,MCPA Amine,OR,,UCD,17.71,gal
+,Diomethate,OR,,UCD,42.8,gal
+,16-20-0-14,OR,,UCD,0.29,lb
+,33-0-0-12,OR,,UCD,0.15,lb
+,Axiom OZ,OR,,UCD,0.72,oz
+,Harmony Extra,OR,,UCD,12.1,oz
+,Mustang 1.5 EW,OR,,UCD,231.21,gal
+,Osprey,OR,,UCD,3.79,oz
+,Slug Bait,OR,,UCD,1.46,lb
+,Stratego,OR,,UCD,1.28,oz
+,Wheat,OR,,UCD,0.2,lb
+,Maintenance,OR,,UCD,36.28,
+,Wheat Assesment,OR,,UCD,0.05,
+,Transport to PDX,OR,,UCD,0.27,
+,Quilt,OR,,UCD,128,gal
+,Commission Assess,OR,,UCD,8,cwt
+,Purity and Germ,OR,,UCD,0.16,cwt
+,Seed Cleand and Bag,OR,,UCD,0.13,cwt
+,16-16-16,OR,,UCD,0.2,lb
+,Apogee,OR,,UCD,41.23,lb
+,Axiom LB,OR,,UCD,22.63,lb
+,Goal,OR,,UCD,81.41,gal
+,Diuron,OR,,UCD,4.43,lb
+,Kerb,OR,,UCD,38.37,lb.
+,Bravo,OR,,UCD,53.13,gal
+,Clean Seed Orchdgr,OR,,UCD,22.14,cwt
+,40-0-0-6,OR,,UCD,0.16,lb
+,0-0-60,OR,,UCD,0.26,lb
+,Surfactant-Induce,OR,,UCD,17.64,lb
+,Glyphosate GAL1,OR,,UCD,14.76,gal
+,Banvel,OR,,UCD,61.98,gal
+,2,4-D,OR,,UCD,26.56,gal
+,Labor (Machine),OR,,UCD,19,hr
+,Labor (non-machine),OR,,UCD,13.5,hr
+,Fuel - Diesel,OR,,UCD,2.5,gal
+,Maintenance and Repair,OR,,UCD,27.87,
+,Surfactant-Induce,OR,,UCD,22.14,gal
+,Lime,OR,,UCD,55.1,ton
+,Seed Clean and Bag,OR,,UCD,0.03,lb
+,Commision Assess,OR,,UCD,0.12,cwt
+,Seed Test,OR,,UCD,0.16,cwt

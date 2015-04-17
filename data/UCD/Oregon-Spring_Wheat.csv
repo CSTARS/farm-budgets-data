@@ -1,0 +1,13 @@
+budget_id,commodity,location,phase,material,unit,amount
+,16-16-16,OR,,,lb,200
+,40-0-0-6,OR,,,lb,170
+,MCPA Amine,OR,,,gal,0.1875
+,Diomethate,OR,,,gal,0.0313
+,Mustang 1.5 EW,OR,,,gal,0.0313
+,Wheat,OR,,,lb,150
+,Labor (Machine),OR,,,hr,0.7442
+,Labor (non-machine),OR,,,hr,0.2106
+,Fuel - Diesel,OR,,,gal,11.0208
+,Maintenance and Repair,OR,,,,1
+,Wheat Assesment,OR,,,,75
+,Transport to PDX,OR,,,,75

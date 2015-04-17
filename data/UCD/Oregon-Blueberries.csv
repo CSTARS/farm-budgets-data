@@ -1,0 +1,9 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Labor (Machine),OR,,,hr,100
+,Fuel - Diesel,OR,,,gal,13
+,Sawdust,OR,,,units,3.67
+,Harvest,OR,,,lbs,16200
+,Labor (Machine),OR,,,hr,100
+,Fuel - Diesel,OR,,,gal,13
+,Sawdust,OR,,,units,3.67
+,Harvest,OR,,,lbs,16200

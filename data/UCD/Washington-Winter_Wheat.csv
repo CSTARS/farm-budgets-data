@@ -1,0 +1,18 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Nitrogen (dry),WA,,,lb,90
+,Phosphorous (dry),WA,,,lb,30
+,Sulfur (dry),WA,,,lb,15
+,Ammonium Sulfate,WA,,,oz,50
+,Brox M,WA,,,oz,1.6
+,Excel 90,WA,,,oz,3.2
+,Osprey,WA,,,oz,4.75
+,Roundup,WA,,,oz,18
+,Starane-Salvo,WA,,,oz,22
+,Wheat,WA,,,lb,90
+,Labor (Machine),WA,,,hr,1.16
+,Fuel - Diesel,WA,,,gal,8.17
+,Maintenance,WA,,,,1
+,Repair,WA,,,,1
+,Sprayer,WA,,,,2
+,Riper Shooter,WA,,,,1
+,Stuble Shredder,WA,,,,0.5

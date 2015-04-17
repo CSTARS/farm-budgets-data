@@ -1,0 +1,9 @@
+budget_id,commodity,location,phase,material,unit,amount
+,16-16-16,OR,,,lb,200
+,40-0-0-6,OR,,,lb,100
+,MCPA Amine,OR,,,lb,0.1875
+,Transport to PDX,OR,,,bu,65
+,Labor (Machine),OR,,,hr,0.6798
+,Labor (non-machine),OR,,,hr,0.2106
+,Fuel - Diesel,OR,,,gal,10.7117
+,Maintenance and Repair,OR,,,,1

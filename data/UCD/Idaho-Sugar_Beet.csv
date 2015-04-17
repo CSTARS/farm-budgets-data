@@ -1,0 +1,29 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Sugarbeet,ID,,,ton,36
+,Dry Nitrogen,ID,,,lb,100
+,Liquid Nitrogen,ID,,,lb,35
+,Dry P2O5,ID,,,lb,50
+,K20,ID,,,lb,100
+,Micronutrients,ID,,,ac,1
+,Telone II,ID,,,gal,20
+,Poncho Beta Seed Treatment,ID,,,unit,0.44
+,Roundup Original Max,ID,,,oz,54
+,AMS,ID,,,lb,2.4
+,Eptam 7EC,ID,,,pt,3.7
+,Treflan 4HFP,ID,,,pt,1
+,Headline,ID,,,oz,9
+,Gen 25WG,ID,,,oz,6.5
+,Sugarbeet,ID,,,unit,0.44
+,Labor (Machine),ID,,,hr,8.25
+,Labor (non-machine),ID,,,hr,6.9
+,Fuel - Gas,ID,,,gal,2.5
+,Fuel - Diesel,ID,,,gal,33.6
+,Lubricants,ID,,,acre,1
+,Repair,ID,,,acre,1
+,Custom Fertilize,ID,,,acre,1
+,Custom Fumigate - Deep,ID,,,acre,1
+,Consultant,ID,,,acre,1
+,Custom Air Spray - 5G,ID,,,acre,1
+,Custom Sidedress,ID,,,acre,1
+,Water,ID,,,acre,1
+,Crop Insurance,ID,,,acre,1

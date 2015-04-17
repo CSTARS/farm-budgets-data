@@ -1,0 +1,14 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Roundup,WA,,,oz,18
+,Pursuit,WA,,,oz,3
+,Prowl,WA,,,oz,24
+,Ammonium Sulfate,WA,,,oz,100
+,M90,WA,,,oz,3
+,Dimethoate,WA,,,pt,1
+,Lentil Seed,WA,,,lb,45
+,Labor (Machine),WA,,,acre,0.95
+,Fuel,WA,,,gal,7.74
+,Lubricants,WA,,,acre,1
+,Repair,WA,,,acre,1
+,Rental Sprayer,WA,,,acre,2
+,Custom Aerial Spray,WA,,,acre,1
