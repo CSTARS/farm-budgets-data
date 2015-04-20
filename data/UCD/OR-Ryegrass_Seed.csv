@@ -4,7 +4,7 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Surfactant-Induce,OR,,,lb,0.03
 ,Glyphosate GAL1,OR,,,gal,0.085
 ,Banvel,OR,,,gal,0.0195
-,2,4-D,OR,,,gal,0.0625
+,"2,4-D",OR,,,gal,0.0625
 ,Labor (Machine),OR,,,hr,1.5599
 ,Labor (non-machine),OR,,,hr,0.2382
 ,Fuel - Diesel,OR,,,gal,8.6127

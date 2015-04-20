@@ -2,7 +2,7 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Nitrogen,WA,,,lb,76
 ,Phosphorous,WA,,,lb,10
 ,Sulfur,WA,,,lb,10.5
-,2,4-D,WA,,,oz,10
+,"2,4-D",WA,,,oz,10
 ,Maverick1,WA,,,oz,0.33
 ,Discover,WA,,,oz,3.2
 ,Wheat,WA,,,lb,70
