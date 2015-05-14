@@ -1,5 +1,6 @@
 node_modules
 .#*
 \#*
-nass-summary*.tar.gz
+nass-summary-*
+*.tar.gz
 *~
