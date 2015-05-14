@@ -32,19 +32,20 @@ lq_avg_annual_pay float);
 
 \COPY unknown_labor from data/unknown/labor.csv with csv header
 
-create table farm_budget_data.labor as 
+delete from farm_budget_data.price 
+where material in ('oes452091','oes452092','oes533032') 
+and year=2009;
+
+insert into price (material,units,location,year,authority,price)
 select
-'oes452091' as material,
-fips as location,
-'unk' as authority,
-avg_hourly_pay as price,
-'hr' as unit
-from 
+'oes452091','hr',county,2009,'unk',avg_hourly_pay*1.3
+from farm_budget_data.unknown_labor
 union
 select
-'oes452091' as material,
-fips as location,
-'unk' as authority,
-avg_hourly_pay as price,
-'hr' as unit
+'oes452092','hr',county,2009,'unk',avg_hourly_pay
+from farm_budget_data.unknown_labor
+union
+select
+'oes533032','hr',county,2009,'unk',avg_hourly_pay*1.3
+from farm_budget_data.unknown_labor;
 
