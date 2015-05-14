@@ -19,9 +19,9 @@ delimiter ',', null '');
 
 --alter foreign table county_adc OPTIONS (set filename :'csv_ca');
 
-\set csv :cwd :nassdir /commodity_total_harvest.csv
 
-create foreign table commodity_total_harvest (
+drop foreign table commodity_harvest;
+create foreign table commodity_harvest (
 commodity text,
 location varchar(12),
 year integer,
@@ -33,20 +33,38 @@ OPTIONS (format 'csv', header 'true',
 filename :'csv',
 delimiter ',', null '');
 
-alter foreign table commodity_total_harvest OPTIONS (set filename :'csv');
+\set csv :cwd :nassdir /commodity_harvest.csv
+alter foreign table commodity_harvest OPTIONS (set filename :'csv');
 
-\set csv :cwd :nassdir /cmz_commodity_total_harvest.csv
-
-create foreign table cmz_commodity_total_harvest (
+drop foreign table commodity_yield;
+create foreign table commodity_yield (
 commodity text,
 location varchar(12),
 year integer,
-irrigated integer,
-non_irr integer,
-total integer)
+unit text,
+irrigated float,
+non_irr float,
+unspecified float)
 SERVER nass_summary_server 
 OPTIONS (format 'csv', header 'true', 
 filename :'csv',
 delimiter ',', null '');
 
-alter foreign table cmz_commodity_total_harvest OPTIONS (set filename :'csv');
+\set csv :cwd :nassdir /commodity_yield.csv
+alter foreign table commodity_yield OPTIONS (set filename :'csv');
+
+-- \set csv :cwd :nassdir /cmz_commodity_total_harvest.csv
+
+-- create foreign table cmz_commodity_total_harvest (
+-- commodity text,
+-- location varchar(12),
+-- year integer,
+-- irrigated integer,
+-- non_irr integer,
+-- total integer)
+-- SERVER nass_summary_server 
+-- OPTIONS (format 'csv', header 'true', 
+-- filename :'csv',
+-- delimiter ',', null '');
+
+-- alter foreign table cmz_commodity_total_harvest OPTIONS (set filename :'csv');

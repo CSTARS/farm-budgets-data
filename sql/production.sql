@@ -16,41 +16,37 @@ amount float);
 drop table if exists price;
 create table price (
 price_id serial primary key,
-item text,
-unit varchar(12),
+material text,
+units varchar(12),
 location varchar(12),
 year integer,
 authority text,
 price float);
 
-
 create or replace function fix_production() RETURNS boolean AS $$
-create temp table commodity_xwalk (
- old varchar(25),
- nass varchar(25));
 
-insert into commodity_xwalk (old,nass) VALUES
+with x(old,nass) as (VALUES
 ('ALFALFA','HAY'),
 ('BEAS, DRY EDIBLE','BEANS'),
 ('CORN GRAINS','CORN'),
 ('CORN SILAGE','CORN'),
 ('DRY BEANS','BEANS'),
-('FESCUE SEED','HAYLAGE'),
+('FESCUE SEED','GRASSES'),
 ('GRASS AND HAY','HAY & HAYLAGE'),
 ('GRASSHAY','HAY & HAYLAGE'),
 ('LENTIL','LENTILS'),
-('ORCHARD GRASS','HAY & HAYLAGE'),
-('ORCHARD GRASS SEED','HAY & HAYLAGE'),
-('RYEGRASS SEED','HAY & HAYLAGE'),
+('ORCHARD GRASS','GRASSES'),
+('ORCHARD GRASS SEED','GRASSES'),
+('RYEGRASS SEED','GRASSES'),
 ('SPRING WHEAT','WHEAT'),
-('SUDANGRASS','HAY & HAYLAGE'),
+('SUDANGRASS','GRASSES'),
 ('SUGAR BEET','SUGARBEETS'),
 ('SUGAR BEETS','SUGARBEETS'),
-('WINTER WHEAT','WHEAT');
+('WINTER WHEAT','WHEAT')
+)
 
-update production set commodity=nass from commodity_xwalk c where commodity=old;
-
-update production set phase='annual' where phase is null;
+update farm_budget_data.production set commodity=x.nass from x where commodity=old;
+update farm_budget_data.production set phase='annual' where phase is null;
 
 select true;
 
