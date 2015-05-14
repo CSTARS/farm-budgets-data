@@ -1,4 +1,5 @@
 scripts export-ignore
 sql export-ignore
 Makefile export-ignore
-nass-summary* export-ignore
+.git* export-ignore
+package.json export-ignore
