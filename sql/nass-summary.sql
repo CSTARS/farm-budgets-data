@@ -68,6 +68,20 @@ delimiter ',', null '');
 \set csv :cwd :nassdir /commodity_price.csv
 alter foreign table commodity_price OPTIONS (set filename :'csv');
 
+drop foreign table commodity_list;
+create foreign table commodity_list (
+commodity text,
+harvest boolean,
+yield boolean,
+price boolean,
+SERVER nass_summary_server 
+OPTIONS (format 'csv', header 'true', 
+filename :'csv',
+delimiter ',', null '');
+
+\set csv :cwd :nassdir /commodity_list.csv
+alter foreign table commodity_list OPTIONS (set filename :'csv');
+
 -- \set csv :cwd :nassdir /cmz_commodity_total_harvest.csv
 
 -- create foreign table cmz_commodity_total_harvest (

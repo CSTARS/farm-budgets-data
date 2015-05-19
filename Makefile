@@ -8,10 +8,10 @@ path:=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 PG:=psql -d nass --variable=cwd=${path}
 
 
-nass-summary:=nass-summary-0.4-alpha
+nass-summary:=nass-summary-0.5-alpha
 
-${nass-summary}:version:=v0.4-alpha
-${nass-summary}:tgz:=v0.4-alpha.tar.gz
+${nass-summary}:version:=v0.5-alpha
+${nass-summary}:tgz:=v0.5-alpha.tar.gz
 ${nass-summary}:git:=https://github.com/CSTARS/nass-summary/archive/
 ${nass-summary}:${tgz}
 	[[ -f ${tgz} ]] || wget ${git}/${tgz};\
@@ -20,7 +20,7 @@ ${nass-summary}:${tgz}
 nass-summary-tables: ${nass-summary}
 	${PG} --variable='nassdir=${nass-summary}' -f sql/nass-summary.sql
 
-nass.csv:=$(patsubst %,nass/%.csv,county_adc land_rent commodity_harvest commodity_yield commodity_price commodity_explicitly_irrigated)
+nass.csv:=$(patsubst %,nass/%.csv,county_adc land_rent commodity_harvest commodity_yield commodity_price commodity_list)
 
 .PHONY:nass.csv
 
