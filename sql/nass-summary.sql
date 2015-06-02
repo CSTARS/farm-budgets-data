@@ -25,9 +25,12 @@ create foreign table commodity_harvest (
 commodity text,
 location varchar(12),
 year integer,
-irrigated integer,
-non_irr integer,
-total integer)
+reported boolean,
+irrigated_acres float,
+total_acres float,
+total_production float,
+unit text
+)
 SERVER nass_summary_server 
 OPTIONS (format 'csv', header 'true', 
 filename :'csv',
@@ -53,13 +56,38 @@ delimiter ',', null '');
 \set csv :cwd :nassdir /commodity_yield.csv
 alter foreign table commodity_yield OPTIONS (set filename :'csv');
 
+drop foreign table commodity_county_yield;
+create foreign table commodity_county_yield (
+commodity text,
+unit text,
+fips varchar(12),
+adc varchar(12),
+state varchar(12),
+yield float,
+county_yield float,
+ad_yield float,
+st_yield float,
+st_irrigated float,
+st_partial float,
+st_none float
+)
+SERVER nass_summary_server 
+OPTIONS (format 'csv', header 'true', 
+filename :'csv',
+delimiter ',', null '');
+
+\set csv :cwd :nassdir /commodity_harvest.csv
+alter foreign table commodity_harvest OPTIONS (set filename :'csv');
+
+
+
 drop foreign table commodity_price;
 create foreign table commodity_price (
 commodity text,
 location varchar(12),
 year integer,
 unit text,
-price float,
+price float )
 SERVER nass_summary_server 
 OPTIONS (format 'csv', header 'true', 
 filename :'csv',
@@ -73,7 +101,7 @@ create foreign table commodity_list (
 commodity text,
 harvest boolean,
 yield boolean,
-price boolean,
+price boolean )
 SERVER nass_summary_server 
 OPTIONS (format 'csv', header 'true', 
 filename :'csv',
@@ -82,18 +110,3 @@ delimiter ',', null '');
 \set csv :cwd :nassdir /commodity_list.csv
 alter foreign table commodity_list OPTIONS (set filename :'csv');
 
--- \set csv :cwd :nassdir /cmz_commodity_total_harvest.csv
-
--- create foreign table cmz_commodity_total_harvest (
--- commodity text,
--- location varchar(12),
--- year integer,
--- irrigated integer,
--- non_irr integer,
--- total integer)
--- SERVER nass_summary_server 
--- OPTIONS (format 'csv', header 'true', 
--- filename :'csv',
--- delimiter ',', null '');
-
--- alter foreign table cmz_commodity_total_harvest OPTIONS (set filename :'csv');

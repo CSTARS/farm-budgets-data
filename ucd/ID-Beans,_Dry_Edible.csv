@@ -17,3 +17,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Combine,ID,,,acre,25
 ,Irrigation,ID,,,acin,19
 ,Storage Operating Costs,ID,,,cwt,25
+,oes452091,ID,,,hr,1.75
+,oes452092,ID,,,hr,1.06

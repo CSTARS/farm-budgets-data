@@ -27,3 +27,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Custom Sidedress,ID,,,acre,1
 ,Water,ID,,,acre,1
 ,Crop Insurance,ID,,,acre,1
+,oes452091,ID,,,hr,8.25
+,oes452092,ID,,,hr,6.9
