@@ -23,6 +23,7 @@ year integer,
 authority text,
 price float);
 
+-- We are no longer needing to fix_production.
 create or replace function fix_production() RETURNS boolean AS $$
 
 with x(old,nass) as (VALUES

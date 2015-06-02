@@ -5,7 +5,9 @@
 
 path:=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
-PG:=psql -d nass --variable=cwd=${path}
+PG.service:=farm-budgets-data
+
+PG:=psql service=${PG.service} --variable=cwd=${path}
 
 
 nass-summary:=nass-summary-0.6-alpha
@@ -31,10 +33,11 @@ ${nass.csv}:nass/%.csv:${nass-summary}
 	cp ${nass-summary}/$*.csv $@
 
 
-production.csv:=$(wildcard data/UCD/??-[A-Z]*.csv)
-prices.csv:=$(wildcard data/UCD/??-prices.csv)
+production.csv:=$(wildcard ucd/??-[A-Z]*.csv)
+prices.csv:=$(wildcard ucd/??-prices.csv)
 
 import:
+	${PG} -c 'create schema farm_budget_data' || true
 	${PG} -f 'sql/production.sql';
 	for c in ${production.csv}; do\
 	 ${PG} -c "\COPY farm_budget_data.production (authority,material,location,phase,commodity,unit,amount) from $$c with csv header";\
