@@ -67,6 +67,9 @@ columns:=year commodity_desc statisticcat_desc county_code source_desc \
 
 jq.col:=$(subst ${space},${comma},$(patsubst %,.%,${columns}))
 
+price.2014.json:
+	curl "${usda.get}&${usda.states}&statisticcat_desc=PRICE+RECEIVED&year=2014" > $@
+
 price.json:
 	curl "${usda.get}&${usda.states}&${usda.com}&statisticcat_desc=PRICE+RECEIVED&year__GE=2007" > $@
 
@@ -86,7 +89,7 @@ area.json:
 nass/commodity_avg_price.csv nass/commodity_price.csv:nass/%.csv:
 	${PG} -c '\COPY (select * from farm_budget_data.$*) to $@ with csv header'
 
-price.csv area.csv production.csv yield.csv:%.csv:%.json
+price.2014.csv price.csv area.csv production.csv yield.csv:%.csv:%.json
 	jq --raw-output '.data | .[] | [${jq.col}] | @csv' < $< > $@
 
 test:
