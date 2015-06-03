@@ -15,7 +15,6 @@ include usda.key
 info:
 	@echo USDA KEY : ${usda.key}
 
-
 nass-summary:=nass-summary-0.6-alpha
 
 ${nass-summary}:version:=v0.6-alpha
@@ -34,7 +33,7 @@ nass.csv:=$(patsubst %,nass/%.csv,county_adc land_rent \
 
 .PHONY:nass.csv
 
-nass.csv:${nass.csv}
+nass.csv:${nass.csv} nass/commodity_price.csv nass/commodity_avg_price.csv
 
 ${nass.csv}:nass/%.csv:${nass-summary}
 	cp ${nass-summary}/$*.csv $@
@@ -96,16 +95,14 @@ test:
 	done
 
 import:
-	${PG} -c 'create schema farm_budget_data' || true
-	${PG} -f 'sql/production.sql';
+	${PG} -f 'sql/farm-budgets-data.sql';
 	for c in ${production.csv}; do\
 	 ${PG} -c "\COPY farm_budget_data.production (authority,material,location,phase,commodity,unit,amount) from $$c with csv header";\
 	 f=`basename $$c .csv | sed -e 's/^...//'`;\
 	${PG} -c "update farm_budget_data.production set commodity=upper(trim( both from replace('$$f','_',' '))) where commodity is null";\
 	done;
-	${PG} -c "select farm_budget_data.fix_production();";
 	for p in ${prices.csv}; do\
-	 ${PG} -c "\COPY farm_budget_data.price (material,location,year,authority,price,units) from $$p with csv header";\
+	 ${PG} -c "\COPY farm_budget_data.price (material,location,year,authority,price,unit) from $$p with csv header";\
 	done;
 
 

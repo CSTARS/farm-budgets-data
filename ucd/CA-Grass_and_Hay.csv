@@ -1,13 +1,13 @@
-budget_id,commodity,location,phase,material,unit,amount
+phase,material,unit,amount
 ,46-0-0,CA,,,lb N,100
 ,Clarity,CA,,,pint,1
 ,Labor (Machine),CA,,,hr,2.78
 ,Labor (non-machine),CA,,,hr,0.5
 ,Fuel - Gas,CA,,,gal,3.59
 ,Fuel - Diesel,CA,,,gal,6.73
-,Maintenance,CA,,,,1
-,Repair,CA,,,,1
-,Application,CA,,,,1
+,Maintenance,CA,,,each,1
+,Repair,CA,,,each,1
+,Application,CA,,,each,1
 ,Swathing,CA,,,acre,2
 ,Rake,CA,,,acre,2
 ,Baling,CA,,,bales,100
