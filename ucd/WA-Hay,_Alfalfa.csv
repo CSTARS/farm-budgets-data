@@ -1,0 +1,52 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Phosphorous (dry),WA,,,lb,12
+,Sulfur (dry),WA,,,lb,15
+,Roundup,WA,,,oz,18
+,Ammonium Sulfate,WA,,,oz,50
+,M90,WA,,,oz,3
+,Achieve SC,WA,,,oz,9.2
+,Starane+Sword,WA,,,oz,22
+,Barley Seed,WA,,,lb,80
+,Labor (Machine),WA,,,acre,0.97
+,Fuel,WA,,,gal,8.18
+,Lubricants,WA,,,acre,1
+,Repair,WA,,,acre,1
+,Rental Sprayer,WA,,,acre,2
+,Dry Nitrogen,WA,,,lb,20
+,Dry Phosphate,WA,,,lb,100
+,Dry Potash,WA,,,lb,75
+,Dry Sulfur,WA,,,lb,10
+,Malathion,WA,,,qt,0.5
+,Sencor 4L,WA,,,qt,0.5
+,Fuel - Diesel,WA,,,gal,2.28
+,Maintenance,WA,,,,1
+,Ground Application,WA,,,,1
+,Swath Rake,WA,,,,4
+,Haul and Stack,WA,,,ton,4.9
+,Tarping,WA,,,ton,4.9
+,Tissue Analysis,WA,,,,1
+,Water,WA,,,,1
+,Crop Insurance,WA,,,,4.9
+,Gopher Control,WA,,,,1
+,Management,WA,,,,1
+,Nitrogen (dry),WA,,,lb,60
+,Dry Nitrogen,WA,,,lb,20
+,Dry Phosphate,WA,,,lb,100
+,Dry Potash,WA,,,lb,75
+,Dry Sulfur,WA,,,lb,10
+,Malathion,WA,,,qt,0.5
+,Sencor 4L,WA,,,qt,0.5
+,Fuel - Diesel,WA,,,gal,2.28
+,Maintenance,WA,,,,1
+,Repair,WA,,,,1
+,Ground Application,WA,,,,1
+,Swath Rake,WA,,,,4
+,Haul and Stack,WA,,,ton,4.9
+,Tarping,WA,,,ton,4.9
+,Tissue Analysis,WA,,,,1
+,Water,WA,,,,1
+,Crop Insurance,WA,,,,4.9
+,Gopher Control,WA,,,,1
+,Management,WA,,,,1
+,oes452091,WA,,,hr,0
+,oes452092,WA,,,hr,0

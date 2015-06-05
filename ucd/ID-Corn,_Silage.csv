@@ -1,0 +1,21 @@
+budget_id,commodity,location,phase,material,unit,amount
+,Dry Nitrogen,ID,,,lb,210
+,Dry P2O5,ID,,,lb,80
+,K20,ID,,,lb,100
+,Sulfur,ID,,,lb,30
+,Micro-Tech,ID,,,qt,2
+,Counter 15G L-N-L,ID,,,lb,8
+,Roundup Original Max,ID,,,oz,40
+,Ammonium Sulfate,ID,,,lb,2
+,Corn,ID,,,bag,0.48
+,Labor (Machine),ID,,,hr,2.6
+,Labor (non-machine),ID,,,hr,3.8
+,Fuel - Gas,ID,,,gal,1.25
+,Fuel - Diesel,ID,,,gal,13
+,Lube,ID,,,acre,1
+,Repair,ID,,,acre,1
+,Ground Application,ID,,,acre,2
+,Harvest,ID,,,ton,30
+,Water,ID,,,acre,1
+,oes452091,ID,,,hr,2.6
+,oes452092,ID,,,hr,3.8

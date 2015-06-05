@@ -5,3 +5,5 @@ budget_id,commodity,location,phase,material,unit,amount
 ,Maintenance,ID,,,,1
 ,Repair,ID,,,,1
 ,Baling,ID,,,bales,100
+,oes452091,ID,,,hr,2.78
+,oes452092,ID,,,hr,0
