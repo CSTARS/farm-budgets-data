@@ -45,7 +45,7 @@ prices.csv:=$(wildcard ucd/??-prices.csv)
 commodities:=HAY HAY+%26+HAYLAGE HAYLAGE GRASSES\
 BARLEY BEANS CANOLA CORN LENTILS OATS POTATOES WHEAT SUGARBEETS
 
-stats.harvest:=PRODUCTION AREA+HARVESTED WATER+APPLIED
+stats:=PRICE+RECEIVED YIELD PRODUCTION AREA+HARVESTED WATER+APPLIED
 
 states:=CA WA ID MT OR
 
@@ -57,7 +57,7 @@ comma:=,
 
 usda.states:=$(subst ${space},&,$(patsubst %,state_alpha=%,${states}))
 usda.com:=$(subst ${space},&,$(patsubst %,commodity_desc=%,${commodities}))
-usda.stats.harvest:=$(subst ${space},&,$(patsubst %,statisitccat_desc=%,${stats.harvest}))
+usda.stats:=$(subst ${space},&,$(patsubst %,statisitccat_desc=%,${stats.harvest}))
 
 columns:=year commodity_desc statisticcat_desc county_code source_desc \
 	unit_desc prodn_practice_desc freq_desc asd_desc \
@@ -67,8 +67,8 @@ columns:=year commodity_desc statisticcat_desc county_code source_desc \
 
 jq.col:=$(subst ${space},${comma},$(patsubst %,.%,${columns}))
 
-price.2014.json:
-	curl "${usda.get}&${usda.states}&statisticcat_desc=PRICE+RECEIVED&year=2014" > $@
+potatoes.json:
+	curl "${usda.get}&${usda.states}&${usda.stats}&commodity_desc=POTATOES&year__GE=2007" > $@
 
 price.json:
 	curl "${usda.get}&${usda.states}&${usda.com}&statisticcat_desc=PRICE+RECEIVED&year__GE=2007" > $@
@@ -89,7 +89,7 @@ area.json:
 nass/commodity_avg_price.csv nass/commodity_price.csv:nass/%.csv:
 	${PG} -c '\COPY (select * from farm_budget_data.$*) to $@ with csv header'
 
-price.2014.csv price.csv area.csv production.csv yield.csv:%.csv:%.json
+potatoes.csv price.csv area.csv production.csv yield.csv:%.csv:%.json
 	jq --raw-output '.data | .[] | [${jq.col}] | @csv' < $< > $@
 
 test:
