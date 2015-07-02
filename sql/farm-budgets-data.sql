@@ -51,17 +51,21 @@ year integer,
 authority text,
 price float);
 
+create table change (
+type text,
+old text,
+new text
+);
 
-create function replace_unit(old varchar(12),new varchar(12)) 
+create or replace function replace_unit(old varchar(12),new varchar(12)) 
 RETURNS varchar(12)
 AS $$
-update farm_budget_data.production set unit=$2 where unit=$1;
-update farm_budget_data.operation set unit=$2 where unit=$1;
-update farm_budget_data.material set unit=$2 where unit=$1;
-update farm_budget_data.price set unit=$2 where unit=$1;
-delete from unit where unit=$1;
+insert into farm_budget_data.change (type,old,new) values ('unit',$1,$2);
+--update farm_budget_data.production set unit=$2 where unit=$1;
+--update farm_budget_data.operation set unit=$2 where unit=$1;
+--update farm_budget_data.material set unit=$2 where unit=$1;
+--update farm_budget_data.price set unit=$2 where unit=$1;
+--delete from unit where unit=$1;
 select $2;
 $$ LANGUAGE SQL;
-
-
 
