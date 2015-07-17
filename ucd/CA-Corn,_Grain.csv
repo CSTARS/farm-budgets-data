@@ -1,35 +1,35 @@
-budget_id,commodity,location,phase,material,unit,amount
-,10-34-00,CA,,,lb,200
-,80-00-00,CA,,,lb N,240
-,Yukon,CA,,,oz,6
-,Prowl H20,CA,,,pint,3
-,Lorban 15G,CA,,,oz,2
-,Oberon 25C,CA,,,floz,7
-,Corn,CA,,,thou,33
-,Labor (Machine),CA,,,hrs,3.36
-,Labor (non-machine),CA,,,hrs,1.95
-,Fuel - Gas,CA,,,gal,0.6
-,Fuel - Diesel,CA,,,gal,27.91
-,Ground Application,CA,,,acre,1
-,Harvest for Grain,CA,,,ton,5
-,Haul Local,CA,,,cwt,180
-,Water,CA,,,acin,44
-,Harvest,CA,,,ton,26
-,Plant,CA,,,acre,1
-,10-34-00,CA,,,lb,200
-,80-00-00,CA,,,lb N,240
-,Yukon,CA,,,oz,6
-,Prowl H20,CA,,,pint,3
-,Lorban 15G,CA,,,oz,2
-,Oberon 25C,CA,,,floz,7
-,Corn,CA,,,thou,33
-,Labor (Machine),CA,,,hrs,3.36
-,Labor (non-machine),CA,,,hrs,1.95
-,Fuel - Gas,CA,,,gal,0.6
-,Fuel - Diesel,CA,,,gal,27.91
-,Ground Application,CA,,,acre,1
-,Harvest for Grain,CA,,,ton,5
-,Haul Local,CA,,,cwt,180
-,Water,CA,,,acin,44
-,oes452091,CA,,,hr,3.36
-,oes452092,CA,,,hr,1.95
+material,location,phase,commodity,unit,amount
+Labor (Machine),CA,,"CORN, GRAIN",h,3.36
+Labor (non-machine),CA,,"CORN, GRAIN",h,1.95
+Harvest for Grain,CA,,"CORN, GRAIN",[ston_av],5
+Harvest,CA,,"CORN, GRAIN",[ston_av],26
+Haul Local,CA,,"CORN, GRAIN",[scwt_av],180
+Oberon 25C,CA,,"CORN, GRAIN",[foz_us],7
+Oberon 25C,CA,,"CORN, GRAIN",[foz_us],7
+Fuel - Gas,CA,,"CORN, GRAIN",[gal_us],0.6
+Fuel - Diesel,CA,,"CORN, GRAIN",[gal_us],27.91
+Water,CA,,"CORN, GRAIN",[acr_us].[in_us],44
+Water,CA,,"CORN, GRAIN",[acr_us].[in_us],44
+Ground Application,CA,,"CORN, GRAIN",[acr_us],1
+Plant,CA,,"CORN, GRAIN",[acr_us],1
+Ground Application,CA,,"CORN, GRAIN",[acr_us],1
+Yukon,CA,,"CORN, GRAIN",oz,6
+Lorban 15G,CA,,"CORN, GRAIN",oz,2
+Corn,CA,,"CORN, GRAIN",thou,33
+Yukon,CA,,"CORN, GRAIN",oz,6
+Lorban 15G,CA,,"CORN, GRAIN",oz,2
+Prowl H20,CA,,"CORN, GRAIN",[pt_us],3
+Prowl H20,CA,,"CORN, GRAIN",[pt_us],3
+Corn,CA,,"CORN, GRAIN",thou,33
+10-34-00,CA,,"CORN, GRAIN",[lb_av],200
+10-34-00,CA,,"CORN, GRAIN",[lb_av],200
+80-00-00,CA,,"CORN, GRAIN",[lb_av],240
+80-00-00,CA,,"CORN, GRAIN",[lb_av],240
+oes452091,CA,,"CORN, GRAIN",h,3.36
+oes452092,CA,,"CORN, GRAIN",h,1.95
+Haul Local,CA,,"CORN, GRAIN",[scwt_av],180
+Fuel - Gas,CA,,"CORN, GRAIN",[gal_us],0.6
+Fuel - Diesel,CA,,"CORN, GRAIN",[gal_us],27.91
+Labor (Machine),CA,,"CORN, GRAIN",h,3.36
+Labor (non-machine),CA,,"CORN, GRAIN",h,1.95
+Harvest for Grain,CA,,"CORN, GRAIN",[ston_av],5

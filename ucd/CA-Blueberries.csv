@@ -1,31 +1,31 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Sulfuric Acid,CA,,,lbN,1232
-,Mulch,CA,,,lbN,10
-,UN32,CA,,,lbN,100
-,Success,CA,,,floz,12
-,Devrinol 50DF,CA,,,lb,8
-,Surflan AS,CA,,,pint,4
-,Pristine,CA,,,oz,40
-,Labor (Machine),CA,,,hr,24.72
-,Labor (non-machine),CA,,,hr,1113.3
-,Fuel - Diesel,CA,,,gal,52.51
-,Bee Hives,CA,,,hive,2
-,Pick Berries,CA,,,hrs,1000
-,Cool and Pack,CA,,,lb,10000
-,Water,CA,,,acre,360
-,Sulfuric Acid,CA,,,lbN,1232
-,Mulch,CA,,,lbN,10
-,UN32,CA,,,lbN,100
-,Success,CA,,,floz,12
-,Devrinol 50DF,CA,,,lb,8
-,Surflan AS,CA,,,pint,4
-,Pristine,CA,,,oz,40
-,Labor (Machine),CA,,,hr,24.72
-,Labor (non-machine),CA,,,hr,1113.3
-,Fuel - Diesel,CA,,,gal,52.51
-,Bee Hives,CA,,,hive,2
-,Pick Berries,CA,,,hrs,1000
-,Cool and Pack,CA,,,lb,10000
-,Water,CA,,,acre,360
-,oes452091,CA,,,hr,24.72
-,oes452092,CA,,,hr,1113.3
+material,location,phase,commodity,unit,amount
+Sulfuric Acid,CA,,BLUEBERRIES,[lb_av],1232
+Pristine,CA,,BLUEBERRIES,oz,40
+Bee Hives,CA,,BLUEBERRIES,hive,2
+Mulch,CA,,BLUEBERRIES,[lb_av],10
+UN32,CA,,BLUEBERRIES,[lb_av],100
+Pristine,CA,,BLUEBERRIES,oz,40
+Bee Hives,CA,,BLUEBERRIES,hive,2
+Sulfuric Acid,CA,,BLUEBERRIES,[lb_av],1232
+Water,CA,,BLUEBERRIES,[acr_us],360
+Water,CA,,BLUEBERRIES,[acr_us],360
+Labor (Machine),CA,,BLUEBERRIES,h,24.72
+Labor (non-machine),CA,,BLUEBERRIES,h,1113.3
+Labor (Machine),CA,,BLUEBERRIES,h,24.72
+Labor (non-machine),CA,,BLUEBERRIES,h,1113.3
+oes452091,CA,,BLUEBERRIES,h,24.72
+oes452092,CA,,BLUEBERRIES,h,1113.3
+Success,CA,,BLUEBERRIES,[foz_us],12
+Success,CA,,BLUEBERRIES,[foz_us],12
+Fuel - Diesel,CA,,BLUEBERRIES,[gal_us],52.51
+Fuel - Diesel,CA,,BLUEBERRIES,[gal_us],52.51
+Mulch,CA,,BLUEBERRIES,[lb_av],10
+Devrinol 50DF,CA,,BLUEBERRIES,[lb_av],8
+Cool and Pack,CA,,BLUEBERRIES,[lb_av],10000
+Devrinol 50DF,CA,,BLUEBERRIES,[lb_av],8
+Cool and Pack,CA,,BLUEBERRIES,[lb_av],10000
+UN32,CA,,BLUEBERRIES,[lb_av],100
+Pick Berries,CA,,BLUEBERRIES,h,1000
+Surflan AS,CA,,BLUEBERRIES,[pt_us],4
+Surflan AS,CA,,BLUEBERRIES,[pt_us],4
+Pick Berries,CA,,BLUEBERRIES,h,1000

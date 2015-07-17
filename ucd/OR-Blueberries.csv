@@ -1,11 +1,11 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Labor (Machine),OR,,,hr,100
-,Fuel - Diesel,OR,,,gal,13
-,Sawdust,OR,,,units,3.67
-,Harvest,OR,,,lbs,16200
-,Labor (Machine),OR,,,hr,100
-,Fuel - Diesel,OR,,,gal,13
-,Sawdust,OR,,,units,3.67
-,Harvest,OR,,,lbs,16200
-,oes452091,OR,,,hr,100
-,oes452092,OR,,,hr,0
+material,location,phase,commodity,unit,amount
+Labor (Machine),OR,,BLUEBERRIES,h,100
+Labor (Machine),OR,,BLUEBERRIES,h,100
+oes452091,OR,,BLUEBERRIES,h,100
+oes452092,OR,,BLUEBERRIES,h,0
+Fuel - Diesel,OR,,BLUEBERRIES,[gal_us],13
+Fuel - Diesel,OR,,BLUEBERRIES,[gal_us],13
+Harvest,OR,,BLUEBERRIES,[lb_av],16200
+Harvest,OR,,BLUEBERRIES,[lb_av],16200
+Sawdust,OR,,BLUEBERRIES,unit,3.67
+Sawdust,OR,,BLUEBERRIES,unit,3.67

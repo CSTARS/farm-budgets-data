@@ -1,11 +1,11 @@
-budget_id,commodity,location,phase,material,unit,amount
-,16-16-16,OR,,,lb,200
-,40-0-0-6,OR,,,lb,100
-,MCPA Amine,OR,,,lb,0.1875
-,Transport to PDX,OR,,,bu,65
-,Labor (Machine),OR,,,hr,0.6798
-,Labor (non-machine),OR,,,hr,0.2106
-,Fuel - Diesel,OR,,,gal,10.7117
-,Maintenance and Repair,OR,,,,1
-,oes452091,OR,,,hr,0.68
-,oes452092,OR,,,hr,0.21
+material,location,phase,commodity,unit,amount
+Maintenance and Repair,OR,,OATS,,1
+Transport to PDX,OR,,OATS,[bu_us],65
+Labor (Machine),OR,,OATS,h,0.6798
+Labor (non-machine),OR,,OATS,h,0.2106
+oes452091,OR,,OATS,h,0.68
+oes452092,OR,,OATS,h,0.21
+Fuel - Diesel,OR,,OATS,[gal_us],10.7117
+16-16-16,OR,,OATS,[lb_av],200
+40-0-0-6,OR,,OATS,[lb_av],100
+MCPA Amine,OR,,OATS,[lb_av],0.1875

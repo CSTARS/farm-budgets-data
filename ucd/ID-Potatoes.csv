@@ -1,38 +1,38 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Dry Nitrogen - Preplant,ID,,,lb,180
-,Dry P2O5,ID,,,lb,220
-,K2O,ID,,,lb,205
-,Sulfur,ID,,,lb,80
-,Micronutrients,ID,,,ac,2
-,Liquid Nitrogen,ID,,,lb,150
-,Liquid P2O5,ID,,,lb,40
-,Metam Sodium,ID,,,gal,40
-,Admire Pro,ID,,,oz,8
-,Quadris,ID,,,oz,8
-,Outlook 6EC,ID,,,oz,20
-,Sencor 75DF,ID,,,lb,0.75
-,Prowl 3.3EC,ID,,,qt,1
-,Endura (2x),ID,,,oz,11
-,Dithane F45 Rainshield,ID,,,qt,1.6
-,Headline,ID,,,oz,6
-,Leverage 2.7,ID,,,oz,3.75
-,Reglone,ID,,,qt,1
-,Potato Seed,ID,,,cwt,23
-,Labor (Machine),ID,,,hr,6.3
-,Labor (Irrigation),ID,,,hr,2.16
-,Labor (other),ID,,,hr,2.7
-,Fuel - Gas,ID,,,gal,2.8
-,Fuel - Diesel,ID,,,gal,28.8
-,Lubricants,ID,,,acre,1
-,Repair,ID,,,acre,1
-,Custom Fertilize,ID,,,acre,2
-,Water Assesment,ID,,,acre,1
-,Consultant,ID,,,acre,1
-,Custom Air Spray,ID,,,acre,3
-,Fumigation,ID,,,acre,1
-,Fees Assesment,ID,,,cwt,442
-,Irrigation,ID,,,acin,28
-,Storage Operating Costs,ID,,,cwt,465
-,Storage Repairs,ID,,,ac,1
-,oes452091,ID,,,hr,6.3
-,oes452092,ID,,,hr,4.86
+material,location,phase,commodity,unit,amount
+Dry Nitrogen - Preplant,ID,,POTATOES,[lb_av],180
+Dry P2O5,ID,,POTATOES,[lb_av],220
+K2O,ID,,POTATOES,[lb_av],205
+Sulfur,ID,,POTATOES,[lb_av],80
+Liquid Nitrogen,ID,,POTATOES,[lb_av],150
+Liquid P2O5,ID,,POTATOES,[lb_av],40
+Sencor 75DF,ID,,POTATOES,[lb_av],0.75
+Custom Fertilize,ID,,POTATOES,[acr_us],2
+Water Assesment,ID,,POTATOES,[acr_us],1
+Consultant,ID,,POTATOES,[acr_us],1
+Custom Air Spray,ID,,POTATOES,[acr_us],3
+Fumigation,ID,,POTATOES,[acr_us],1
+Storage Repairs,ID,,POTATOES,[acr_us],1
+Irrigation,ID,,POTATOES,[acr_us].[in_us],28
+Labor (Machine),ID,,POTATOES,h,6.3
+Labor (Irrigation),ID,,POTATOES,h,2.16
+Prowl 3.3EC,ID,,POTATOES,[qt_us],1
+Dithane F45 Rainshield,ID,,POTATOES,[qt_us],1.6
+Reglone,ID,,POTATOES,[qt_us],1
+Potato Seed,ID,,POTATOES,[scwt_av],23
+Metam Sodium,ID,,POTATOES,[gal_us],40
+Fuel - Gas,ID,,POTATOES,[gal_us],2.8
+Fuel - Diesel,ID,,POTATOES,[gal_us],28.8
+Lubricants,ID,,POTATOES,[acr_us],1
+Admire Pro,ID,,POTATOES,oz,8
+Quadris,ID,,POTATOES,oz,8
+Micronutrients,ID,,POTATOES,[acr_us],2
+Outlook 6EC,ID,,POTATOES,oz,20
+Endura (2x),ID,,POTATOES,oz,11
+Headline,ID,,POTATOES,oz,6
+Leverage 2.7,ID,,POTATOES,oz,3.75
+Repair,ID,,POTATOES,[acr_us],1
+Labor (other),ID,,POTATOES,h,2.7
+oes452091,ID,,POTATOES,h,6.3
+oes452092,ID,,POTATOES,h,4.86
+Fees Assesment,ID,,POTATOES,[scwt_av],442
+Storage Operating Costs,ID,,POTATOES,[scwt_av],465

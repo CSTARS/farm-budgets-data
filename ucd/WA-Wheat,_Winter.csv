@@ -1,20 +1,20 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Nitrogen (dry),WA,,,lb,90
-,Phosphorous (dry),WA,,,lb,30
-,Sulfur (dry),WA,,,lb,15
-,Ammonium Sulfate,WA,,,oz,50
-,Brox M,WA,,,oz,1.6
-,Excel 90,WA,,,oz,3.2
-,Osprey,WA,,,oz,4.75
-,Roundup,WA,,,oz,18
-,Starane-Salvo,WA,,,oz,22
-,Wheat,WA,,,lb,90
-,Labor (Machine),WA,,,hr,1.16
-,Fuel - Diesel,WA,,,gal,8.17
-,Maintenance,WA,,,,1
-,Repair,WA,,,,1
-,Sprayer,WA,,,,2
-,Riper Shooter,WA,,,,1
-,Stuble Shredder,WA,,,,0.5
-,oes452091,WA,,,hr,1.16
-,oes452092,WA,,,hr,0
+material,location,phase,commodity,unit,amount
+Ammonium Sulfate,WA,,"WHEAT, WINTER",oz,50
+Brox M,WA,,"WHEAT, WINTER",oz,1.6
+Excel 90,WA,,"WHEAT, WINTER",oz,3.2
+Osprey,WA,,"WHEAT, WINTER",oz,4.75
+Roundup,WA,,"WHEAT, WINTER",oz,18
+Starane-Salvo,WA,,"WHEAT, WINTER",oz,22
+Maintenance,WA,,"WHEAT, WINTER",,1
+Repair,WA,,"WHEAT, WINTER",,1
+Sprayer,WA,,"WHEAT, WINTER",,2
+Riper Shooter,WA,,"WHEAT, WINTER",,1
+Stuble Shredder,WA,,"WHEAT, WINTER",,0.5
+Labor (Machine),WA,,"WHEAT, WINTER",h,1.16
+oes452091,WA,,"WHEAT, WINTER",h,1.16
+oes452092,WA,,"WHEAT, WINTER",h,0
+Fuel - Diesel,WA,,"WHEAT, WINTER",[gal_us],8.17
+Nitrogen (dry),WA,,"WHEAT, WINTER",[lb_av],90
+Phosphorous (dry),WA,,"WHEAT, WINTER",[lb_av],30
+Sulfur (dry),WA,,"WHEAT, WINTER",[lb_av],15
+Wheat,WA,,"WHEAT, WINTER",[lb_av],90

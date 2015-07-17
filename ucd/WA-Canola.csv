@@ -1,35 +1,35 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Canola,WA,,,lb,1500
-,Nitrogen (dry),WA,,,lb,100
-,Phosphorous (dry),WA,,,lb,15
-,Sulfur (dry),WA,,,lb,15
-,Roundup,WA,,,oz,10
-,Ammonium Sulfate,WA,,,oz,50
-,M90,WA,,,oz,1.5
-,Capture,WA,,,acre,1
-,Canola,WA,,,lb,4
-,Labor (Machine),WA,,,acre,0.99
-,Fuel,WA,,,gal,9.01
-,Lubricants,WA,,,acre,1
-,Repair,WA,,,acre,1
-,Rental Sprayer,WA,,,acre,1
-,Custom Aerial Spray,WA,,,acre,1
-,Rental Ripper Shooter,WA,,,acre,1
-,Canola,WA,,,lb,1500
-,Nitrogen (dry),WA,,,lb,100
-,Phosphorous (dry),WA,,,lb,15
-,Sulfur (dry),WA,,,lb,15
-,Roundup,WA,,,oz,10
-,Ammonium Sulfate,WA,,,oz,50
-,M90,WA,,,oz,1.5
-,Capture,WA,,,acre,1
-,Canola,WA,,,lb,4
-,Labor (Machine),WA,,,acre,0.99
-,Fuel,WA,,,gal,9.01
-,Lubricants,WA,,,acre,1
-,Repair,WA,,,acre,1
-,Rental Sprayer,WA,,,acre,1
-,Custom Aerial Spray,WA,,,acre,1
-,Rental Ripper Shooter,WA,,,acre,1
-,oes452091,WA,,,hr,0.99
-,oes452092,WA,,,hr,0
+material,location,phase,commodity,unit,amount
+Roundup,WA,,CANOLA,oz,10
+Ammonium Sulfate,WA,,CANOLA,oz,50
+M90,WA,,CANOLA,oz,1.5
+Roundup,WA,,CANOLA,oz,10
+Ammonium Sulfate,WA,,CANOLA,oz,50
+M90,WA,,CANOLA,oz,1.5
+Capture,WA,,CANOLA,[acr_us],1
+Labor (Machine),WA,,CANOLA,[acr_us],0.99
+Lubricants,WA,,CANOLA,[acr_us],1
+Canola,WA,,CANOLA,[lb_av],4
+Canola,WA,,CANOLA,[lb_av],1500
+Nitrogen (dry),WA,,CANOLA,[lb_av],100
+Phosphorous (dry),WA,,CANOLA,[lb_av],15
+Sulfur (dry),WA,,CANOLA,[lb_av],15
+Canola,WA,,CANOLA,[lb_av],1500
+Nitrogen (dry),WA,,CANOLA,[lb_av],100
+Phosphorous (dry),WA,,CANOLA,[lb_av],15
+Sulfur (dry),WA,,CANOLA,[lb_av],15
+Canola,WA,,CANOLA,[lb_av],4
+Repair,WA,,CANOLA,[acr_us],1
+Rental Sprayer,WA,,CANOLA,[acr_us],1
+Custom Aerial Spray,WA,,CANOLA,[acr_us],1
+Rental Ripper Shooter,WA,,CANOLA,[acr_us],1
+Capture,WA,,CANOLA,[acr_us],1
+Labor (Machine),WA,,CANOLA,[acr_us],0.99
+Lubricants,WA,,CANOLA,[acr_us],1
+Repair,WA,,CANOLA,[acr_us],1
+Rental Sprayer,WA,,CANOLA,[acr_us],1
+Custom Aerial Spray,WA,,CANOLA,[acr_us],1
+Rental Ripper Shooter,WA,,CANOLA,[acr_us],1
+oes452091,WA,,CANOLA,h,0.99
+oes452092,WA,,CANOLA,h,0
+Fuel,WA,,CANOLA,[gal_us],9.01
+Fuel,WA,,CANOLA,[gal_us],9.01

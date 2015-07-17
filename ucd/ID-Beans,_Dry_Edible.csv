@@ -1,21 +1,21 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Dry Nitrogen,ID,,,lb,25
-,Dry P2O5,ID,,,lb,50
-,K2O,ID,,,lb,30
-,Zinc,ID,,,lb,5
-,Sonalan HFP,ID,,,pt,2.5
-,Eptam 7EC,ID,,,pt,3.5
-,Labor (Machine),ID,,,hr,1.75
-,Labor (Irrigation),ID,,,hr,0.76
-,Labor (other),ID,,,hr,0.3
-,Fuel - Gas,ID,,,gal,1.5
-,Fuel - Diesel,ID,,,gal,10.6
-,Lubricants,ID,,,acre,1
-,Repair,ID,,,acre,1
-,Custom Fertilize,ID,,,acre,1
-,Cut/Windrow,ID,,,acre,1
-,Combine,ID,,,acre,25
-,Irrigation,ID,,,acin,19
-,Storage Operating Costs,ID,,,cwt,25
-,oes452091,ID,,,hr,1.75
-,oes452092,ID,,,hr,1.06
+material,location,phase,commodity,unit,amount
+Irrigation,ID,,"BEANS, DRY EDIBLE",[acr_us].[in_us],19
+Dry Nitrogen,ID,,"BEANS, DRY EDIBLE",[lb_av],25
+Dry P2O5,ID,,"BEANS, DRY EDIBLE",[lb_av],50
+K2O,ID,,"BEANS, DRY EDIBLE",[lb_av],30
+Zinc,ID,,"BEANS, DRY EDIBLE",[lb_av],5
+Lubricants,ID,,"BEANS, DRY EDIBLE",[acr_us],1
+Repair,ID,,"BEANS, DRY EDIBLE",[acr_us],1
+Labor (Machine),ID,,"BEANS, DRY EDIBLE",h,1.75
+Labor (Irrigation),ID,,"BEANS, DRY EDIBLE",h,0.76
+Labor (other),ID,,"BEANS, DRY EDIBLE",h,0.3
+oes452091,ID,,"BEANS, DRY EDIBLE",h,1.75
+oes452092,ID,,"BEANS, DRY EDIBLE",h,1.06
+Custom Fertilize,ID,,"BEANS, DRY EDIBLE",[acr_us],1
+Cut/Windrow,ID,,"BEANS, DRY EDIBLE",[acr_us],1
+Combine,ID,,"BEANS, DRY EDIBLE",[acr_us],25
+Storage Operating Costs,ID,,"BEANS, DRY EDIBLE",[scwt_av],25
+Fuel - Gas,ID,,"BEANS, DRY EDIBLE",[gal_us],1.5
+Fuel - Diesel,ID,,"BEANS, DRY EDIBLE",[gal_us],10.6
+Sonalan HFP,ID,,"BEANS, DRY EDIBLE",[pt_us],2.5
+Eptam 7EC,ID,,"BEANS, DRY EDIBLE",[pt_us],3.5

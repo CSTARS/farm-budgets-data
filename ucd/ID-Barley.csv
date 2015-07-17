@@ -1,23 +1,23 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Nitrogen (dry),ID,,,lb,24
-,Phosphorous (dry),ID,,,lb,70
-,Sulfur (dry),ID,,,lb,20
-,Barley Seed,ID,,,lb,80
-,Labor (Machine),ID,,,acre,1.62
-,Fuel,ID,,,gal,6.14
-,Lubricants,ID,,,acre,1
-,Repair,ID,,,acre,1
-,Custom Fertilize,ID,,,acre,1
-,Custom Combining,ID,,,acre,1
-,Nitrogen (dry),ID,,,lb,24
-,Phosphorous (dry),ID,,,lb,70
-,Sulfur (dry),ID,,,lb,20
-,Barley Seed,ID,,,lb,80
-,Labor (Machine),ID,,,acre,1.62
-,Fuel,ID,,,gal,6.14
-,Lubricants,ID,,,acre,1
-,Repair,ID,,,acre,1
-,Custom Fertilize,ID,,,acre,1
-,Custom Combining,ID,,,acre,1
-,oes452091,ID,,,hr,1.62
-,oes452092,ID,,,hr,0
+material,location,phase,commodity,unit,amount
+Labor (Machine),ID,,BARLEY,[acr_us],1.62
+Lubricants,ID,,BARLEY,[acr_us],1
+Repair,ID,,BARLEY,[acr_us],1
+Custom Fertilize,ID,,BARLEY,[acr_us],1
+Custom Combining,ID,,BARLEY,[acr_us],1
+Labor (Machine),ID,,BARLEY,[acr_us],1.62
+Lubricants,ID,,BARLEY,[acr_us],1
+Repair,ID,,BARLEY,[acr_us],1
+Custom Fertilize,ID,,BARLEY,[acr_us],1
+Fuel,ID,,BARLEY,[gal_us],6.14
+Fuel,ID,,BARLEY,[gal_us],6.14
+Custom Combining,ID,,BARLEY,[acr_us],1
+oes452091,ID,,BARLEY,h,1.62
+oes452092,ID,,BARLEY,h,0
+Nitrogen (dry),ID,,BARLEY,[lb_av],24
+Phosphorous (dry),ID,,BARLEY,[lb_av],70
+Sulfur (dry),ID,,BARLEY,[lb_av],20
+Barley Seed,ID,,BARLEY,[lb_av],80
+Nitrogen (dry),ID,,BARLEY,[lb_av],24
+Phosphorous (dry),ID,,BARLEY,[lb_av],70
+Sulfur (dry),ID,,BARLEY,[lb_av],20
+Barley Seed,ID,,BARLEY,[lb_av],80

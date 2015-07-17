@@ -1,12 +1,12 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Nitrogen (dry),WA,,,lb,120
-,Disyston,WA,,,GAL,147.36
-,Karmex,WA,,,lb,6.05
-,Sencor,WA,,,lb,13
-,Sevin XLR Plus,WA,,,GAL,35
-,Treflan FP,WA,,,GAL,20
-,Spot Spray Roundup,WA,,,GAL,36
-,Wheat,WA,,,lb,90
-,Fuel - Diesel,WA,,,gal,10.93
-,oes452091,WA,,,hr,
-,oes452092,WA,,,hr,
+material,location,phase,commodity,unit,amount
+oes452091,WA,,ASPARAGUS,h,
+oes452092,WA,,ASPARAGUS,h,
+Fuel - Diesel,WA,,ASPARAGUS,[gal_us],10.93
+Disyston,WA,,ASPARAGUS,[gal_us],147.36
+Sevin XLR Plus,WA,,ASPARAGUS,[gal_us],35
+Treflan FP,WA,,ASPARAGUS,[gal_us],20
+Spot Spray Roundup,WA,,ASPARAGUS,[gal_us],36
+Nitrogen (dry),WA,,ASPARAGUS,[lb_av],120
+Karmex,WA,,ASPARAGUS,[lb_av],6.05
+Sencor,WA,,ASPARAGUS,[lb_av],13
+Wheat,WA,,ASPARAGUS,[lb_av],90

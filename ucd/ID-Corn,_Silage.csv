@@ -1,21 +1,21 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Dry Nitrogen,ID,,,lb,210
-,Dry P2O5,ID,,,lb,80
-,K20,ID,,,lb,100
-,Sulfur,ID,,,lb,30
-,Micro-Tech,ID,,,qt,2
-,Counter 15G L-N-L,ID,,,lb,8
-,Roundup Original Max,ID,,,oz,40
-,Ammonium Sulfate,ID,,,lb,2
-,Corn,ID,,,bag,0.48
-,Labor (Machine),ID,,,hr,2.6
-,Labor (non-machine),ID,,,hr,3.8
-,Fuel - Gas,ID,,,gal,1.25
-,Fuel - Diesel,ID,,,gal,13
-,Lube,ID,,,acre,1
-,Repair,ID,,,acre,1
-,Ground Application,ID,,,acre,2
-,Harvest,ID,,,ton,30
-,Water,ID,,,acre,1
-,oes452091,ID,,,hr,2.6
-,oes452092,ID,,,hr,3.8
+material,location,phase,commodity,unit,amount
+Micro-Tech,ID,,"CORN, SILAGE",[qt_us],2
+Harvest,ID,,"CORN, SILAGE",[ston_av],30
+Roundup Original Max,ID,,"CORN, SILAGE",oz,40
+Corn,ID,,"CORN, SILAGE",bag,0.48
+Lube,ID,,"CORN, SILAGE",[acr_us],1
+Repair,ID,,"CORN, SILAGE",[acr_us],1
+Ground Application,ID,,"CORN, SILAGE",[acr_us],2
+Water,ID,,"CORN, SILAGE",[acr_us],1
+Labor (Machine),ID,,"CORN, SILAGE",h,2.6
+Labor (non-machine),ID,,"CORN, SILAGE",h,3.8
+oes452091,ID,,"CORN, SILAGE",h,2.6
+oes452092,ID,,"CORN, SILAGE",h,3.8
+Fuel - Gas,ID,,"CORN, SILAGE",[gal_us],1.25
+Fuel - Diesel,ID,,"CORN, SILAGE",[gal_us],13
+Dry Nitrogen,ID,,"CORN, SILAGE",[lb_av],210
+Dry P2O5,ID,,"CORN, SILAGE",[lb_av],80
+K20,ID,,"CORN, SILAGE",[lb_av],100
+Sulfur,ID,,"CORN, SILAGE",[lb_av],30
+Counter 15G L-N-L,ID,,"CORN, SILAGE",[lb_av],8
+Ammonium Sulfate,ID,,"CORN, SILAGE",[lb_av],2

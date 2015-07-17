@@ -1,44 +1,44 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Dry Nitrogen,ID,,,lb,210
-,Dry P2O5,ID,,,lb,80
-,K20,ID,,,lb,100
-,Sulfur,ID,,,lb,30
-,Micro-Tech,ID,,,qt,2
-,Counter 15G L-N-L,ID,,,lb,8
-,Roundup Original Max,ID,,,oz,40
-,Ammonium Sulfate,ID,,,lb,2
-,Corn,ID,,,bag,0.45
-,Labor (Machine),ID,,,hr,2.6
-,Labor (non-machine),ID,,,hr,4.25
-,Fuel - Gas,ID,,,gal,1.25
-,Fuel - Diesel,ID,,,gal,13
-,Lube,ID,,,acre,1
-,Repair,ID,,,acre,1
-,Ground Application,ID,,,acre,2
-,Harvest for Grain,ID,,,acre,1
-,Haul Local,ID,,,bu,190
-,Water,ID,,,acre,1
-,Crop Insurance,ID,,,acre,1
-,Harvest,ID,,,ton,30
-,Dry Nitrogen,ID,,,lb,210
-,Dry P2O5,ID,,,lb,80
-,K20,ID,,,lb,100
-,Sulfur,ID,,,lb,30
-,Micro-Tech,ID,,,qt,2
-,Counter 15G L-N-L,ID,,,lb,8
-,Roundup Original Max,ID,,,oz,40
-,Ammonium Sulfate,ID,,,lb,2
-,Corn,ID,,,bag,0.45
-,Labor (Machine),ID,,,hr,2.6
-,Labor (non-machine),ID,,,hr,4.25
-,Fuel - Gas,ID,,,gal,1.25
-,Fuel - Diesel,ID,,,gal,13
-,Lube,ID,,,acre,1
-,Repair,ID,,,acre,1
-,Ground Application,ID,,,acre,2
-,Harvest for Grain,ID,,,acre,1
-,Haul Local,ID,,,bu,190
-,Water,ID,,,acre,1
-,Crop Insurance,ID,,,acre,1
-,oes452091,ID,,,hr,2.6
-,oes452092,ID,,,hr,4.25
+material,location,phase,commodity,unit,amount
+Micro-Tech,ID,,"CORN, GRAIN",[qt_us],2
+Micro-Tech,ID,,"CORN, GRAIN",[qt_us],2
+Harvest,ID,,"CORN, GRAIN",[ston_av],30
+Fuel - Gas,ID,,"CORN, GRAIN",[gal_us],1.25
+Fuel - Diesel,ID,,"CORN, GRAIN",[gal_us],13
+Lube,ID,,"CORN, GRAIN",[acr_us],1
+Repair,ID,,"CORN, GRAIN",[acr_us],1
+Ground Application,ID,,"CORN, GRAIN",[acr_us],2
+Roundup Original Max,ID,,"CORN, GRAIN",oz,40
+Corn,ID,,"CORN, GRAIN",bag,0.45
+Haul Local,ID,,"CORN, GRAIN",[bu_us],190
+Labor (Machine),ID,,"CORN, GRAIN",h,2.6
+Labor (non-machine),ID,,"CORN, GRAIN",h,4.25
+Roundup Original Max,ID,,"CORN, GRAIN",oz,40
+Corn,ID,,"CORN, GRAIN",bag,0.45
+Harvest for Grain,ID,,"CORN, GRAIN",[acr_us],1
+Water,ID,,"CORN, GRAIN",[acr_us],1
+Crop Insurance,ID,,"CORN, GRAIN",[acr_us],1
+Lube,ID,,"CORN, GRAIN",[acr_us],1
+Repair,ID,,"CORN, GRAIN",[acr_us],1
+Ground Application,ID,,"CORN, GRAIN",[acr_us],2
+Dry Nitrogen,ID,,"CORN, GRAIN",[lb_av],210
+Dry P2O5,ID,,"CORN, GRAIN",[lb_av],80
+K20,ID,,"CORN, GRAIN",[lb_av],100
+Sulfur,ID,,"CORN, GRAIN",[lb_av],30
+Counter 15G L-N-L,ID,,"CORN, GRAIN",[lb_av],8
+Ammonium Sulfate,ID,,"CORN, GRAIN",[lb_av],2
+Dry Nitrogen,ID,,"CORN, GRAIN",[lb_av],210
+Dry P2O5,ID,,"CORN, GRAIN",[lb_av],80
+K20,ID,,"CORN, GRAIN",[lb_av],100
+Sulfur,ID,,"CORN, GRAIN",[lb_av],30
+Counter 15G L-N-L,ID,,"CORN, GRAIN",[lb_av],8
+Ammonium Sulfate,ID,,"CORN, GRAIN",[lb_av],2
+Harvest for Grain,ID,,"CORN, GRAIN",[acr_us],1
+Water,ID,,"CORN, GRAIN",[acr_us],1
+Crop Insurance,ID,,"CORN, GRAIN",[acr_us],1
+Haul Local,ID,,"CORN, GRAIN",[bu_us],190
+Labor (Machine),ID,,"CORN, GRAIN",h,2.6
+Labor (non-machine),ID,,"CORN, GRAIN",h,4.25
+oes452091,ID,,"CORN, GRAIN",h,2.6
+oes452092,ID,,"CORN, GRAIN",h,4.25
+Fuel - Gas,ID,,"CORN, GRAIN",[gal_us],1.25
+Fuel - Diesel,ID,,"CORN, GRAIN",[gal_us],13

@@ -1,20 +1,20 @@
-budget_id,commodity,location,phase,material,unit,amount
-,32-0-0,CA,,,lb N,40
-,46-0-0,CA,,,lb N,50
-,80-0-0,CA,,,lb N,130
-,Puma 1EC,CA,,,floz,10.6
-,Shark EW,CA,,,oz,1.5
-,Wheat,CA,,,lb,130
-,Labor (Machine),CA,,,hr,0.82
-,Labor (non-machine),CA,,,hr,0.75
-,Fuel - Gas,CA,,,gal,0.6
-,Fuel - Diesel,CA,,,gal,4.83
-,Maintenance,CA,,,,1
-,Repair,CA,,,,1
-,Air Application,CA,,,,3
-,Combine Wheat,CA,,,,1
-,Pest Control Consultant,CA,,,,1
-,Wheat Assesment,CA,,,,86.8
-,Water,CA,,,acin,20
-,oes452091,CA,,,hr,0.82
-,oes452092,CA,,,hr,0.75
+material,location,phase,commodity,unit,amount
+Shark EW,CA,,"WHEAT, WINTER",oz,1.5
+Maintenance,CA,,"WHEAT, WINTER",,1
+Repair,CA,,"WHEAT, WINTER",,1
+Air Application,CA,,"WHEAT, WINTER",,3
+Combine Wheat,CA,,"WHEAT, WINTER",,1
+Pest Control Consultant,CA,,"WHEAT, WINTER",,1
+Wheat Assesment,CA,,"WHEAT, WINTER",,86.8
+32-0-0,CA,,"WHEAT, WINTER",[lb_av],40
+46-0-0,CA,,"WHEAT, WINTER",[lb_av],50
+80-0-0,CA,,"WHEAT, WINTER",[lb_av],130
+Water,CA,,"WHEAT, WINTER",[acr_us].[in_us],20
+Labor (Machine),CA,,"WHEAT, WINTER",h,0.82
+Labor (non-machine),CA,,"WHEAT, WINTER",h,0.75
+oes452091,CA,,"WHEAT, WINTER",h,0.82
+oes452092,CA,,"WHEAT, WINTER",h,0.75
+Puma 1EC,CA,,"WHEAT, WINTER",[foz_us],10.6
+Fuel - Gas,CA,,"WHEAT, WINTER",[gal_us],0.6
+Fuel - Diesel,CA,,"WHEAT, WINTER",[gal_us],4.83
+Wheat,CA,,"WHEAT, WINTER",[lb_av],130

@@ -1,0 +1,3 @@
+[submodule "ext/ucum.js"]
+	path = ext/ucum.js
+	url = https://github.com/jmandel/ucum.js

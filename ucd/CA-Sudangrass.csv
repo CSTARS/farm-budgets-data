@@ -1,20 +1,20 @@
-budget_id,commodity,location,phase,material,unit,amount
-,80-0-0,CA,,,lb N,140
-,Clarity,CA,,,pint,1
-,Prowl H20,CA,,,pint,3
-,Susan Seed,CA,,,lb,150
-,Labor (Machine),CA,,,hr,1.02
-,Labor (non-machine),CA,,,hr,0.5
-,Fuel - Gas,CA,,,gal,0.95
-,Fuel - Diesel,CA,,,gal,4.79
-,Lube,CA,,,,1
-,Repair,CA,,,,1
-,Plant,CA,,,acre,1
-,Injection-Sidedress,CA,,,acre,1
-,Swath,CA,,,acre,2
-,Rake,CA,,,acre,2
-,Bale,CA,,,bales,100
-,Roadside Bales,CA,,,bales,100
-,Water,CA,,,acin,28
-,oes452091,CA,,,hr,1.02
-,oes452092,CA,,,hr,0.5
+material,location,phase,commodity,unit,amount
+Fuel - Gas,CA,,SUDANGRASS,[gal_us],0.95
+Fuel - Diesel,CA,,SUDANGRASS,[gal_us],4.79
+Plant,CA,,SUDANGRASS,[acr_us],1
+Injection-Sidedress,CA,,SUDANGRASS,[acr_us],1
+Swath,CA,,SUDANGRASS,[acr_us],2
+Lube,CA,,SUDANGRASS,,1
+Repair,CA,,SUDANGRASS,,1
+80-0-0,CA,,SUDANGRASS,[lb_av],140
+Rake,CA,,SUDANGRASS,[acr_us],2
+Water,CA,,SUDANGRASS,[acr_us].[in_us],28
+Labor (Machine),CA,,SUDANGRASS,h,1.02
+Labor (non-machine),CA,,SUDANGRASS,h,0.5
+Clarity,CA,,SUDANGRASS,[pt_us],1
+Prowl H20,CA,,SUDANGRASS,[pt_us],3
+oes452091,CA,,SUDANGRASS,h,1.02
+oes452092,CA,,SUDANGRASS,h,0.5
+Bale,CA,,SUDANGRASS,bale,100
+Susan Seed,CA,,SUDANGRASS,[lb_av],150
+Roadside Bales,CA,,SUDANGRASS,bale,100

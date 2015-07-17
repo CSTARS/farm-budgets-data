@@ -1,14 +1,14 @@
-budget_id,commodity,location,phase,material,unit,amount
-,UN32,CA,,,lbN,90
-,Ridomil Gold EC,CA,,,floz,4
-,Rally 40 WSP,CA,,,oz,5
-,Karmex DF,CA,,,lb,2
-,Di-Syston,CA,,,pt,1
-,Lorsban 4E,CA,,,pt,2
-,Labor (Machine),CA,,,hr,19.4
-,Labor (non-machine),CA,,,hr,12.14
-,Fuel - Diesel,CA,,,gal,51.3
-,Packing,CA,,,crt,133
-,Additional Cost of harvest,CA,,,crt,133
-,oes452091,CA,,,hr,19.4
-,oes452092,CA,,,hr,12.14
+material,location,phase,commodity,unit,amount
+Rally 40 WSP,CA,,ASPARAGUS,oz,5
+UN32,CA,,ASPARAGUS,[lb_av],90
+Labor (Machine),CA,,ASPARAGUS,h,19.4
+Labor (non-machine),CA,,ASPARAGUS,h,12.14
+oes452091,CA,,ASPARAGUS,h,19.4
+oes452092,CA,,ASPARAGUS,h,12.14
+Packing,CA,,ASPARAGUS,[scwt_av],133
+Additional Cost of harvest,CA,,ASPARAGUS,[scwt_av],133
+Ridomil Gold EC,CA,,ASPARAGUS,[foz_us],4
+Fuel - Diesel,CA,,ASPARAGUS,[gal_us],51.3
+Karmex DF,CA,,ASPARAGUS,[lb_av],2
+Di-Syston,CA,,ASPARAGUS,[pt_us],1
+Lorsban 4E,CA,,ASPARAGUS,[pt_us],2

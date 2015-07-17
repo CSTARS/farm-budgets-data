@@ -1,15 +1,15 @@
-budget_id,commodity,location,phase,material,unit,amount
-,16-16-16,OR,,,lb,200
-,40-0-0-6,OR,,,lb,170
-,MCPA Amine,OR,,,gal,0.1875
-,Diomethate,OR,,,gal,0.0313
-,Mustang 1.5 EW,OR,,,gal,0.0313
-,Wheat,OR,,,lb,150
-,Labor (Machine),OR,,,hr,0.7442
-,Labor (non-machine),OR,,,hr,0.2106
-,Fuel - Diesel,OR,,,gal,11.0208
-,Maintenance and Repair,OR,,,,1
-,Wheat Assesment,OR,,,,75
-,Transport to PDX,OR,,,,75
-,oes452091,OR,,,hr,0.74
-,oes452092,OR,,,hr,0.21
+material,location,phase,commodity,unit,amount
+Maintenance and Repair,OR,,"WHEAT, SPRING",,1
+Wheat Assesment,OR,,"WHEAT, SPRING",,75
+Transport to PDX,OR,,"WHEAT, SPRING",,75
+Labor (Machine),OR,,"WHEAT, SPRING",h,0.7442
+Labor (non-machine),OR,,"WHEAT, SPRING",h,0.2106
+oes452091,OR,,"WHEAT, SPRING",h,0.74
+oes452092,OR,,"WHEAT, SPRING",h,0.21
+MCPA Amine,OR,,"WHEAT, SPRING",[gal_us],0.1875
+Diomethate,OR,,"WHEAT, SPRING",[gal_us],0.0313
+Mustang 1.5 EW,OR,,"WHEAT, SPRING",[gal_us],0.0313
+Fuel - Diesel,OR,,"WHEAT, SPRING",[gal_us],11.0208
+16-16-16,OR,,"WHEAT, SPRING",[lb_av],200
+40-0-0-6,OR,,"WHEAT, SPRING",[lb_av],170
+Wheat,OR,,"WHEAT, SPRING",[lb_av],150

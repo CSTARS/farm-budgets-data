@@ -1,16 +1,16 @@
-budget_id,commodity,location,phase,material,unit,amount
-,10-34-00,CA,,,lb,200
-,80-00-00,CA,,,lb N,180
-,Yukon,CA,,,oz,6
-,Prowl H20,CA,,,pint,3
-,Corn,CA,,,thou,33
-,Labor (Machine),CA,,,hrs,1.85
-,Labor (non-machine),CA,,,hrs,0.9
-,Fuel - Gas,CA,,,gal,0.6
-,Fuel - Diesel,CA,,,gal,10.98
-,Ground Application,CA,,,acre,1
-,Harvest,CA,,,ton,26
-,Plant,CA,,,acre,1
-,Water,CA,,,acin,44
-,oes452091,CA,,,hr,1.85
-,oes452092,CA,,,hr,0.9
+material,location,phase,commodity,unit,amount
+Yukon,CA,,"CORN, SILAGE",oz,6
+Corn,CA,,"CORN, SILAGE",thou,33
+80-00-00,CA,,"CORN, SILAGE",[lb_av],180
+Ground Application,CA,,"CORN, SILAGE",[acr_us],1
+Plant,CA,,"CORN, SILAGE",[acr_us],1
+Water,CA,,"CORN, SILAGE",[acr_us].[in_us],44
+oes452091,CA,,"CORN, SILAGE",h,1.85
+oes452092,CA,,"CORN, SILAGE",h,0.9
+Fuel - Gas,CA,,"CORN, SILAGE",[gal_us],0.6
+Fuel - Diesel,CA,,"CORN, SILAGE",[gal_us],10.98
+10-34-00,CA,,"CORN, SILAGE",[lb_av],200
+Labor (Machine),CA,,"CORN, SILAGE",h,1.85
+Labor (non-machine),CA,,"CORN, SILAGE",h,0.9
+Harvest,CA,,"CORN, SILAGE",[ston_av],26
+Prowl H20,CA,,"CORN, SILAGE",[pt_us],3

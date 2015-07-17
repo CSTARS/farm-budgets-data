@@ -1,15 +1,15 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Nitrogen,WA,,,lb,76
-,Phosphorous,WA,,,lb,10
-,Sulfur,WA,,,lb,10.5
-,"2,4-D",WA,,,oz,10
-,Maverick1,WA,,,oz,0.33
-,Discover,WA,,,oz,3.2
-,Wheat,WA,,,lb,70
-,Labor (Machine),WA,,,acre,0.6412
-,Fuel - Diesel,WA,,,gal,4.3828
-,Maintenance and Repair,WA,,,acre,1
-,Rental Sprayer,WA,,,acre,2
-,Rental Fertilizer Applicator,WA,,,acre,1
-,oes452091,WA,,,hr,0.64
-,oes452092,WA,,,hr,0
+material,location,phase,commodity,unit,amount
+"2,4-D",WA,,"WHEAT, SPRING",oz,10
+Maverick1,WA,,"WHEAT, SPRING",oz,0.33
+Discover,WA,,"WHEAT, SPRING",oz,3.2
+Labor (Machine),WA,,"WHEAT, SPRING",[acr_us],0.6412
+Maintenance and Repair,WA,,"WHEAT, SPRING",[acr_us],1
+Rental Sprayer,WA,,"WHEAT, SPRING",[acr_us],2
+Rental Fertilizer Applicator,WA,,"WHEAT, SPRING",[acr_us],1
+Nitrogen,WA,,"WHEAT, SPRING",[lb_av],76
+Phosphorous,WA,,"WHEAT, SPRING",[lb_av],10
+Sulfur,WA,,"WHEAT, SPRING",[lb_av],10.5
+Wheat,WA,,"WHEAT, SPRING",[lb_av],70
+oes452091,WA,,"WHEAT, SPRING",h,0.64
+oes452092,WA,,"WHEAT, SPRING",h,0
+Fuel - Diesel,WA,,"WHEAT, SPRING",[gal_us],4.3828

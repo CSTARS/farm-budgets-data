@@ -67,6 +67,10 @@ columns:=year commodity_desc statisticcat_desc county_code source_desc \
 
 jq.col:=$(subst ${space},${comma},$(patsubst %,.%,${columns}))
 
+INFO::
+	echo ${production.csv}
+	echo ${prices.csv}
+
 potatoes.json:
 	curl "${usda.get}&${usda.states}&${usda.stats}&commodity_desc=POTATOES&year__GE=2007" > $@
 
@@ -97,15 +101,28 @@ test:
 	  curl "${usda.get}&${usda.states}&commodity_desc=$$c&year__GE=2012" > $$c.json;\
 	done
 
+
 import:
 	${PG} -f 'sql/farm-budgets-data.sql';
 	for c in ${production.csv}; do\
-	 ${PG} -c "\COPY farm_budget_data.production (authority,material,location,phase,commodity,unit,amount) from $$c with csv header";\
+	 ${PG} -c "\COPY farm_budget_data.production (material,location,phase,commodity,unit,amount) from $$c with csv header";\
 	 f=`basename $$c .csv | sed -e 's/^...//'`;\
-	${PG} -c "update farm_budget_data.production set commodity=upper(trim( both from replace('$$f','_',' '))) where commodity is null";\
+	${PG} -c "update farm_budget_data.production set commodity=upper(trim( both from replace('$$f','_',' '))), filename='$$c' where commodity is null";\
+	${PG} -c "update farm_budget_data.production set filename='$$c' where filename is null";\
 	done;
 	for p in ${prices.csv}; do\
-	 ${PG} -c "\COPY farm_budget_data.price (material,location,year,authority,price,unit) from $$p with csv header";\
+	 ${PG} -c "\COPY farm_budget_data.price (material,location,year,price,unit) from $$p with csv header";\
+	${PG} -c "update farm_budget_data.price set filename='$$p' where filename is null";\
 	done;
+
+export:
+	${PG} -f 'sql/export.sql';
+	for f in `${PG} --pset=footer -A -t -c "select distinct filename from farm_budget_data.production"`; do\
+	 ${PG} -c "\COPY (select material,location,phase,commodity,unit,amount from farm_budget_data.production where filename='$$f' order by authority,phase,commodity) to $$f with csv header";\
+	done;
+	for f in `${PG} --pset=footer -A -t -c "select distinct filename from farm_budget_data.price"`; do\
+	 ${PG} -c "\COPY (select material,location,year,price,unit from farm_budget_data.price where filename='$$f' order by material,unit) to $$f with csv header";\
+	done;
+
 
 

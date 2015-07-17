@@ -1,9 +1,9 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Nitrogen (dry),ID,,,lb,90
-,Labor (Machine),ID,,,hr,2.78
-,Fuel - Diesel,ID,,,gal,6.73
-,Maintenance,ID,,,,1
-,Repair,ID,,,,1
-,Baling,ID,,,bales,100
-,oes452091,ID,,,hr,2.78
-,oes452092,ID,,,hr,0
+material,location,phase,commodity,unit,amount
+Labor (Machine),ID,,GRASS AND HAY,h,2.78
+Maintenance,ID,,GRASS AND HAY,,1
+Repair,ID,,GRASS AND HAY,,1
+oes452091,ID,,GRASS AND HAY,h,2.78
+oes452092,ID,,GRASS AND HAY,h,0
+Baling,ID,,GRASS AND HAY,bale,100
+Fuel - Diesel,ID,,GRASS AND HAY,[gal_us],6.73
+Nitrogen (dry),ID,,GRASS AND HAY,[lb_av],90

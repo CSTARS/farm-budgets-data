@@ -1,99 +1,99 @@
-material,location,year,authority,price,unit
-Management,WA,,UCD,50,
-Achieve SC,WA,,UCD,2,oz
-Starane+Sword,WA,,UCD,0.43,oz
-Barley Seed,WA,,UCD,0.12,lb
-Roundup,WA,,UCD,1.2,oz
-M90,WA,,UCD,0.01,oz
-Capture,WA,,UCD,10.17,acre
-Canola,WA,,UCD,6,lb
-Labor (Machine),WA,,UCD,20,acre
-Fuel,WA,,UCD,2,gal
-Dry Nitrogen,WA,,UCD,0.49,lb
-Dry Phosphate,WA,,UCD,1.17,lb
-Dry Potash,WA,,UCD,0.7,lb
-Dry Sulfur,WA,,UCD,0.38,lb
-Malathion,WA,,UCD,7.95,qt
-Sencor 4L,WA,,UCD,23.75,qt
-Fuel - Diesel,WA,,UCD,2,gal
-Maintenance,WA,,UCD,0.8,
-Ground Application,WA,,UCD,15,
-Swath Rake,WA,,UCD,27.5,
-Haul and Stack,WA,,UCD,9,ton
-Tarping,WA,,UCD,4,ton
-Tissue Analysis,WA,,UCD,0.3,
-Water,WA,,UCD,135,
-Crop Insurance,WA,,UCD,2,
-Gopher Control,WA,,UCD,6,
-Canola,WA,,UCD,0.15,lb
-Nitrogen (dry),WA,,UCD,0.55,lb
-Phosphorous (dry),WA,,UCD,1.17,lb
-Sulfur (dry),WA,,UCD,0.23,lb
-Ammonium Sulfate,WA,,UCD,0.02,oz
-Lubricants,WA,,UCD,2.24,acre
-Repair,WA,,UCD,10.61,acre
-Rental Sprayer,WA,,UCD,1.75,acre
-Custom Aerial Spray,WA,,UCD,6.5,acre
-Rental Ripper Shooter,WA,,UCD,2.5,acre
-Dry Nitrogen,WA,,UCD,0.49,lb
-Dry Phosphate,WA,,UCD,1.17,lb
-Dry Potash,WA,,UCD,0.7,lb
-Dry Sulfur,WA,,UCD,0.38,lb
-Malathion,WA,,UCD,7.95,qt
-Sencor 4L,WA,,UCD,23.75,qt
-Ground Application,WA,,UCD,15,
-Swath Rake,WA,,UCD,27.5,
-Haul and Stack,WA,,UCD,9,ton
-Tarping,WA,,UCD,4,ton
-Tissue Analysis,WA,,UCD,0.3,
-Water,WA,,UCD,135,
-Crop Insurance,WA,,UCD,2,
-Gopher Control,WA,,UCD,6,
-Management,WA,,UCD,50,
-Achieve SC,WA,,UCD,2,oz
-Starane+Sword,WA,,UCD,0.43,oz
-Barley Seed,WA,,UCD,0.12,lb
-Canola,WA,,UCD,0.15,lb
-Capture,WA,,UCD,10.17,acre
-Canola,WA,,UCD,6,lb
-Rental Ripper Shooter,WA,,UCD,2.5,acre
-Pursuit,WA,,UCD,4.15,oz
-Prowl,WA,,UCD,0.25,oz
-M90,WA,,UCD,0.01,oz
-Dimethoate,WA,,UCD,7,pt
-Lentil Seed,WA,,UCD,0.33,lb
-Fuel,WA,,UCD,2,gal
-Lubricants,WA,,UCD,3.96,acre
-Custom Aerial Spray,WA,,UCD,6.5,acre
-Nitrogen,WA,,UCD,0.55,lb
-Phosphorous,WA,,UCD,1.17,lb
-Sulfur,WA,,UCD,0.38,lb
-"2,4-D",WA,,UCD,0.16,oz
-Maverick1,WA,,UCD,18,oz
-Discover,WA,,UCD,1.05,oz
-Maintenance and Repair,WA,,UCD,1.66,acre
-Rental Sprayer,WA,,UCD,1.75,acre
-Rental Fertilizer Applicator,WA,,UCD,1,acre
-Phosphorous (dry),WA,,UCD,1.17,lb
-Sulfur (dry),WA,,UCD,0.23,lb
-Ammonium Sulfate,WA,,UCD,0.02,oz
-Brox M,WA,,UCD,0.3,oz
-Excel 90,WA,,UCD,0.2,oz
-Osprey,WA,,UCD,3.55,oz
-Roundup,WA,,UCD,0.39,oz
-Starane-Salvo,WA,,UCD,0.43,oz
-Labor (Machine),WA,,UCD,20,hr
-Maintenance,WA,,UCD,4.08,
-Repair,WA,,UCD,8.24,
-Sprayer,WA,,UCD,1.75,
-Riper Shooter,WA,,UCD,2.5,
-Stuble Shredder,WA,,UCD,10,
-Nitrogen (dry),WA,,UCD,0.57,lb
-Disyston,WA,,UCD,0.13,GAL
-Karmex,WA,,UCD,1.2,lb
-Sencor,WA,,UCD,0.63,lb
-Sevin XLR Plus,WA,,UCD,0.25,GAL
-Treflan FP,WA,,UCD,0.38,GAL
-Spot Spray Roundup,WA,,UCD,0.13,GAL
-Wheat,WA,,UCD,0.15,lb
-Fuel - Diesel,WA,,UCD,1.75,gal
+material,location,year,price,unit
+"2,4-D",WA,,0.16,oz
+Achieve SC,WA,,2,oz
+Achieve SC,WA,,2,oz
+Ammonium Sulfate,WA,,0.02,oz
+Ammonium Sulfate,WA,,0.02,oz
+Barley Seed,WA,,0.12,[lb_av]
+Barley Seed,WA,,0.12,[lb_av]
+Brox M,WA,,0.3,oz
+Canola,WA,,0.15,[lb_av]
+Canola,WA,,0.15,[lb_av]
+Canola,WA,,6,[lb_av]
+Canola,WA,,6,[lb_av]
+Capture,WA,,10.17,[acr_us]
+Capture,WA,,10.17,[acr_us]
+Crop Insurance,WA,,2,
+Crop Insurance,WA,,2,
+Custom Aerial Spray,WA,,6.5,[acr_us]
+Custom Aerial Spray,WA,,6.5,[acr_us]
+Dimethoate,WA,,7,[pt_us]
+Discover,WA,,1.05,oz
+Disyston,WA,,0.13,[gal_us]
+Dry Nitrogen,WA,,0.49,[lb_av]
+Dry Nitrogen,WA,,0.49,[lb_av]
+Dry Phosphate,WA,,1.17,[lb_av]
+Dry Phosphate,WA,,1.17,[lb_av]
+Dry Potash,WA,,0.7,[lb_av]
+Dry Potash,WA,,0.7,[lb_av]
+Dry Sulfur,WA,,0.38,[lb_av]
+Dry Sulfur,WA,,0.38,[lb_av]
+Excel 90,WA,,0.2,oz
+Fuel,WA,,2,[gal_us]
+Fuel,WA,,2,[gal_us]
+Fuel - Diesel,WA,,1.75,[gal_us]
+Fuel - Diesel,WA,,2,[gal_us]
+Gopher Control,WA,,6,
+Gopher Control,WA,,6,
+Ground Application,WA,,15,
+Ground Application,WA,,15,
+Haul and Stack,WA,,9,[ston_av]
+Haul and Stack,WA,,9,[ston_av]
+Karmex,WA,,1.2,[lb_av]
+Labor (Machine),WA,,20,[acr_us]
+Labor (Machine),WA,,20,h
+Lentil Seed,WA,,0.33,[lb_av]
+Lubricants,WA,,2.24,[acr_us]
+Lubricants,WA,,3.96,[acr_us]
+M90,WA,,0.01,oz
+M90,WA,,0.01,oz
+Maintenance,WA,,4.08,
+Maintenance,WA,,0.8,
+Maintenance and Repair,WA,,1.66,[acr_us]
+Malathion,WA,,7.95,[qt_us]
+Malathion,WA,,7.95,[qt_us]
+Management,WA,,50,
+Management,WA,,50,
+Maverick1,WA,,18,oz
+Nitrogen,WA,,0.55,[lb_av]
+Nitrogen (dry),WA,,0.55,[lb_av]
+Nitrogen (dry),WA,,0.57,[lb_av]
+Osprey,WA,,3.55,oz
+Phosphorous,WA,,1.17,[lb_av]
+Phosphorous (dry),WA,,1.17,[lb_av]
+Phosphorous (dry),WA,,1.17,[lb_av]
+Prowl,WA,,0.25,oz
+Pursuit,WA,,4.15,oz
+Rental Fertilizer Applicator,WA,,1,[acr_us]
+Rental Ripper Shooter,WA,,2.5,[acr_us]
+Rental Ripper Shooter,WA,,2.5,[acr_us]
+Rental Sprayer,WA,,1.75,[acr_us]
+Rental Sprayer,WA,,1.75,[acr_us]
+Repair,WA,,10.61,[acr_us]
+Repair,WA,,8.24,
+Riper Shooter,WA,,2.5,
+Roundup,WA,,1.2,oz
+Roundup,WA,,0.39,oz
+Sencor,WA,,0.63,[lb_av]
+Sencor 4L,WA,,23.75,[qt_us]
+Sencor 4L,WA,,23.75,[qt_us]
+Sevin XLR Plus,WA,,0.25,[gal_us]
+Spot Spray Roundup,WA,,0.13,[gal_us]
+Sprayer,WA,,1.75,
+Starane-Salvo,WA,,0.43,oz
+Starane+Sword,WA,,0.43,oz
+Starane+Sword,WA,,0.43,oz
+Stuble Shredder,WA,,10,
+Sulfur,WA,,0.38,[lb_av]
+Sulfur (dry),WA,,0.23,[lb_av]
+Sulfur (dry),WA,,0.23,[lb_av]
+Swath Rake,WA,,27.5,
+Swath Rake,WA,,27.5,
+Tarping,WA,,4,[ston_av]
+Tarping,WA,,4,[ston_av]
+Tissue Analysis,WA,,0.3,
+Tissue Analysis,WA,,0.3,
+Treflan FP,WA,,0.38,[gal_us]
+Water,WA,,135,
+Water,WA,,135,
+Wheat,WA,,0.15,[lb_av]

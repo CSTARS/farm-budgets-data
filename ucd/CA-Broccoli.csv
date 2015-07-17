@@ -1,17 +1,17 @@
-budget_id,commodity,location,phase,material,unit,amount
-,18-0-5-4,CA,,,lb,10
-,Dacthal,CA,,,lb,7
-,Goal Tender,CA,,,oz,16
-,Admire,CA,,,oz,10
-,Leverage,CA,,,oz,3
-,Synapse WG,CA,,,oz,2
-,LI 700,CA,,,oz,8
-,Quadris,CA,,,oz,14
-,Labor (Machine),CA,,,hr,4.56
-,Labor (non-machine),CA,,,hr,5
-,Fuel - Diesel,CA,,,gal,37
-,Planting,CA,,,thou,39
-,Postharvest and packaging,CA,,,box,582
-,Water,CA,,,acin,30
-,oes452091,CA,,,hr,4.56
-,oes452092,CA,,,hr,5
+material,location,phase,commodity,unit,amount
+18-0-5-4,CA,,BROCCOLI,[lb_av],10
+Goal Tender,CA,,BROCCOLI,oz,16
+Admire,CA,,BROCCOLI,oz,10
+Leverage,CA,,BROCCOLI,oz,3
+Synapse WG,CA,,BROCCOLI,oz,2
+LI 700,CA,,BROCCOLI,oz,8
+Quadris,CA,,BROCCOLI,oz,14
+Planting,CA,,BROCCOLI,thou,39
+Postharvest and packaging,CA,,BROCCOLI,box,582
+Labor (Machine),CA,,BROCCOLI,h,4.56
+Water,CA,,BROCCOLI,[acr_us].[in_us],30
+Labor (non-machine),CA,,BROCCOLI,h,5
+oes452091,CA,,BROCCOLI,h,4.56
+oes452092,CA,,BROCCOLI,h,5
+Fuel - Diesel,CA,,BROCCOLI,[gal_us],37
+Dacthal,CA,,BROCCOLI,[lb_av],7

@@ -1,35 +1,35 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Canola,ID,,,lb,1500
-,Nitrogen (dry),ID,,,lb,100
-,Phosphorous (dry),ID,,,lb,15
-,Sulfur (dry),ID,,,lb,15
-,Roundup,ID,,,oz,12
-,Ammonium Sulfate,ID,,,oz,50
-,M90,ID,,,oz,1.5
-,Capture,ID,,,acre,5
-,Canola,ID,,,lb,4
-,Labor (Machine),ID,,,acre,1.27
-,Fuel,ID,,,gal,7.69
-,Lubricants,ID,,,acre,1
-,Repair,ID,,,acre,1
-,Rental Sprayer,ID,,,acre,1
-,Custom Aerial Spray,ID,,,acre,1
-,Rental Ripper Shooter,ID,,,acre,1
-,Canola,ID,,,lb,1500
-,Nitrogen (dry),ID,,,lb,100
-,Phosphorous (dry),ID,,,lb,15
-,Sulfur (dry),ID,,,lb,15
-,Roundup,ID,,,oz,12
-,Ammonium Sulfate,ID,,,oz,50
-,M90,ID,,,oz,1.5
-,Capture,ID,,,acre,5
-,Canola,ID,,,lb,4
-,Labor (Machine),ID,,,acre,1.27
-,Fuel,ID,,,gal,7.69
-,Lubricants,ID,,,acre,1
-,Repair,ID,,,acre,1
-,Rental Sprayer,ID,,,acre,1
-,Custom Aerial Spray,ID,,,acre,1
-,Rental Ripper Shooter,ID,,,acre,1
-,oes452091,ID,,,hr,1.27
-,oes452092,ID,,,hr,0
+material,location,phase,commodity,unit,amount
+Capture,ID,,CANOLA,[acr_us],5
+Labor (Machine),ID,,CANOLA,[acr_us],1.27
+Lubricants,ID,,CANOLA,[acr_us],1
+Repair,ID,,CANOLA,[acr_us],1
+Rental Sprayer,ID,,CANOLA,[acr_us],1
+Custom Aerial Spray,ID,,CANOLA,[acr_us],1
+Roundup,ID,,CANOLA,oz,12
+Ammonium Sulfate,ID,,CANOLA,oz,50
+M90,ID,,CANOLA,oz,1.5
+Roundup,ID,,CANOLA,oz,12
+Ammonium Sulfate,ID,,CANOLA,oz,50
+M90,ID,,CANOLA,oz,1.5
+Rental Ripper Shooter,ID,,CANOLA,[acr_us],1
+Repair,ID,,CANOLA,[acr_us],1
+Canola,ID,,CANOLA,[lb_av],1500
+Nitrogen (dry),ID,,CANOLA,[lb_av],100
+Phosphorous (dry),ID,,CANOLA,[lb_av],15
+Sulfur (dry),ID,,CANOLA,[lb_av],15
+Canola,ID,,CANOLA,[lb_av],4
+Canola,ID,,CANOLA,[lb_av],1500
+Nitrogen (dry),ID,,CANOLA,[lb_av],100
+Phosphorous (dry),ID,,CANOLA,[lb_av],15
+Sulfur (dry),ID,,CANOLA,[lb_av],15
+Canola,ID,,CANOLA,[lb_av],4
+Capture,ID,,CANOLA,[acr_us],5
+Labor (Machine),ID,,CANOLA,[acr_us],1.27
+Lubricants,ID,,CANOLA,[acr_us],1
+Rental Sprayer,ID,,CANOLA,[acr_us],1
+Custom Aerial Spray,ID,,CANOLA,[acr_us],1
+Rental Ripper Shooter,ID,,CANOLA,[acr_us],1
+oes452091,ID,,CANOLA,h,1.27
+oes452092,ID,,CANOLA,h,0
+Fuel,ID,,CANOLA,[gal_us],7.69
+Fuel,ID,,CANOLA,[gal_us],7.69

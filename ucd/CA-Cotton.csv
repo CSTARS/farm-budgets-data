@@ -1,25 +1,25 @@
-budget_id,commodity,location,phase,material,unit,amount
-,Alcala,CA,,,lb,16
-,UN32,CA,,,lbN,180
-,13-0-45,CA,,,lb,10
-,Orthene,CA,,,oz,3.25
-,Zephyr,CA,,,floz,8
-,Carbine 50WG,CA,,,oz,2.5
-,Leverage,CA,,,floz,5
-,Assail 70WP,CA,,,oz,1.1
-,Finish 6 Pro,CA,,,pint,2
-,Ginstar,CA,,,floz,10
-,Defol 5,CA,,,gal,1
-,Roundup Ultra Max,CA,,,floz,32
-,Triflurex HFP,CA,,,pt,1.5
-,Staple,CA,,,floz,0.38
-,Shark EW,CA,,,floz,1.5
-,Mepex Gin Our,CA,,,floz,2
-,Labor (Machine),CA,,,hr,4.73
-,Labor (non-machine),CA,,,hr,6.8
-,Fuel - Diesel,CA,,,gal,34.43
-,Air Application,CA,,,acre,6
-,Cotton Assesment,CA,,,bale,3.25
-,Water,CA,,,acin,30
-,oes452091,CA,,,hr,4.73
-,oes452092,CA,,,hr,6.8
+material,location,phase,commodity,unit,amount
+UN32,CA,,COTTON,[lb_av],180
+Orthene,CA,,COTTON,oz,3.25
+Carbine 50WG,CA,,COTTON,oz,2.5
+Assail 70WP,CA,,COTTON,oz,1.1
+Cotton Assesment,CA,,COTTON,bale,3.25
+Air Application,CA,,COTTON,[acr_us],6
+Water,CA,,COTTON,[acr_us].[in_us],30
+Labor (Machine),CA,,COTTON,h,4.73
+Labor (non-machine),CA,,COTTON,h,6.8
+oes452091,CA,,COTTON,h,4.73
+oes452092,CA,,COTTON,h,6.8
+Zephyr,CA,,COTTON,[foz_us],8
+Leverage,CA,,COTTON,[foz_us],5
+Ginstar,CA,,COTTON,[foz_us],10
+Roundup Ultra Max,CA,,COTTON,[foz_us],32
+Staple,CA,,COTTON,[foz_us],0.38
+Shark EW,CA,,COTTON,[foz_us],1.5
+Mepex Gin Our,CA,,COTTON,[foz_us],2
+Defol 5,CA,,COTTON,[gal_us],1
+Finish 6 Pro,CA,,COTTON,[pt_us],2
+Fuel - Diesel,CA,,COTTON,[gal_us],34.43
+Alcala,CA,,COTTON,[lb_av],16
+13-0-45,CA,,COTTON,[lb_av],10
+Triflurex HFP,CA,,COTTON,[pt_us],1.5
