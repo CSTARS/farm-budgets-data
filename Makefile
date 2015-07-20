@@ -10,6 +10,9 @@ PG.service:=farm-budgets-data
 PG:=psql service=${PG.service} --variable=cwd=${path}
 
 # This key is not included, you need to get one yourself, the
+# JM - Looks like you can get a key from here: http://quickstats.nass.usda.gov/api
+#    file should look like:
+#    usda.key:=[your key here]
 include usda.key
 
 info:
@@ -107,5 +110,3 @@ import:
 	for p in ${prices.csv}; do\
 	 ${PG} -c "\COPY farm_budget_data.price (material,location,year,authority,price,unit) from $$p with csv header";\
 	done;
-
-

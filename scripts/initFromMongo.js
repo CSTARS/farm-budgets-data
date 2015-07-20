@@ -106,7 +106,7 @@ function addLabor() {
         if( crop == 'Sugarbeets' ) crop = 'Sugar Beets';
         if( crop == 'Fescue Seet' ) crop = 'Fescue Seed';
 
-        if( !data[state] ) data[state] = { amounts : {}};
+        if( !data[state] ) data[state] = { amounts : {} };
         if( !data[state].amounts[crop] ) data[state].amounts[crop] = {default : []};
 
         data[state].amounts[crop].default.push(['', 'oes452091', fips[state][2], '', '', 'hr', row[3]])
