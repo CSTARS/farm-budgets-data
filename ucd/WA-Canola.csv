@@ -1,10 +1,4 @@
 material,location,phase,commodity,unit,amount
-Roundup,WA,,CANOLA,oz,10
-Ammonium Sulfate,WA,,CANOLA,oz,50
-M90,WA,,CANOLA,oz,1.5
-Roundup,WA,,CANOLA,oz,10
-Ammonium Sulfate,WA,,CANOLA,oz,50
-M90,WA,,CANOLA,oz,1.5
 Capture,WA,,CANOLA,[acr_us],1
 Labor (Machine),WA,,CANOLA,[acr_us],0.99
 Lubricants,WA,,CANOLA,[acr_us],1
@@ -33,3 +27,9 @@ oes452091,WA,,CANOLA,h,0.99
 oes452092,WA,,CANOLA,h,0
 Fuel,WA,,CANOLA,[gal_us],9.01
 Fuel,WA,,CANOLA,[gal_us],9.01
+Ammonium Sulfate,WA,,CANOLA,[oz_av],50
+Ammonium Sulfate,WA,,CANOLA,[oz_av],50
+M90,WA,,CANOLA,[oz_av],1.5
+M90,WA,,CANOLA,[oz_av],1.5
+Roundup,WA,,CANOLA,[foz_us],10
+Roundup,WA,,CANOLA,[foz_us],10

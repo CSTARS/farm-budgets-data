@@ -11,19 +11,19 @@ material,location,year,price,unit
 80-00-00,CA,,0.45,[lb_av]
 80-00-00,CA,,0.45,[lb_av]
 Additional Cost of harvest,CA,,9.28,[scwt_av]
-Admire,CA,,3.37,oz
+Admire,CA,,3.37,[foz_us]
 Air Application,CA,,10,[acr_us]
 Air Application,CA,,10.97,
 Alcala,CA,,3,[lb_av]
 Application,CA,,10.97,
-Assail 70WP,CA,,16.82,oz
+Assail 70WP,CA,,16.82,[oz_av]
 Bale,CA,,1.2,bale
 Baling,CA,,1.2,bale
 Bee Hives,CA,,165,hive
 Bee Hives,CA,,165,hive
 Broadcast Fertilizer,CA,,9.47,
 Broadcast Fertilizer,CA,,9.47,
-Carbine 50WG,CA,,6.87,oz
+Carbine 50WG,CA,,6.87,[oz_av]
 Clarity,CA,,18.98,[pt_us]
 Combine Wheat,CA,,25.92,
 Cool and Pack,CA,,0.95,[lb_av]
@@ -42,7 +42,7 @@ Fuel - Diesel,CA,,3.43,[gal_us]
 Fuel - Gas,CA,,3.36,[gal_us]
 Fuel - Gas,CA,,3.36,[gal_us]
 Ginstar,CA,,2.74,[foz_us]
-Goal Tender,CA,,2.04,oz
+Goal Tender,CA,,2.04,[foz_us]
 Ground Application,CA,,9.97,[acr_us]
 Ground Application,CA,,9.97,[acr_us]
 Harvest,CA,,9,[ston_av]
@@ -57,14 +57,14 @@ Injection-Sidedress NH3,CA,,14,
 Karmex,CA,,5.42,[lb_av]
 Karmex,CA,,5.42,[lb_av]
 Karmex DF,CA,,5.42,[lb_av]
-Labor (Machine),CA,,13.94,h
 Labor (Machine),CA,,14.39,h
-Labor (non-machine),CA,,10.26,h
+Labor (Machine),CA,,13.94,h
 Labor (non-machine),CA,,11.65,h
+Labor (non-machine),CA,,10.26,h
 Lannate 90 SP,CA,,19.94,[lb_av]
 Lannate 90 SP,CA,,19.94,[lb_av]
-Leverage,CA,,3.88,oz
-LI 700,CA,,35.5,oz
+Leverage,CA,,3.88,[foz_us]
+LI 700,CA,,35.5,[foz_us]
 Lorban 15G,CA,,0.19,oz
 Lorban 15G,CA,,0.19,oz
 Lorsban 15G,CA,,0.19,oz

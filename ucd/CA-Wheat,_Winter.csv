@@ -1,5 +1,4 @@
 material,location,phase,commodity,unit,amount
-Shark EW,CA,,"WHEAT, WINTER",oz,1.5
 Maintenance,CA,,"WHEAT, WINTER",,1
 Repair,CA,,"WHEAT, WINTER",,1
 Air Application,CA,,"WHEAT, WINTER",,3
@@ -18,3 +17,4 @@ Puma 1EC,CA,,"WHEAT, WINTER",[foz_us],10.6
 Fuel - Gas,CA,,"WHEAT, WINTER",[gal_us],0.6
 Fuel - Diesel,CA,,"WHEAT, WINTER",[gal_us],4.83
 Wheat,CA,,"WHEAT, WINTER",[lb_av],130
+Shark EW,CA,,"WHEAT, WINTER",[foz_us],1.5

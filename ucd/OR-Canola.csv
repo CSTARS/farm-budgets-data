@@ -14,20 +14,20 @@ Commision Assess,OR,,CANOLA,[scwt_av],25.5
 Seed Test,OR,,CANOLA,[scwt_av],25.5
 Transport,OR,,CANOLA,[scwt_av],42.5
 Commision Assess,OR,,CANOLA,[scwt_av],25.5
-M90,OR,,CANOLA,oz,1.5
 Labor (Machine),OR,,CANOLA,h,0.95
 Labor (non-machine),OR,,CANOLA,h,0.25
 oes452091,OR,,CANOLA,h,0.95
 oes452092,OR,,CANOLA,h,25
-Assure II,OR,,CANOLA,oz,10
-Ammonium Sulfate,OR,,CANOLA,oz,50
-M90,OR,,CANOLA,oz,1.5
-Assure II,OR,,CANOLA,oz,10
 Seed Test,OR,,CANOLA,[scwt_av],25.5
 Fuel,OR,,CANOLA,[gal_us],9
 Fuel,OR,,CANOLA,[gal_us],9
-Ammonium Sulfate,OR,,CANOLA,oz,50
 Capture,OR,,CANOLA,[acr_us],1
 Capture,OR,,CANOLA,[acr_us],1
 Labor (Machine),OR,,CANOLA,h,0.95
 Canola,OR,,CANOLA,[lb_av],4
+Assure II,OR,,CANOLA,[foz_us],10
+Assure II,OR,,CANOLA,[foz_us],10
+Ammonium Sulfate,OR,,CANOLA,[oz_av],50
+Ammonium Sulfate,OR,,CANOLA,[oz_av],50
+M90,OR,,CANOLA,[oz_av],1.5
+M90,OR,,CANOLA,[oz_av],1.5

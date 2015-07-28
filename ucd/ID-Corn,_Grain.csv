@@ -1,4 +1,6 @@
 material,location,phase,commodity,unit,amount
+Roundup Original Max,ID,,"CORN, GRAIN",[foz_us],40
+Roundup Original Max,ID,,"CORN, GRAIN",[foz_us],40
 Micro-Tech,ID,,"CORN, GRAIN",[qt_us],2
 Micro-Tech,ID,,"CORN, GRAIN",[qt_us],2
 Harvest,ID,,"CORN, GRAIN",[ston_av],30
@@ -7,12 +9,10 @@ Fuel - Diesel,ID,,"CORN, GRAIN",[gal_us],13
 Lube,ID,,"CORN, GRAIN",[acr_us],1
 Repair,ID,,"CORN, GRAIN",[acr_us],1
 Ground Application,ID,,"CORN, GRAIN",[acr_us],2
-Roundup Original Max,ID,,"CORN, GRAIN",oz,40
 Corn,ID,,"CORN, GRAIN",bag,0.45
 Haul Local,ID,,"CORN, GRAIN",[bu_us],190
 Labor (Machine),ID,,"CORN, GRAIN",h,2.6
 Labor (non-machine),ID,,"CORN, GRAIN",h,4.25
-Roundup Original Max,ID,,"CORN, GRAIN",oz,40
 Corn,ID,,"CORN, GRAIN",bag,0.45
 Harvest for Grain,ID,,"CORN, GRAIN",[acr_us],1
 Water,ID,,"CORN, GRAIN",[acr_us],1

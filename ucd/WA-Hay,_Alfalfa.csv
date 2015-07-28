@@ -2,13 +2,13 @@ material,location,phase,commodity,unit,amount
 Malathion,WA,,"HAY, ALFALFA",[qt_us],0.5
 Sencor 4L,WA,,"HAY, ALFALFA",[qt_us],0.5
 Rental Sprayer,WA,,"HAY, ALFALFA",[acr_us],2
-Roundup,WA,,"HAY, ALFALFA",oz,18
-Ammonium Sulfate,WA,,"HAY, ALFALFA",oz,50
-M90,WA,,"HAY, ALFALFA",oz,3
-Achieve SC,WA,,"HAY, ALFALFA",oz,9.2
-Starane+Sword,WA,,"HAY, ALFALFA",oz,22
+Achieve SC,WA,,"HAY, ALFALFA",[foz_us],9.2
+Ammonium Sulfate,WA,,"HAY, ALFALFA",[oz_av],50
 Fuel,WA,,"HAY, ALFALFA",[gal_us],8.18
 Fuel - Diesel,WA,,"HAY, ALFALFA",[gal_us],2.28
+M90,WA,,"HAY, ALFALFA",[oz_av],3
+Roundup,WA,,"HAY, ALFALFA",[foz_us],18
+Starane+Sword,WA,,"HAY, ALFALFA",[foz_us],22
 Maintenance,WA,,"HAY, ALFALFA",,1
 Ground Application,WA,,"HAY, ALFALFA",,1
 Swath Rake,WA,,"HAY, ALFALFA",,4

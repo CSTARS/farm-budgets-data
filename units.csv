@@ -1,21 +1,21 @@
 unit,description
-[acr_us],
-[acr_us].[in_us],
-bag,""
-bale,""
-box,""
-[bu_us],
-each,""
-[foz_us],
-[gal_us],
-h,hour
-hive,""
-[lb_av],
-oz,""
-[oz_av],
-[pt_us],
-[qt_us],
-[scwt_av],
-[ston_av],
-thou,""
-unit,""
+[acr_us],Acre
+[acr_us].[in_us],Acre Inch
+bag,Bag
+bale,Bale
+box,Box
+[bu_us],Bushel
+each,Each
+[foz_us],Fluid Oz
+[gal_us],Gallon
+h,Hour
+hive,Bee hive
+[lb_av],Pound
+oz,Remove
+[oz_av],Ounce
+[pt_us],Pint
+[qt_us],Quart
+[scwt_av],U.S. Hundredweight
+[ston_av],U.S. Ton
+thou,Thousand
+unit,Unit

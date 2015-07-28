@@ -1,10 +1,7 @@
 material,location,phase,commodity,unit,amount
-Ammonium Sulfate,WA,,"WHEAT, WINTER",oz,50
-Brox M,WA,,"WHEAT, WINTER",oz,1.6
-Excel 90,WA,,"WHEAT, WINTER",oz,3.2
-Osprey,WA,,"WHEAT, WINTER",oz,4.75
-Roundup,WA,,"WHEAT, WINTER",oz,18
-Starane-Salvo,WA,,"WHEAT, WINTER",oz,22
+Osprey,WA,,"WHEAT, WINTER",[foz_us],4.75
+Roundup,WA,,"WHEAT, WINTER",[foz_us],18
+Starane+Salvo,WA,,"WHEAT, WINTER",[foz_us],22
 Maintenance,WA,,"WHEAT, WINTER",,1
 Repair,WA,,"WHEAT, WINTER",,1
 Sprayer,WA,,"WHEAT, WINTER",,2
@@ -18,3 +15,6 @@ Nitrogen (dry),WA,,"WHEAT, WINTER",[lb_av],90
 Phosphorous (dry),WA,,"WHEAT, WINTER",[lb_av],30
 Sulfur (dry),WA,,"WHEAT, WINTER",[lb_av],15
 Wheat,WA,,"WHEAT, WINTER",[lb_av],90
+Brox M,WA,,"WHEAT, WINTER",[foz_us],1.6
+Excel 90,WA,,"WHEAT, WINTER",[foz_us],3.2
+Ammonium Sulfate,WA,,"WHEAT, WINTER",[oz_av],50

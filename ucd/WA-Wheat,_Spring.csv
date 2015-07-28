@@ -1,7 +1,4 @@
 material,location,phase,commodity,unit,amount
-"2,4-D",WA,,"WHEAT, SPRING",oz,10
-Maverick1,WA,,"WHEAT, SPRING",oz,0.33
-Discover,WA,,"WHEAT, SPRING",oz,3.2
 Labor (Machine),WA,,"WHEAT, SPRING",[acr_us],0.6412
 Maintenance and Repair,WA,,"WHEAT, SPRING",[acr_us],1
 Rental Sprayer,WA,,"WHEAT, SPRING",[acr_us],2
@@ -13,3 +10,6 @@ Wheat,WA,,"WHEAT, SPRING",[lb_av],70
 oes452091,WA,,"WHEAT, SPRING",h,0.64
 oes452092,WA,,"WHEAT, SPRING",h,0
 Fuel - Diesel,WA,,"WHEAT, SPRING",[gal_us],4.3828
+"2,4-D",WA,,"WHEAT, SPRING",[foz_us],10
+Discover,WA,,"WHEAT, SPRING",[foz_us],3.2
+Maverick,WA,,"WHEAT, SPRING",[foz_us],0.33

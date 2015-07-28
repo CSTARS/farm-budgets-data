@@ -14,10 +14,8 @@ Crop Insurance,ID,,SUGARBEETS,[acr_us],1
 Eptam 7EC,ID,,SUGARBEETS,[pt_us],3.7
 Treflan 4HFP,ID,,SUGARBEETS,[pt_us],1
 Poncho Beta Seed Treatment,ID,,SUGARBEETS,unit,0.44
-Roundup Original Max,ID,,SUGARBEETS,oz,54
 Sugarbeet,ID,,SUGARBEETS,[ston_av],36
-Headline,ID,,SUGARBEETS,oz,9
-Gen 25WG,ID,,SUGARBEETS,oz,6.5
+Headline,ID,,SUGARBEETS,[foz_us],9
 Sugarbeet,ID,,SUGARBEETS,unit,0.44
 Lubricants,ID,,SUGARBEETS,[acr_us],1
 Repair,ID,,SUGARBEETS,[acr_us],1
@@ -29,3 +27,5 @@ Labor (non-machine),ID,,SUGARBEETS,h,6.9
 oes452091,ID,,SUGARBEETS,h,8.25
 oes452092,ID,,SUGARBEETS,h,6.9
 Telone II,ID,,SUGARBEETS,[gal_us],20
+Gen 25WG,ID,,SUGARBEETS,[foz_us],6.5
+Roundup Original Max,ID,,SUGARBEETS,[foz_us],54

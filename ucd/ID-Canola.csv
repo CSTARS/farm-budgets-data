@@ -1,16 +1,16 @@
 material,location,phase,commodity,unit,amount
+M90,ID,,CANOLA,[oz_av],1.5
+M90,ID,,CANOLA,[oz_av],1.5
+Roundup,ID,,CANOLA,[foz_us],12
+Roundup,ID,,CANOLA,[foz_us],12
+Ammonium Sulfate,ID,,CANOLA,[oz_av],50
+Ammonium Sulfate,ID,,CANOLA,[oz_av],50
 Capture,ID,,CANOLA,[acr_us],5
 Labor (Machine),ID,,CANOLA,[acr_us],1.27
 Lubricants,ID,,CANOLA,[acr_us],1
 Repair,ID,,CANOLA,[acr_us],1
 Rental Sprayer,ID,,CANOLA,[acr_us],1
 Custom Aerial Spray,ID,,CANOLA,[acr_us],1
-Roundup,ID,,CANOLA,oz,12
-Ammonium Sulfate,ID,,CANOLA,oz,50
-M90,ID,,CANOLA,oz,1.5
-Roundup,ID,,CANOLA,oz,12
-Ammonium Sulfate,ID,,CANOLA,oz,50
-M90,ID,,CANOLA,oz,1.5
 Rental Ripper Shooter,ID,,CANOLA,[acr_us],1
 Repair,ID,,CANOLA,[acr_us],1
 Canola,ID,,CANOLA,[lb_av],1500

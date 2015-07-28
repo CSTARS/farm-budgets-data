@@ -1,10 +1,4 @@
 material,location,phase,commodity,unit,amount
-Axiom OZ,OR,,"WHEAT, WINTER",oz,10
-Harmony Extra,OR,,"WHEAT, WINTER",oz,0.3
-Osprey,OR,,"WHEAT, WINTER",oz,3.2
-Stratego,OR,,"WHEAT, WINTER",oz,10
-Mustang 1.5 EW,OR,,"WHEAT, WINTER",[gal_us],0.0313
-Maintenance,OR,,"WHEAT, WINTER",,1
 Wheat Assesment,OR,,"WHEAT, WINTER",,56
 Transport to PDX,OR,,"WHEAT, WINTER",,56
 Labor (Machine),OR,,"WHEAT, WINTER",h,0.9039
@@ -13,6 +7,12 @@ oes452091,OR,,"WHEAT, WINTER",h,0.9
 oes452092,OR,,"WHEAT, WINTER",h,0.21
 Fuel - Diesel,OR,,"WHEAT, WINTER",[gal_us],12.6081
 16-20-0-14,OR,,"WHEAT, WINTER",[lb_av],100
+Harmony Extra,OR,,"WHEAT, WINTER",[oz_av],0.3
 33-0-0-12,OR,,"WHEAT, WINTER",[lb_av],110
 Slug Bait,OR,,"WHEAT, WINTER",[lb_av],5
 Wheat,OR,,"WHEAT, WINTER",[lb_av],100
+Stratego,OR,,"WHEAT, WINTER",[foz_us],10
+Mustang 1.5 EW,OR,,"WHEAT, WINTER",[gal_us],0.0313
+Axiom OZ,OR,,"WHEAT, WINTER",[foz_us],10
+Maintenance,OR,,"WHEAT, WINTER",,1
+Osprey,OR,,"WHEAT, WINTER",[foz_us],3.2

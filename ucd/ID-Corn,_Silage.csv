@@ -1,7 +1,6 @@
 material,location,phase,commodity,unit,amount
 Micro-Tech,ID,,"CORN, SILAGE",[qt_us],2
 Harvest,ID,,"CORN, SILAGE",[ston_av],30
-Roundup Original Max,ID,,"CORN, SILAGE",oz,40
 Corn,ID,,"CORN, SILAGE",bag,0.48
 Lube,ID,,"CORN, SILAGE",[acr_us],1
 Repair,ID,,"CORN, SILAGE",[acr_us],1
@@ -19,3 +18,4 @@ K20,ID,,"CORN, SILAGE",[lb_av],100
 Sulfur,ID,,"CORN, SILAGE",[lb_av],30
 Counter 15G L-N-L,ID,,"CORN, SILAGE",[lb_av],8
 Ammonium Sulfate,ID,,"CORN, SILAGE",[lb_av],2
+Roundup Original Max,ID,,"CORN, SILAGE",[foz_us],40

@@ -1,4 +1,10 @@
 material,location,phase,commodity,unit,amount
+Outlook 6EC,ID,,POTATOES,[foz_us],20
+Quadris,ID,,POTATOES,[foz_us],8
+Admire Pro,ID,,POTATOES,[foz_us],8
+Endura (2x),ID,,POTATOES,[foz_us],11
+Headline,ID,,POTATOES,[foz_us],6
+Leverage 2.7,ID,,POTATOES,[foz_us],3.75
 Dry Nitrogen - Preplant,ID,,POTATOES,[lb_av],180
 Dry P2O5,ID,,POTATOES,[lb_av],220
 K2O,ID,,POTATOES,[lb_av],205
@@ -23,13 +29,7 @@ Metam Sodium,ID,,POTATOES,[gal_us],40
 Fuel - Gas,ID,,POTATOES,[gal_us],2.8
 Fuel - Diesel,ID,,POTATOES,[gal_us],28.8
 Lubricants,ID,,POTATOES,[acr_us],1
-Admire Pro,ID,,POTATOES,oz,8
-Quadris,ID,,POTATOES,oz,8
 Micronutrients,ID,,POTATOES,[acr_us],2
-Outlook 6EC,ID,,POTATOES,oz,20
-Endura (2x),ID,,POTATOES,oz,11
-Headline,ID,,POTATOES,oz,6
-Leverage 2.7,ID,,POTATOES,oz,3.75
 Repair,ID,,POTATOES,[acr_us],1
 Labor (other),ID,,POTATOES,h,2.7
 oes452091,ID,,POTATOES,h,6.3

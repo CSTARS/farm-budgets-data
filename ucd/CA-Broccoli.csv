@@ -1,11 +1,5 @@
 material,location,phase,commodity,unit,amount
 18-0-5-4,CA,,BROCCOLI,[lb_av],10
-Goal Tender,CA,,BROCCOLI,oz,16
-Admire,CA,,BROCCOLI,oz,10
-Leverage,CA,,BROCCOLI,oz,3
-Synapse WG,CA,,BROCCOLI,oz,2
-LI 700,CA,,BROCCOLI,oz,8
-Quadris,CA,,BROCCOLI,oz,14
 Planting,CA,,BROCCOLI,thou,39
 Postharvest and packaging,CA,,BROCCOLI,box,582
 Labor (Machine),CA,,BROCCOLI,h,4.56
@@ -15,3 +9,9 @@ oes452091,CA,,BROCCOLI,h,4.56
 oes452092,CA,,BROCCOLI,h,5
 Fuel - Diesel,CA,,BROCCOLI,[gal_us],37
 Dacthal,CA,,BROCCOLI,[lb_av],7
+Admire,CA,,BROCCOLI,[foz_us],10
+Goal Tender,CA,,BROCCOLI,[foz_us],16
+Leverage,CA,,BROCCOLI,[foz_us],3
+LI 700,CA,,BROCCOLI,[foz_us],8
+Quadris,CA,,BROCCOLI,[foz_us],14
+Synapse WG,CA,,BROCCOLI,[oz_av],2

@@ -44,7 +44,9 @@ location varchar(12),
 phase phase_t,
 material text,
 unit varchar(64) references unit,
-amount float);
+amount float,
+foreign key (material, unit) references material (material,unit)
+);
 
 create table price (
 price_id serial primary key,
@@ -81,16 +83,35 @@ insert into farm_budget_data.unit (unit) values ($2);
 select replace_unit($1,$2);
 $$ LANGUAGE SQL;
 
-
-create or replace function replace_material(old varchar(64),new varchar(64)) 
+create or replace function replace_material_unit(material varchar(64),old varchar(64), new varchar(64)) 
 RETURNS varchar(64)
 AS $$
-insert into farm_budget_data.change (type,old,new) values ('material',$1,$2);
-update farm_budget_data.production set unit=$2 where unit=$1;
-update farm_budget_data.operation set unit=$2 where unit=$1;
-update farm_budget_data.material set unit=$2 where unit=$1;
-update farm_budget_data.price set unit=$2 where unit=$1;
-delete from unit where unit=$1;
-select $2;
+update farm_budget_data.production set unit=$3 where material=$1 and unit=$2;
+update farm_budget_data.price set unit=$3 where material=$1 and unit=$2;
+delete from material where material=$1 and unit=$2;
+select $1;
+$$ LANGUAGE SQL;
+
+create or replace function add_replace_material_unit(material varchar(64),old varchar(64), new varchar(64)) 
+RETURNS varchar(64)
+AS $$
+insert into farm_budget_data.material select material,$3,class,description from farm_budget_data.material where material=$1 and unit=$2;
+select replace_material_unit($1,$2,$3);
+$$ LANGUAGE SQL;
+
+create or replace function replace_material(old varchar(64),unit varchar(64),new varchar(64)) 
+RETURNS varchar(64)
+AS $$
+update farm_budget_data.production set material=$3 where material=$1 and unit=$2;
+update farm_budget_data.price set material=$3 where material=$1 and unit=$2;
+delete from farm_budget_data.material where material=$1 and unit=$2;
+select $3;
+$$ LANGUAGE SQL;
+
+create or replace function add_replace_material(old varchar(64),unit varchar(64), new varchar(64)) 
+RETURNS varchar(64)
+AS $$
+insert into farm_budget_data.material select $3,unit,class,description from farm_budget_data.material where material=$1 and unit=$2;
+select replace_material($1,$2,$3);
 $$ LANGUAGE SQL;
 

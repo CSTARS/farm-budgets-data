@@ -1,4 +1,8 @@
 material,location,phase,commodity,unit,amount
+Yukon,CA,,"CORN, GRAIN",[oz_av],6
+Yukon,CA,,"CORN, GRAIN",[oz_av],6
+Lorsban 15G,CA,,"CORN, GRAIN",[oz_av],2
+Lorsban 15G,CA,,"CORN, GRAIN",[oz_av],2
 Labor (Machine),CA,,"CORN, GRAIN",h,3.36
 Labor (non-machine),CA,,"CORN, GRAIN",h,1.95
 Harvest for Grain,CA,,"CORN, GRAIN",[ston_av],5
@@ -13,11 +17,7 @@ Water,CA,,"CORN, GRAIN",[acr_us].[in_us],44
 Ground Application,CA,,"CORN, GRAIN",[acr_us],1
 Plant,CA,,"CORN, GRAIN",[acr_us],1
 Ground Application,CA,,"CORN, GRAIN",[acr_us],1
-Yukon,CA,,"CORN, GRAIN",oz,6
-Lorban 15G,CA,,"CORN, GRAIN",oz,2
 Corn,CA,,"CORN, GRAIN",thou,33
-Yukon,CA,,"CORN, GRAIN",oz,6
-Lorban 15G,CA,,"CORN, GRAIN",oz,2
 Prowl H20,CA,,"CORN, GRAIN",[pt_us],3
 Prowl H20,CA,,"CORN, GRAIN",[pt_us],3
 Corn,CA,,"CORN, GRAIN",thou,33

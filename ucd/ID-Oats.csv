@@ -1,5 +1,4 @@
 material,location,phase,commodity,unit,amount
-Roundup,ID,,OATS,oz,24
 Maintenance and Repair,ID,,OATS,,1
 Labor (Machine),ID,,OATS,[acr_us],1.22
 Rental Sprayer,ID,,OATS,[acr_us],2
@@ -8,3 +7,4 @@ oes452092,ID,,OATS,h,0
 Fuel - Diesel,ID,,OATS,[gal_us],7.02
 Nitrogen (dry),ID,,OATS,[lb_av],55
 Sulfur (dry),ID,,OATS,[lb_av],10
+Roundup,ID,,OATS,[foz_us],24

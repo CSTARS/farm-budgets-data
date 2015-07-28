@@ -1,6 +1,4 @@
 material,location,phase,commodity,unit,amount
-Yukon,CA,,SORGHUM,oz,6
-Lorsban 15G,CA,,SORGHUM,oz,2
 Lube,CA,,SORGHUM,,1
 Repair,CA,,SORGHUM,,1
 Plant,CA,,SORGHUM,,1
@@ -18,3 +16,5 @@ Fuel - Diesel,CA,,SORGHUM,[gal_us],7.52
 Sorghum,CA,,SORGHUM,[lb_av],10
 Prowl H20,CA,,SORGHUM,[pt_us],3
 Lorsban 4E,CA,,SORGHUM,[pt_us],1
+Lorsban 15G,CA,,SORGHUM,[oz_av],2
+Yukon,CA,,SORGHUM,[oz_av],6

@@ -1,15 +1,15 @@
 material,location,phase,commodity,unit,amount
+Roundup Original Max,OR,,"CORN, GRAIN",[foz_us],40
+Roundup Original Max,OR,,"CORN, GRAIN",[foz_us],40
 Micro-Tech,OR,,"CORN, GRAIN",[qt_us],2
 Micro-Tech,OR,,"CORN, GRAIN",[qt_us],2
 Labor (Machine),OR,,"CORN, GRAIN",h,2.6
 Labor (non-machine),OR,,"CORN, GRAIN",h,4.25
-Roundup Original Max,OR,,"CORN, GRAIN",oz,40
 Corn,OR,,"CORN, GRAIN",bag,0.65
 Counter 15G L-N-L,OR,,"CORN, GRAIN",[lb_av],8
 Ammonium Sulfate,OR,,"CORN, GRAIN",[lb_av],2
 Fuel - Diesel,OR,,"CORN, GRAIN",[gal_us],13
 Fuel - Diesel,OR,,"CORN, GRAIN",[gal_us],13
-Roundup Original Max,OR,,"CORN, GRAIN",oz,40
 Corn,OR,,"CORN, GRAIN",bag,0.65
 Labor (Machine),OR,,"CORN, GRAIN",h,2.6
 Labor (non-machine),OR,,"CORN, GRAIN",h,4.25

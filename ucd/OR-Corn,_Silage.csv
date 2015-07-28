@@ -1,5 +1,4 @@
 material,location,phase,commodity,unit,amount
-Roundup Original Max,OR,,"CORN, SILAGE",oz,40
 Corn,OR,,"CORN, SILAGE",bag,0.48
 Lube,OR,,"CORN, SILAGE",[acr_us],1
 Repair,OR,,"CORN, SILAGE",[acr_us],1
@@ -17,3 +16,4 @@ K20,OR,,"CORN, SILAGE",[lb_av],100
 Sulfur,OR,,"CORN, SILAGE",[lb_av],30
 Counter 15G L-N-L,OR,,"CORN, SILAGE",[lb_av],8
 Ammonium Sulfate,OR,,"CORN, SILAGE",[lb_av],2
+Roundup Original Max,OR,,"CORN, SILAGE",[foz_us],40

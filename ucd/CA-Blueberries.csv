@@ -1,10 +1,9 @@
 material,location,phase,commodity,unit,amount
+Pristine,CA,,BLUEBERRIES,[foz_us],40
 Sulfuric Acid,CA,,BLUEBERRIES,[lb_av],1232
-Pristine,CA,,BLUEBERRIES,oz,40
 Bee Hives,CA,,BLUEBERRIES,hive,2
 Mulch,CA,,BLUEBERRIES,[lb_av],10
 UN32,CA,,BLUEBERRIES,[lb_av],100
-Pristine,CA,,BLUEBERRIES,oz,40
 Bee Hives,CA,,BLUEBERRIES,hive,2
 Sulfuric Acid,CA,,BLUEBERRIES,[lb_av],1232
 Water,CA,,BLUEBERRIES,[acr_us],360
@@ -28,4 +27,5 @@ UN32,CA,,BLUEBERRIES,[lb_av],100
 Pick Berries,CA,,BLUEBERRIES,h,1000
 Surflan AS,CA,,BLUEBERRIES,[pt_us],4
 Surflan AS,CA,,BLUEBERRIES,[pt_us],4
+Pristine,CA,,BLUEBERRIES,[foz_us],40
 Pick Berries,CA,,BLUEBERRIES,h,1000

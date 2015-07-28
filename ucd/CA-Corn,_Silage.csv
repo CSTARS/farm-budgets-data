@@ -1,5 +1,4 @@
 material,location,phase,commodity,unit,amount
-Yukon,CA,,"CORN, SILAGE",oz,6
 Corn,CA,,"CORN, SILAGE",thou,33
 80-00-00,CA,,"CORN, SILAGE",[lb_av],180
 Ground Application,CA,,"CORN, SILAGE",[acr_us],1
@@ -14,3 +13,4 @@ Labor (Machine),CA,,"CORN, SILAGE",h,1.85
 Labor (non-machine),CA,,"CORN, SILAGE",h,0.9
 Harvest,CA,,"CORN, SILAGE",[ston_av],26
 Prowl H20,CA,,"CORN, SILAGE",[pt_us],3
+Yukon,CA,,"CORN, SILAGE",[oz_av],6

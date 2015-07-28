@@ -1,5 +1,4 @@
 material,location,phase,commodity,unit,amount
-Rally 40 WSP,CA,,ASPARAGUS,oz,5
 UN32,CA,,ASPARAGUS,[lb_av],90
 Labor (Machine),CA,,ASPARAGUS,h,19.4
 Labor (non-machine),CA,,ASPARAGUS,h,12.14
@@ -12,3 +11,4 @@ Fuel - Diesel,CA,,ASPARAGUS,[gal_us],51.3
 Karmex DF,CA,,ASPARAGUS,[lb_av],2
 Di-Syston,CA,,ASPARAGUS,[pt_us],1
 Lorsban 4E,CA,,ASPARAGUS,[pt_us],2
+Rally 40 WSP,CA,,ASPARAGUS,[oz_av],5

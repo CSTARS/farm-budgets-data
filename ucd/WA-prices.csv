@@ -1,16 +1,16 @@
 material,location,year,price,unit
-"2,4-D",WA,,0.16,oz
-Achieve SC,WA,,2,oz
-Achieve SC,WA,,2,oz
-Ammonium Sulfate,WA,,0.02,oz
-Ammonium Sulfate,WA,,0.02,oz
+"2,4-D",WA,,0.16,[foz_us]
+Achieve SC,WA,,2,[foz_us]
+Achieve SC,WA,,2,[foz_us]
+Ammonium Sulfate,WA,,0.02,[oz_av]
+Ammonium Sulfate,WA,,0.02,[oz_av]
 Barley Seed,WA,,0.12,[lb_av]
 Barley Seed,WA,,0.12,[lb_av]
-Brox M,WA,,0.3,oz
-Canola,WA,,0.15,[lb_av]
+Brox M,WA,,0.3,[foz_us]
+Canola,WA,,6,[lb_av]
 Canola,WA,,0.15,[lb_av]
 Canola,WA,,6,[lb_av]
-Canola,WA,,6,[lb_av]
+Canola,WA,,0.15,[lb_av]
 Capture,WA,,10.17,[acr_us]
 Capture,WA,,10.17,[acr_us]
 Crop Insurance,WA,,2,
@@ -18,7 +18,7 @@ Crop Insurance,WA,,2,
 Custom Aerial Spray,WA,,6.5,[acr_us]
 Custom Aerial Spray,WA,,6.5,[acr_us]
 Dimethoate,WA,,7,[pt_us]
-Discover,WA,,1.05,oz
+Discover,WA,,1.05,[foz_us]
 Disyston,WA,,0.13,[gal_us]
 Dry Nitrogen,WA,,0.49,[lb_av]
 Dry Nitrogen,WA,,0.49,[lb_av]
@@ -28,7 +28,7 @@ Dry Potash,WA,,0.7,[lb_av]
 Dry Potash,WA,,0.7,[lb_av]
 Dry Sulfur,WA,,0.38,[lb_av]
 Dry Sulfur,WA,,0.38,[lb_av]
-Excel 90,WA,,0.2,oz
+Excel 90,WA,,0.2,[foz_us]
 Fuel,WA,,2,[gal_us]
 Fuel,WA,,2,[gal_us]
 Fuel - Diesel,WA,,1.75,[gal_us]
@@ -43,12 +43,12 @@ Karmex,WA,,1.2,[lb_av]
 Labor (Machine),WA,,20,[acr_us]
 Labor (Machine),WA,,20,h
 Lentil Seed,WA,,0.33,[lb_av]
-Lubricants,WA,,2.24,[acr_us]
 Lubricants,WA,,3.96,[acr_us]
+Lubricants,WA,,2.24,[acr_us]
 M90,WA,,0.01,oz
 M90,WA,,0.01,oz
-Maintenance,WA,,4.08,
 Maintenance,WA,,0.8,
+Maintenance,WA,,4.08,
 Maintenance and Repair,WA,,1.66,[acr_us]
 Malathion,WA,,7.95,[qt_us]
 Malathion,WA,,7.95,[qt_us]
@@ -72,8 +72,8 @@ Rental Sprayer,WA,,1.75,[acr_us]
 Repair,WA,,10.61,[acr_us]
 Repair,WA,,8.24,
 Riper Shooter,WA,,2.5,
-Roundup,WA,,1.2,oz
 Roundup,WA,,0.39,oz
+Roundup,WA,,1.2,oz
 Sencor,WA,,0.63,[lb_av]
 Sencor 4L,WA,,23.75,[qt_us]
 Sencor 4L,WA,,23.75,[qt_us]
