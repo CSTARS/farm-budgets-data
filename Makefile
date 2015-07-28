@@ -10,6 +10,9 @@ PG.service:=farm-budgets-data
 PG:=psql service=${PG.service} --variable=cwd=${path}
 
 # This key is not included, you need to get one yourself, the
+# JM - Looks like you can get a key from here: http://quickstats.nass.usda.gov/api
+#    file should look like:
+#    usda.key:=[your key here]
 include usda.key
 
 info:
@@ -123,6 +126,3 @@ export:
 	for f in `${PG} --pset=footer -A -t -c "select distinct filename from farm_budget_data.price"`; do\
 	 ${PG} -c "\COPY (select material,location,year,price,unit from farm_budget_data.price where filename='$$f' order by material,unit) to $$f with csv header";\
 	done;
-
-
-
