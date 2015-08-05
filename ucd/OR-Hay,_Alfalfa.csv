@@ -1,19 +1,11 @@
-material,location,phase,commodity,unit,amount
-11-52-0,OR,,"HAY, ALFALFA",,39.99
-Dry Sulfur,OR,,"HAY, ALFALFA",,0.03
-Rodent Control,OR,,"HAY, ALFALFA",,1
-Insecticide,OR,,"HAY, ALFALFA",,1
-Weed Control,OR,,"HAY, ALFALFA",,0.75
-Labor (Machine),OR,,"HAY, ALFALFA",,5.04
-Labor (non-machine),OR,,"HAY, ALFALFA",,5.7695
-Haul and Stack,OR,,"HAY, ALFALFA",,4.5
-11-52-0,OR,,"HAY, ALFALFA",,39.99
-Dry Sulfur,OR,,"HAY, ALFALFA",,0.03
-Rodent Control,OR,,"HAY, ALFALFA",,1
-Insecticide,OR,,"HAY, ALFALFA",,1
-Weed Control,OR,,"HAY, ALFALFA",,0.75
-Labor (Machine),OR,,"HAY, ALFALFA",,5.04
-Labor (non-machine),OR,,"HAY, ALFALFA",,5.7695
-Haul and Stack,OR,,"HAY, ALFALFA",,4.5
-oes452091,OR,,"HAY, ALFALFA",h,5.04
-oes452092,OR,,"HAY, ALFALFA",h,5.77
+material,location,phase,operation,commodity,unit,amount
+11-52-0,OR,,,"HAY, ALFALFA",,39.99
+Dry Sulfur,OR,,,"HAY, ALFALFA",,0.03
+Haul and Stack,OR,,,"HAY, ALFALFA",,4.5
+Insecticide,OR,,,"HAY, ALFALFA",,1
+Labor (Machine),OR,,,"HAY, ALFALFA",,5.04
+Labor (non-machine),OR,,,"HAY, ALFALFA",,5.7695
+oes452091,OR,,,"HAY, ALFALFA",h,5.04
+oes452092,OR,,,"HAY, ALFALFA",h,5.77
+Rodent Control,OR,,,"HAY, ALFALFA",,1
+Weed Control,OR,,,"HAY, ALFALFA",,0.75

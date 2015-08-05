@@ -1,52 +1,35 @@
-material,location,phase,commodity,unit,amount
-Malathion,WA,,"HAY, ALFALFA",[qt_us],0.5
-Sencor 4L,WA,,"HAY, ALFALFA",[qt_us],0.5
-Rental Sprayer,WA,,"HAY, ALFALFA",[acr_us],2
-Achieve SC,WA,,"HAY, ALFALFA",[foz_us],9.2
-Ammonium Sulfate,WA,,"HAY, ALFALFA",[oz_av],50
-Fuel,WA,,"HAY, ALFALFA",[gal_us],8.18
-Fuel - Diesel,WA,,"HAY, ALFALFA",[gal_us],2.28
-M90,WA,,"HAY, ALFALFA",[oz_av],3
-Roundup,WA,,"HAY, ALFALFA",[foz_us],18
-Starane+Sword,WA,,"HAY, ALFALFA",[foz_us],22
-Maintenance,WA,,"HAY, ALFALFA",,1
-Ground Application,WA,,"HAY, ALFALFA",,1
-Swath Rake,WA,,"HAY, ALFALFA",,4
-Labor (Machine),WA,,"HAY, ALFALFA",[acr_us],0.97
-Lubricants,WA,,"HAY, ALFALFA",[acr_us],1
-Phosphorous (dry),WA,,"HAY, ALFALFA",[lb_av],12
-Sulfur (dry),WA,,"HAY, ALFALFA",[lb_av],15
-Barley Seed,WA,,"HAY, ALFALFA",[lb_av],80
-Dry Nitrogen,WA,,"HAY, ALFALFA",[lb_av],20
-Dry Phosphate,WA,,"HAY, ALFALFA",[lb_av],100
-Dry Potash,WA,,"HAY, ALFALFA",[lb_av],75
-Dry Sulfur,WA,,"HAY, ALFALFA",[lb_av],10
-Repair,WA,,"HAY, ALFALFA",[acr_us],1
-Tissue Analysis,WA,,"HAY, ALFALFA",,1
-Water,WA,,"HAY, ALFALFA",,1
-Crop Insurance,WA,,"HAY, ALFALFA",,4.9
-Gopher Control,WA,,"HAY, ALFALFA",,1
-Management,WA,,"HAY, ALFALFA",,1
-Maintenance,WA,,"HAY, ALFALFA",,1
-Repair,WA,,"HAY, ALFALFA",,1
-Ground Application,WA,,"HAY, ALFALFA",,1
-Swath Rake,WA,,"HAY, ALFALFA",,4
-Tissue Analysis,WA,,"HAY, ALFALFA",,1
-Water,WA,,"HAY, ALFALFA",,1
-Crop Insurance,WA,,"HAY, ALFALFA",,4.9
-Gopher Control,WA,,"HAY, ALFALFA",,1
-Management,WA,,"HAY, ALFALFA",,1
-oes452091,WA,,"HAY, ALFALFA",h,0
-oes452092,WA,,"HAY, ALFALFA",h,0
-Fuel - Diesel,WA,,"HAY, ALFALFA",[gal_us],2.28
-Malathion,WA,,"HAY, ALFALFA",[qt_us],0.5
-Sencor 4L,WA,,"HAY, ALFALFA",[qt_us],0.5
-Haul and Stack,WA,,"HAY, ALFALFA",[ston_av],4.9
-Tarping,WA,,"HAY, ALFALFA",[ston_av],4.9
-Haul and Stack,WA,,"HAY, ALFALFA",[ston_av],4.9
-Tarping,WA,,"HAY, ALFALFA",[ston_av],4.9
-Nitrogen (dry),WA,,"HAY, ALFALFA",[lb_av],60
-Dry Nitrogen,WA,,"HAY, ALFALFA",[lb_av],20
-Dry Phosphate,WA,,"HAY, ALFALFA",[lb_av],100
-Dry Potash,WA,,"HAY, ALFALFA",[lb_av],75
-Dry Sulfur,WA,,"HAY, ALFALFA",[lb_av],10
+material,location,phase,operation,commodity,unit,amount
+Achieve SC,WA,,Pest Control,"HAY, ALFALFA",[foz_us],9.2
+Ammonium Sulfate,WA,,Pest Control,"HAY, ALFALFA",[oz_av],50
+Barley Seed,WA,,,"HAY, ALFALFA",[lb_av],80
+Crop Insurance,WA,,,"HAY, ALFALFA",,4.9
+Dry Nitrogen,WA,,,"HAY, ALFALFA",[lb_av],20
+Dry Phosphate,WA,,,"HAY, ALFALFA",[lb_av],100
+Dry Potash,WA,,,"HAY, ALFALFA",[lb_av],75
+Dry Sulfur,WA,,,"HAY, ALFALFA",[lb_av],10
+Fuel,WA,,,"HAY, ALFALFA",[gal_us],8.18
+Fuel - Diesel,WA,,,"HAY, ALFALFA",[gal_us],2.28
+Gopher Control,WA,,,"HAY, ALFALFA",,1
+Ground Application,WA,,,"HAY, ALFALFA",,1
+Haul and Stack,WA,,,"HAY, ALFALFA",[ston_av],4.9
+Labor (Machine),WA,,,"HAY, ALFALFA",[acr_us],0.97
+Lubricants,WA,,,"HAY, ALFALFA",[acr_us],1
+M90,WA,,Pest Control,"HAY, ALFALFA",[oz_av],3
+Maintenance,WA,,,"HAY, ALFALFA",,1
+Malathion,WA,,Pest Control,"HAY, ALFALFA",[qt_us],0.5
+Management,WA,,,"HAY, ALFALFA",,1
+Nitrogen (dry),WA,,,"HAY, ALFALFA",[lb_av],60
+oes452091,WA,,,"HAY, ALFALFA",h,0
+oes452092,WA,,,"HAY, ALFALFA",h,0
+Phosphorous (dry),WA,,,"HAY, ALFALFA",[lb_av],12
+Rental Sprayer,WA,,,"HAY, ALFALFA",[acr_us],2
+Repair,WA,,,"HAY, ALFALFA",[acr_us],1
+Repair,WA,,,"HAY, ALFALFA",,1
+Roundup,WA,,Pest Control,"HAY, ALFALFA",[foz_us],18
+Sencor 4L,WA,,Pest Control,"HAY, ALFALFA",[qt_us],0.5
+Starane+Sword,WA,,Pest Control,"HAY, ALFALFA",[foz_us],22
+Sulfur (dry),WA,,,"HAY, ALFALFA",[lb_av],15
+Swath Rake,WA,,,"HAY, ALFALFA",,4
+Tarping,WA,,,"HAY, ALFALFA",[ston_av],4.9
+Tissue Analysis,WA,,,"HAY, ALFALFA",,1
+Water,WA,,,"HAY, ALFALFA",,1

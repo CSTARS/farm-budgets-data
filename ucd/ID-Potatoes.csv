@@ -1,38 +1,38 @@
-material,location,phase,commodity,unit,amount
-Outlook 6EC,ID,,POTATOES,[foz_us],20
-Quadris,ID,,POTATOES,[foz_us],8
-Admire Pro,ID,,POTATOES,[foz_us],8
-Endura (2x),ID,,POTATOES,[foz_us],11
-Headline,ID,,POTATOES,[foz_us],6
-Leverage 2.7,ID,,POTATOES,[foz_us],3.75
-Dry Nitrogen - Preplant,ID,,POTATOES,[lb_av],180
-Dry P2O5,ID,,POTATOES,[lb_av],220
-K2O,ID,,POTATOES,[lb_av],205
-Sulfur,ID,,POTATOES,[lb_av],80
-Liquid Nitrogen,ID,,POTATOES,[lb_av],150
-Liquid P2O5,ID,,POTATOES,[lb_av],40
-Sencor 75DF,ID,,POTATOES,[lb_av],0.75
-Custom Fertilize,ID,,POTATOES,[acr_us],2
-Water Assesment,ID,,POTATOES,[acr_us],1
-Consultant,ID,,POTATOES,[acr_us],1
-Custom Air Spray,ID,,POTATOES,[acr_us],3
-Fumigation,ID,,POTATOES,[acr_us],1
-Storage Repairs,ID,,POTATOES,[acr_us],1
-Irrigation,ID,,POTATOES,[acr_us].[in_us],28
-Labor (Machine),ID,,POTATOES,h,6.3
-Labor (Irrigation),ID,,POTATOES,h,2.16
-Prowl 3.3EC,ID,,POTATOES,[qt_us],1
-Dithane F45 Rainshield,ID,,POTATOES,[qt_us],1.6
-Reglone,ID,,POTATOES,[qt_us],1
-Potato Seed,ID,,POTATOES,[scwt_av],23
-Metam Sodium,ID,,POTATOES,[gal_us],40
-Fuel - Gas,ID,,POTATOES,[gal_us],2.8
-Fuel - Diesel,ID,,POTATOES,[gal_us],28.8
-Lubricants,ID,,POTATOES,[acr_us],1
-Micronutrients,ID,,POTATOES,[acr_us],2
-Repair,ID,,POTATOES,[acr_us],1
-Labor (other),ID,,POTATOES,h,2.7
-oes452091,ID,,POTATOES,h,6.3
-oes452092,ID,,POTATOES,h,4.86
-Fees Assesment,ID,,POTATOES,[scwt_av],442
-Storage Operating Costs,ID,,POTATOES,[scwt_av],465
+material,location,phase,operation,commodity,unit,amount
+Admire Pro,ID,,Pest Control,POTATOES,[foz_us],8
+Consultant,ID,,,POTATOES,[acr_us],1
+Custom Air Spray,ID,,,POTATOES,[acr_us],3
+Custom Fertilize,ID,,,POTATOES,[acr_us],2
+Dithane F45 Rainshield,ID,,Pest Control,POTATOES,[qt_us],1.6
+Dry Nitrogen - Preplant,ID,,,POTATOES,[lb_av],180
+Dry P2O5,ID,,,POTATOES,[lb_av],220
+Endura (2x),ID,,Pest Control,POTATOES,[foz_us],11
+Fees Assesment,ID,,,POTATOES,[scwt_av],442
+Fuel - Diesel,ID,,,POTATOES,[gal_us],28.8
+Fuel - Gas,ID,,,POTATOES,[gal_us],2.8
+Fumigation,ID,,,POTATOES,[acr_us],1
+Headline,ID,,Pest Control,POTATOES,[foz_us],6
+Irrigation,ID,,,POTATOES,[acr_us].[in_us],28
+K2O,ID,,,POTATOES,[lb_av],205
+Labor (Irrigation),ID,,,POTATOES,h,2.16
+Labor (Machine),ID,,,POTATOES,h,6.3
+Labor (other),ID,,,POTATOES,h,2.7
+Leverage 2.7,ID,,Pest Control,POTATOES,[foz_us],3.75
+Liquid Nitrogen,ID,,,POTATOES,[lb_av],150
+Liquid P2O5,ID,,,POTATOES,[lb_av],40
+Lubricants,ID,,,POTATOES,[acr_us],1
+Metam Sodium,ID,,Pest Control,POTATOES,[gal_us],40
+Micronutrients,ID,,,POTATOES,[acr_us],2
+oes452091,ID,,,POTATOES,h,6.3
+oes452092,ID,,,POTATOES,h,4.86
+Outlook 6EC,ID,,Pest Control,POTATOES,[foz_us],20
+Potato Seed,ID,,,POTATOES,[scwt_av],23
+Prowl 3.3EC,ID,,Pest Control,POTATOES,[qt_us],1
+Quadris,ID,,Pest Control,POTATOES,[foz_us],8
+Reglone,ID,,Pest Control,POTATOES,[qt_us],1
+Repair,ID,,,POTATOES,[acr_us],1
+Sencor 75DF,ID,,Pest Control,POTATOES,[lb_av],0.75
+Storage Operating Costs,ID,,,POTATOES,[scwt_av],465
+Storage Repairs,ID,,,POTATOES,[acr_us],1
+Sulfur,ID,,,POTATOES,[lb_av],80
+Water Assesment,ID,,,POTATOES,[acr_us],1

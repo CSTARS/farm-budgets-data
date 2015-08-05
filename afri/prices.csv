@@ -1,0 +1,41 @@
+material,location,year,price,unit
+3-Wheel Ag Sprayer,US,2015,50.00,us$/h
+Challenger tractor,US,2015,90.00,us$/h
+Cooler/van,US,2015,1.20,us$/h
+Eliminator,US,2015,155.00,us$/h
+FR 6080 FH,US,2015,180.00,us$/h
+Large tractor,US,2015,70.00,us$/h
+Mid-size tractor,US,2015,45.00,us$/h
+Semi-tractor trailer,US,2015,55.00,us$/h
+Small tractor,US,2015,30.00,us$/h
+Support Truck,US,2015,25.00,us$/h
+Tandem axle truck,US,2015,25.00,us$/h
+Tractor and sprayer,US,2015,50.00,us$/h
+3-Wheel ag sprayer,US,2015,30.00,us$/h
+Challenger tractor,US,2015,35.00,us$/h
+Cooler/van,US,2015,0.71,us$/h
+FR 6080 FH,US,2015,30.00,us$/h
+Laborer,US,2015,17.00,us$/h
+Large tractor,US,2015,35.00,us$/h
+Mid-size tractor,US,2015,22.00,us$/h
+Semi-tractor trailer,US,2015,28.00,us$/h
+Small tractor,US,2015,22.00,us$/h
+Supervisor,US,2015,26.00,us$/h
+Support Truck,US,2015,30.00,us$/h
+Tandem axle truck,US,2015,26.00,us$/h
+Tractor and Sprayer,US,2015,30.00,us$/h
+Equipment Fuel,US,2015,2.81,us$/[gal_us]
+"2,4-D",US,2015,5.00,us$/[qt_us]
+Coragen,US,2015,210.00,us$/[qt_us]
+Dimilin,"for leaf caterpillar, "
+Fusilade,US,2015,30.00,us$/[qt_us]
+Glyphosate,US,2015,4.00,us$/[qt_us]
+Goal 2XL,US,2015,30.00,us$/[qt_us]
+Imidacloprid,US,2015,56.00,us$/[qt_us]
+Oust,US,2015,64.00,us$/[lb_av]
+Rozol,US,2015,1.85,us$/[lb_av]
+Sureguard,US,2015,130.00,us$/[lb_av]
+Transline,$215 per gallon a 4oz per acre
+Trifluralin,US,2015,7.50,us$/[qt_us]
+Poplar Cutting,US,2015,0.08,us$/each
+Irrigation Cost,US,2015,6.00,us$/[acr_us].[in_us]

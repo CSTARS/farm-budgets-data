@@ -43,7 +43,8 @@ ${nass.csv}:nass/%.csv:${nass-summary}
 
 
 production.csv:=$(wildcard ucd/??-[A-Z]*.csv)
-prices.csv:=$(wildcard ucd/??-prices.csv)
+prices.csv:=prices.csv $(wildcard ucd/??-prices.csv)
+yields.csv:=$(wildcard ucd/??-yields.csv)
 
 commodities:=HAY HAY+%26+HAYLAGE HAYLAGE GRASSES\
 BARLEY BEANS CANOLA CORN LENTILS OATS POTATOES WHEAT SUGARBEETS
@@ -104,11 +105,10 @@ test:
 	  curl "${usda.get}&${usda.states}&commodity_desc=$$c&year__GE=2012" > $$c.json;\
 	done
 
-
 import:
 	${PG} -f 'sql/farm-budgets-data.sql';
 	for c in ${production.csv}; do\
-	 ${PG} -c "\COPY farm_budget_data.production (material,location,phase,commodity,unit,amount) from $$c with csv header";\
+	 ${PG} -c "\COPY farm_budget_data.production (material,location,phase,operation,commodity,unit,amount) from $$c with csv header";\
 	 f=`basename $$c .csv | sed -e 's/^...//'`;\
 	${PG} -c "update farm_budget_data.production set commodity=upper(trim( both from replace('$$f','_',' '))), filename='$$c' where commodity is null";\
 	${PG} -c "update farm_budget_data.production set filename='$$c' where filename is null";\
@@ -117,12 +117,20 @@ import:
 	 ${PG} -c "\COPY farm_budget_data.price (material,location,year,price,unit) from $$p with csv header";\
 	${PG} -c "update farm_budget_data.price set filename='$$p' where filename is null";\
 	done;
+	for p in ${yields.csv}; do\
+	 ${PG} -c "\COPY farm_budget_data.yield (commodity,location,unit,value) from $$p with csv header";\
+	 ${PG} -c "update farm_budget_data.yield set filename='$$p' where filename is null";\
+	done;
+
 
 export:
 	${PG} -f 'sql/export.sql';
 	for f in `${PG} --pset=footer -A -t -c "select distinct filename from farm_budget_data.production"`; do\
-	 ${PG} -c "\COPY (select material,location,phase,commodity,unit,amount from farm_budget_data.production where filename='$$f' order by authority,phase,commodity) to $$f with csv header";\
+	 ${PG} -c "\COPY (select distinct material,location,phase,operation,commodity,unit,amount from farm_budget_data.production where filename='$$f' order by phase,material,operation,commodity) to $$f with csv header";\
 	done;
 	for f in `${PG} --pset=footer -A -t -c "select distinct filename from farm_budget_data.price"`; do\
 	 ${PG} -c "\COPY (select material,location,year,price,unit from farm_budget_data.price where filename='$$f' order by material,unit) to $$f with csv header";\
+	done;
+	for f in `${PG} --pset=footer -A -t -c "select distinct filename from farm_budget_data.yield"`; do\
+	 ${PG} -c "\COPY (select commodity,location,unit,value from farm_budget_data.yield where filename='$$f' order by location,commodity,unit) to $$f with csv header";\
 	done;

@@ -1,15 +1,15 @@
-material,location,phase,commodity,unit,amount
-Maintenance and Repair,OR,,"WHEAT, SPRING",,1
-Wheat Assesment,OR,,"WHEAT, SPRING",,75
-Transport to PDX,OR,,"WHEAT, SPRING",,75
-Labor (Machine),OR,,"WHEAT, SPRING",h,0.7442
-Labor (non-machine),OR,,"WHEAT, SPRING",h,0.2106
-oes452091,OR,,"WHEAT, SPRING",h,0.74
-oes452092,OR,,"WHEAT, SPRING",h,0.21
-MCPA Amine,OR,,"WHEAT, SPRING",[gal_us],0.1875
-Diomethate,OR,,"WHEAT, SPRING",[gal_us],0.0313
-Mustang 1.5 EW,OR,,"WHEAT, SPRING",[gal_us],0.0313
-Fuel - Diesel,OR,,"WHEAT, SPRING",[gal_us],11.0208
-16-16-16,OR,,"WHEAT, SPRING",[lb_av],200
-40-0-0-6,OR,,"WHEAT, SPRING",[lb_av],170
-Wheat,OR,,"WHEAT, SPRING",[lb_av],150
+material,location,phase,operation,commodity,unit,amount
+16-16-16,OR,,,"WHEAT, SPRING",[lb_av],200
+40-0-0-6,OR,,,"WHEAT, SPRING",[lb_av],170
+Diomethate,OR,,Pest Control,"WHEAT, SPRING",[gal_us],0.0313
+Fuel - Diesel,OR,,,"WHEAT, SPRING",[gal_us],11.0208
+Labor (Machine),OR,,,"WHEAT, SPRING",h,0.7442
+Labor (non-machine),OR,,,"WHEAT, SPRING",h,0.2106
+Maintenance and Repair,OR,,,"WHEAT, SPRING",,1
+MCPA Amine,OR,,Pest Control,"WHEAT, SPRING",[gal_us],0.1875
+Mustang 1.5 EW,OR,,Pest Control,"WHEAT, SPRING",[gal_us],0.0313
+oes452091,OR,,,"WHEAT, SPRING",h,0.74
+oes452092,OR,,,"WHEAT, SPRING",h,0.21
+Transport to PDX,OR,,,"WHEAT, SPRING",,75
+Wheat Assesment,OR,,,"WHEAT, SPRING",,75
+Wheat Seed,OR,,,"WHEAT, SPRING",[lb_av],150

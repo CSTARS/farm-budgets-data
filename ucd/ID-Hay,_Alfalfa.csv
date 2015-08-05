@@ -1,11 +1,11 @@
-material,location,phase,commodity,unit,amount
-Fuel,ID,,"HAY, ALFALFA",[gal_us],6.14
-Custom Combining,ID,,"HAY, ALFALFA",[acr_us],1
-Labor (Machine),ID,,"HAY, ALFALFA",[acr_us],1.62
-Nitrogen (dry),ID,,"HAY, ALFALFA",[lb_av],24
-Phosphorous (dry),ID,,"HAY, ALFALFA",[lb_av],70
-Sulfur (dry),ID,,"HAY, ALFALFA",[lb_av],20
-Barley Seed,ID,,"HAY, ALFALFA",[lb_av],80
-Lubricants,ID,,"HAY, ALFALFA",[acr_us],1
-Repair,ID,,"HAY, ALFALFA",[acr_us],1
-Custom Fertilize,ID,,"HAY, ALFALFA",[acr_us],1
+material,location,phase,operation,commodity,unit,amount
+Barley Seed,ID,,,"HAY, ALFALFA",[lb_av],80
+Custom Combining,ID,,,"HAY, ALFALFA",[acr_us],1
+Custom Fertilize,ID,,,"HAY, ALFALFA",[acr_us],1
+Fuel,ID,,,"HAY, ALFALFA",[gal_us],6.14
+Labor (Machine),ID,,,"HAY, ALFALFA",[acr_us],1.62
+Lubricants,ID,,,"HAY, ALFALFA",[acr_us],1
+Nitrogen (dry),ID,,,"HAY, ALFALFA",[lb_av],24
+Phosphorous (dry),ID,,,"HAY, ALFALFA",[lb_av],70
+Repair,ID,,,"HAY, ALFALFA",[acr_us],1
+Sulfur (dry),ID,,,"HAY, ALFALFA",[lb_av],20

@@ -1,31 +1,17 @@
-material,location,phase,commodity,unit,amount
-Pristine,CA,,BLUEBERRIES,[foz_us],40
-Sulfuric Acid,CA,,BLUEBERRIES,[lb_av],1232
-Bee Hives,CA,,BLUEBERRIES,hive,2
-Mulch,CA,,BLUEBERRIES,[lb_av],10
-UN32,CA,,BLUEBERRIES,[lb_av],100
-Bee Hives,CA,,BLUEBERRIES,hive,2
-Sulfuric Acid,CA,,BLUEBERRIES,[lb_av],1232
-Water,CA,,BLUEBERRIES,[acr_us],360
-Water,CA,,BLUEBERRIES,[acr_us],360
-Labor (Machine),CA,,BLUEBERRIES,h,24.72
-Labor (non-machine),CA,,BLUEBERRIES,h,1113.3
-Labor (Machine),CA,,BLUEBERRIES,h,24.72
-Labor (non-machine),CA,,BLUEBERRIES,h,1113.3
-oes452091,CA,,BLUEBERRIES,h,24.72
-oes452092,CA,,BLUEBERRIES,h,1113.3
-Success,CA,,BLUEBERRIES,[foz_us],12
-Success,CA,,BLUEBERRIES,[foz_us],12
-Fuel - Diesel,CA,,BLUEBERRIES,[gal_us],52.51
-Fuel - Diesel,CA,,BLUEBERRIES,[gal_us],52.51
-Mulch,CA,,BLUEBERRIES,[lb_av],10
-Devrinol 50DF,CA,,BLUEBERRIES,[lb_av],8
-Cool and Pack,CA,,BLUEBERRIES,[lb_av],10000
-Devrinol 50DF,CA,,BLUEBERRIES,[lb_av],8
-Cool and Pack,CA,,BLUEBERRIES,[lb_av],10000
-UN32,CA,,BLUEBERRIES,[lb_av],100
-Pick Berries,CA,,BLUEBERRIES,h,1000
-Surflan AS,CA,,BLUEBERRIES,[pt_us],4
-Surflan AS,CA,,BLUEBERRIES,[pt_us],4
-Pristine,CA,,BLUEBERRIES,[foz_us],40
-Pick Berries,CA,,BLUEBERRIES,h,1000
+material,location,phase,operation,commodity,unit,amount
+Bee Hives,CA,,Pest Control,BLUEBERRIES,hive,2
+Cool and Pack,CA,,,BLUEBERRIES,[lb_av],10000
+Devrinol 50DF,CA,,Pest Control,BLUEBERRIES,[lb_av],8
+Fuel - Diesel,CA,,,BLUEBERRIES,[gal_us],52.51
+Labor (Machine),CA,,,BLUEBERRIES,h,24.72
+Labor (non-machine),CA,,,BLUEBERRIES,h,1113.3
+Mulch,CA,,,BLUEBERRIES,[lb_av],10
+oes452091,CA,,,BLUEBERRIES,h,24.72
+oes452092,CA,,,BLUEBERRIES,h,1113.3
+Pick Berries,CA,,,BLUEBERRIES,h,1000
+Pristine,CA,,Pest Control,BLUEBERRIES,[foz_us],40
+Success,CA,,Pest Control,BLUEBERRIES,[foz_us],12
+Sulfuric Acid,CA,,,BLUEBERRIES,[lb_av],1232
+Surflan AS,CA,,Pest Control,BLUEBERRIES,[pt_us],4
+UN32,CA,,,BLUEBERRIES,[lb_av],100
+Water,CA,,,BLUEBERRIES,[acr_us],360

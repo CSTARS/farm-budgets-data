@@ -1,0 +1,28 @@
+material,requires,amount,unit
+3-Wheel Ag Sprayer,Equipment Fuel,3.96,[gal_us]/h
+3-Wheel Ag Sprayer,Labor--3-Wheel Ag Sprayer,1,h/h
+Challenger tractor,Equipment Fuel,19.36,[gal_us]/h
+Challenger tractor,Labor--Challenger tractor,1,h/h
+Cooler/van,Equipment Fuel,0.96,[gal_us]/h
+Cooler/van,Labor--Cooler/van,1,h/h
+Eliminator,Equipment Fuel,19.36,[gal_us]/h
+Eliminator,Labor--Eliminator,1,h/h
+FR 6080 FH,Equipment Fuel,13.2,[gal_us]/h
+FR 6080 FH,Labor--FR 6080 FH,1,h/h
+herbicide - establish,Glyphosate,200,[qt_us]/100.[acr_us]
+herbicide - establish,Laborer,96,h/100.[acr_us]
+hoeing,Laborer,192,h/100.[acr_us]
+Large tractor,Equipment Fuel,13.2,[gal_us]/h
+Large tractor,Labor--Large tractor,1,h/h
+Mid-size tractor,Equipment Fuel,3.96,[gal_us]/h
+Mid-size tractor,Labor--Mid-size tractor,1,h/h
+Semi-tractor trailer,Equipment Fuel,6.5,[gal_us]/h
+Semi-tractor trailer,Labor--Semi-tractor trailer,1,h/h
+Small tractor,Equipment Fuel,1.98,[gal_us]/h
+Small tractor,Labor--Small tractor,1,h/h
+Support Truck,Equipment Fuel,1.76,[gal_us]/h
+Support Truck,Labor--Support Truck,1,h/h
+Tandem axle truck,Equipment Fuel,13.2,[gal_us]/h
+Tandem axle truck,Labor--Tandem axle truck,1,h/h
+Tractor and sprayer,Equipment Fuel,3.96,[gal_us]/h
+Tractor and sprayer,Labor--Tractor and sprayer,1,h/h

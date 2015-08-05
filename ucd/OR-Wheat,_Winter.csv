@@ -1,18 +1,18 @@
-material,location,phase,commodity,unit,amount
-Wheat Assesment,OR,,"WHEAT, WINTER",,56
-Transport to PDX,OR,,"WHEAT, WINTER",,56
-Labor (Machine),OR,,"WHEAT, WINTER",h,0.9039
-Labor (non-machine),OR,,"WHEAT, WINTER",h,0.2106
-oes452091,OR,,"WHEAT, WINTER",h,0.9
-oes452092,OR,,"WHEAT, WINTER",h,0.21
-Fuel - Diesel,OR,,"WHEAT, WINTER",[gal_us],12.6081
-16-20-0-14,OR,,"WHEAT, WINTER",[lb_av],100
-Harmony Extra,OR,,"WHEAT, WINTER",[oz_av],0.3
-33-0-0-12,OR,,"WHEAT, WINTER",[lb_av],110
-Slug Bait,OR,,"WHEAT, WINTER",[lb_av],5
-Wheat,OR,,"WHEAT, WINTER",[lb_av],100
-Stratego,OR,,"WHEAT, WINTER",[foz_us],10
-Mustang 1.5 EW,OR,,"WHEAT, WINTER",[gal_us],0.0313
-Axiom OZ,OR,,"WHEAT, WINTER",[foz_us],10
-Maintenance,OR,,"WHEAT, WINTER",,1
-Osprey,OR,,"WHEAT, WINTER",[foz_us],3.2
+material,location,phase,operation,commodity,unit,amount
+16-20-0-14,OR,,,"WHEAT, WINTER",[lb_av],100
+33-0-0-12,OR,,,"WHEAT, WINTER",[lb_av],110
+Axiom OZ,OR,,Pest Control,"WHEAT, WINTER",[foz_us],10
+Fuel - Diesel,OR,,,"WHEAT, WINTER",[gal_us],12.6081
+Harmony Extra,OR,,Pest Control,"WHEAT, WINTER",[oz_av],0.3
+Labor (Machine),OR,,,"WHEAT, WINTER",h,0.9039
+Labor (non-machine),OR,,,"WHEAT, WINTER",h,0.2106
+Maintenance,OR,,,"WHEAT, WINTER",,1
+Mustang 1.5 EW,OR,,Pest Control,"WHEAT, WINTER",[gal_us],0.0313
+oes452091,OR,,,"WHEAT, WINTER",h,0.9
+oes452092,OR,,,"WHEAT, WINTER",h,0.21
+Osprey,OR,,Pest Control,"WHEAT, WINTER",[foz_us],3.2
+Slug Bait,OR,,Pest Control,"WHEAT, WINTER",[lb_av],5
+Stratego,OR,,Pest Control,"WHEAT, WINTER",[foz_us],10
+Transport to PDX,OR,,,"WHEAT, WINTER",,56
+Wheat Assesment,OR,,,"WHEAT, WINTER",,56
+Wheat Seed,OR,,,"WHEAT, WINTER",[lb_av],100

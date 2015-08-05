@@ -1,20 +1,20 @@
-material,location,phase,commodity,unit,amount
-Fuel - Gas,CA,,SUDANGRASS,[gal_us],0.95
-Fuel - Diesel,CA,,SUDANGRASS,[gal_us],4.79
-Plant,CA,,SUDANGRASS,[acr_us],1
-Injection-Sidedress,CA,,SUDANGRASS,[acr_us],1
-Swath,CA,,SUDANGRASS,[acr_us],2
-Lube,CA,,SUDANGRASS,,1
-Repair,CA,,SUDANGRASS,,1
-80-0-0,CA,,SUDANGRASS,[lb_av],140
-Rake,CA,,SUDANGRASS,[acr_us],2
-Water,CA,,SUDANGRASS,[acr_us].[in_us],28
-Labor (Machine),CA,,SUDANGRASS,h,1.02
-Labor (non-machine),CA,,SUDANGRASS,h,0.5
-Clarity,CA,,SUDANGRASS,[pt_us],1
-Prowl H20,CA,,SUDANGRASS,[pt_us],3
-oes452091,CA,,SUDANGRASS,h,1.02
-oes452092,CA,,SUDANGRASS,h,0.5
-Bale,CA,,SUDANGRASS,bale,100
-Susan Seed,CA,,SUDANGRASS,[lb_av],150
-Roadside Bales,CA,,SUDANGRASS,bale,100
+material,location,phase,operation,commodity,unit,amount
+80-0-0,CA,,,SUDANGRASS,[lb_av],140
+Bale,CA,,Pest Control,SUDANGRASS,bale,100
+Clarity,CA,,Pest Control,SUDANGRASS,[pt_us],1
+Fuel - Diesel,CA,,,SUDANGRASS,[gal_us],4.79
+Fuel - Gas,CA,,,SUDANGRASS,[gal_us],0.95
+Injection-Sidedress,CA,,,SUDANGRASS,[acr_us],1
+Labor (Machine),CA,,,SUDANGRASS,h,1.02
+Labor (non-machine),CA,,,SUDANGRASS,h,0.5
+Lube,CA,,,SUDANGRASS,,1
+oes452091,CA,,,SUDANGRASS,h,1.02
+oes452092,CA,,,SUDANGRASS,h,0.5
+Plant,CA,,,SUDANGRASS,[acr_us],1
+Prowl H20,CA,,Pest Control,SUDANGRASS,[pt_us],3
+Rake,CA,,,SUDANGRASS,[acr_us],2
+Repair,CA,,,SUDANGRASS,,1
+Roadside Bales,CA,,,SUDANGRASS,bale,100
+Susan Seed,CA,,,SUDANGRASS,[lb_av],150
+Swath,CA,,,SUDANGRASS,[acr_us],2
+Water,CA,,,SUDANGRASS,[acr_us].[in_us],28

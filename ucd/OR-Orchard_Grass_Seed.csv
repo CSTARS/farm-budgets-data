@@ -1,22 +1,22 @@
-material,location,phase,commodity,unit,amount
-Kerb,OR,,ORCHARD GRASS SEED,[lb_av],0.4
-Maintenance and Repair,OR,,ORCHARD GRASS SEED,,1
-Surfactant-Induce,OR,,ORCHARD GRASS SEED,[gal_us],0.15
-Goal,OR,,ORCHARD GRASS SEED,[gal_us],0.05
-Bravo,OR,,ORCHARD GRASS SEED,[gal_us],0.5
-Banvel,OR,,ORCHARD GRASS SEED,[gal_us],0.125
-"2,4-D",OR,,ORCHARD GRASS SEED,[gal_us],0.2
-Fuel - Diesel,OR,,ORCHARD GRASS SEED,[gal_us],8.5001
-oes452091,OR,,ORCHARD GRASS SEED,h,1.09
-Labor (Machine),OR,,ORCHARD GRASS SEED,h,1.0905
-Labor (non-machine),OR,,ORCHARD GRASS SEED,h,0.1936
-oes452092,OR,,ORCHARD GRASS SEED,h,0
-Clean Seed Orchdgr,OR,,ORCHARD GRASS SEED,[scwt_av],8
-Commision Assess,OR,,ORCHARD GRASS SEED,[scwt_av],8
-Seed Test,OR,,ORCHARD GRASS SEED,[scwt_av],8
-16-16-16,OR,,ORCHARD GRASS SEED,[lb_av],200
-40-0-0-6,OR,,ORCHARD GRASS SEED,[lb_av],235
-0-0-60,OR,,ORCHARD GRASS SEED,[lb_av],40
-Apogee,OR,,ORCHARD GRASS SEED,[lb_av],0.5
-Axiom LB,OR,,ORCHARD GRASS SEED,[lb_av],0.75
-Diuron,OR,,ORCHARD GRASS SEED,[lb_av],2
+material,location,phase,operation,commodity,unit,amount
+0-0-60,OR,,,ORCHARD GRASS SEED,[lb_av],40
+16-16-16,OR,,,ORCHARD GRASS SEED,[lb_av],200
+"2,4-D",OR,,,ORCHARD GRASS SEED,[gal_us],0.2
+40-0-0-6,OR,,,ORCHARD GRASS SEED,[lb_av],235
+Apogee,OR,,Pest Control,ORCHARD GRASS SEED,[lb_av],0.5
+Axiom LB,OR,,Pest Control,ORCHARD GRASS SEED,[lb_av],0.75
+Banvel,OR,,Pest Control,ORCHARD GRASS SEED,[gal_us],0.125
+Bravo,OR,,Pest Control,ORCHARD GRASS SEED,[gal_us],0.5
+Clean Seed Orchdgr,OR,,,ORCHARD GRASS SEED,[scwt_av],8
+Commision Assess,OR,,,ORCHARD GRASS SEED,[scwt_av],8
+Diuron,OR,,Pest Control,ORCHARD GRASS SEED,[lb_av],2
+Fuel - Diesel,OR,,,ORCHARD GRASS SEED,[gal_us],8.5001
+Goal,OR,,Pest Control,ORCHARD GRASS SEED,[gal_us],0.05
+Kerb,OR,,Pest Control,ORCHARD GRASS SEED,[lb_av],0.4
+Labor (Machine),OR,,,ORCHARD GRASS SEED,h,1.0905
+Labor (non-machine),OR,,,ORCHARD GRASS SEED,h,0.1936
+Maintenance and Repair,OR,,,ORCHARD GRASS SEED,,1
+oes452091,OR,,,ORCHARD GRASS SEED,h,1.09
+oes452092,OR,,,ORCHARD GRASS SEED,h,0
+Seed Test,OR,,,ORCHARD GRASS SEED,[scwt_av],8
+Surfactant-Induce,OR,,,ORCHARD GRASS SEED,[gal_us],0.15

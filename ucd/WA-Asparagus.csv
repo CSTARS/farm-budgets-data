@@ -1,12 +1,12 @@
-material,location,phase,commodity,unit,amount
-oes452091,WA,,ASPARAGUS,h,
-oes452092,WA,,ASPARAGUS,h,
-Fuel - Diesel,WA,,ASPARAGUS,[gal_us],10.93
-Disyston,WA,,ASPARAGUS,[gal_us],147.36
-Sevin XLR Plus,WA,,ASPARAGUS,[gal_us],35
-Treflan FP,WA,,ASPARAGUS,[gal_us],20
-Spot Spray Roundup,WA,,ASPARAGUS,[gal_us],36
-Nitrogen (dry),WA,,ASPARAGUS,[lb_av],120
-Karmex,WA,,ASPARAGUS,[lb_av],6.05
-Sencor,WA,,ASPARAGUS,[lb_av],13
-Wheat,WA,,ASPARAGUS,[lb_av],90
+material,location,phase,operation,commodity,unit,amount
+Disyston,WA,,Pest Control,ASPARAGUS,[gal_us],147.36
+Fuel - Diesel,WA,,,ASPARAGUS,[gal_us],10.93
+Karmex,WA,,Pest Control,ASPARAGUS,[lb_av],6.05
+Nitrogen (dry),WA,,,ASPARAGUS,[lb_av],120
+oes452091,WA,,,ASPARAGUS,h,
+oes452092,WA,,,ASPARAGUS,h,
+Sencor,WA,,Pest Control,ASPARAGUS,[lb_av],13
+Sevin XLR Plus,WA,,Pest Control,ASPARAGUS,[gal_us],35
+Spot Spray Roundup,WA,,Pest Control,ASPARAGUS,[gal_us],36
+Treflan FP,WA,,Pest Control,ASPARAGUS,[gal_us],20
+Wheat Seed,WA,,,ASPARAGUS,[lb_av],90

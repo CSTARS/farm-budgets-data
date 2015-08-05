@@ -1,17 +1,17 @@
-material,location,phase,commodity,unit,amount
-M90,ID,,LENTIL,[oz_av],1.5
-Prowl,ID,,LENTIL,[foz_us],24
-Ammonium Sulfate,ID,,LENTIL,[oz_av],50
-Labor (Machine),ID,,LENTIL,[acr_us],1.2
-Lubricants,ID,,LENTIL,[acr_us],1
-Repair,ID,,LENTIL,[acr_us],1
-Rental Sprayer,ID,,LENTIL,[acr_us],1
-Custom Aerial Spray,ID,,LENTIL,[acr_us],1
-Crop Insurance,ID,,LENTIL,[acr_us],1
-oes452091,ID,,LENTIL,h,1.2
-oes452092,ID,,LENTIL,h,0
-Fuel,ID,,LENTIL,[gal_us],7.1
-Far-GO,ID,,LENTIL,[qt_us],1
-Pursuit,ID,,LENTIL,[foz_us],3
-Dimethoate,ID,,LENTIL,[pt_us],1
-Lentil Seed,ID,,LENTIL,[lb_av],45
+material,location,phase,operation,commodity,unit,amount
+Ammonium Sulfate,ID,,Pest Control,LENTIL,[oz_av],50
+Crop Insurance,ID,,,LENTIL,[acr_us],1
+Custom Aerial Spray,ID,,,LENTIL,[acr_us],1
+Dimethoate,ID,,Pest Control,LENTIL,[pt_us],1
+Far-GO,ID,,Pest Control,LENTIL,[qt_us],1
+Fuel,ID,,,LENTIL,[gal_us],7.1
+Labor (Machine),ID,,,LENTIL,[acr_us],1.2
+Lentil Seed,ID,,,LENTIL,[lb_av],45
+Lubricants,ID,,,LENTIL,[acr_us],1
+M90,ID,,Pest Control,LENTIL,[oz_av],1.5
+oes452091,ID,,,LENTIL,h,1.2
+oes452092,ID,,,LENTIL,h,0
+Prowl,ID,,Pest Control,LENTIL,[foz_us],24
+Pursuit,ID,,Pest Control,LENTIL,[foz_us],3
+Rental Sprayer,ID,,,LENTIL,[acr_us],1
+Repair,ID,,,LENTIL,[acr_us],1

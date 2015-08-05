@@ -1,16 +1,16 @@
-material,location,phase,commodity,unit,amount
-M90,WA,,LENTIL,[oz_av],3
-Prowl,WA,,LENTIL,[foz_us],24
-Pursuit,WA,,LENTIL,[foz_us],3
-Roundup,WA,,LENTIL,[foz_us],18
-Labor (Machine),WA,,LENTIL,[acr_us],0.95
-Lubricants,WA,,LENTIL,[acr_us],1
-Repair,WA,,LENTIL,[acr_us],1
-Rental Sprayer,WA,,LENTIL,[acr_us],2
-Custom Aerial Spray,WA,,LENTIL,[acr_us],1
-oes452091,WA,,LENTIL,h,0.95
-oes452092,WA,,LENTIL,h,0
-Fuel,WA,,LENTIL,[gal_us],7.74
-Dimethoate,WA,,LENTIL,[pt_us],1
-Lentil Seed,WA,,LENTIL,[lb_av],45
-Ammonium Sulfate,WA,,LENTIL,[oz_av],100
+material,location,phase,operation,commodity,unit,amount
+Ammonium Sulfate,WA,,Pest Control,LENTIL,[oz_av],100
+Custom Aerial Spray,WA,,,LENTIL,[acr_us],1
+Dimethoate,WA,,Pest Control,LENTIL,[pt_us],1
+Fuel,WA,,,LENTIL,[gal_us],7.74
+Labor (Machine),WA,,,LENTIL,[acr_us],0.95
+Lentil Seed,WA,,,LENTIL,[lb_av],45
+Lubricants,WA,,,LENTIL,[acr_us],1
+M90,WA,,Pest Control,LENTIL,[oz_av],3
+oes452091,WA,,,LENTIL,h,0.95
+oes452092,WA,,,LENTIL,h,0
+Prowl,WA,,Pest Control,LENTIL,[foz_us],24
+Pursuit,WA,,Pest Control,LENTIL,[foz_us],3
+Rental Sprayer,WA,,,LENTIL,[acr_us],2
+Repair,WA,,,LENTIL,[acr_us],1
+Roundup,WA,,Pest Control,LENTIL,[foz_us],18

@@ -1,9 +1,9 @@
-material,location,phase,commodity,unit,amount
-Labor (Machine),ID,,GRASS AND HAY,h,2.78
-Maintenance,ID,,GRASS AND HAY,,1
-Repair,ID,,GRASS AND HAY,,1
-oes452091,ID,,GRASS AND HAY,h,2.78
-oes452092,ID,,GRASS AND HAY,h,0
-Baling,ID,,GRASS AND HAY,bale,100
-Fuel - Diesel,ID,,GRASS AND HAY,[gal_us],6.73
-Nitrogen (dry),ID,,GRASS AND HAY,[lb_av],90
+material,location,phase,operation,commodity,unit,amount
+Baling,ID,,Pest Control,GRASS AND HAY,bale,100
+Fuel - Diesel,ID,,,GRASS AND HAY,[gal_us],6.73
+Labor (Machine),ID,,,GRASS AND HAY,h,2.78
+Maintenance,ID,,,GRASS AND HAY,,1
+Nitrogen (dry),ID,,,GRASS AND HAY,[lb_av],90
+oes452091,ID,,,GRASS AND HAY,h,2.78
+oes452092,ID,,,GRASS AND HAY,h,0
+Repair,ID,,,GRASS AND HAY,,1

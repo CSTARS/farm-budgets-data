@@ -10,17 +10,15 @@ CREATE TYPE phase_t AS ENUM ('planting', 'annual', 'harvest');
 
 create table unit (
 unit varchar(64) primary key,
-description text 
+description text
 );
 
 \COPY unit(unit,description) from units.csv with csv header
 
 create table material (
-material text,
-unit varchar(64) references unit,
+material text primary key,
 class text,
-description text,
-primary key(material,unit)
+description text
 );
 
 \COPY material from materials.csv with csv header
@@ -35,6 +33,15 @@ primary key(operation,unit)
 
 \COPY operation from operations.csv with csv header
 
+create table yield (
+  filename text,
+  commodity varchar(25),
+  location varchar(12),
+  unit varchar(64) references unit,
+  value float
+);
+-- Many yields.
+
 create table production (
 production_id serial primary key,
 filename text,
@@ -42,35 +49,27 @@ authority varchar(25),
 commodity varchar(25), -- foreign key references commodity,
 location varchar(12),
 phase phase_t,
-material text,
+operation text,
+material text references material,
 unit varchar(64) references unit,
-amount float,
-foreign key (material, unit) references material (material,unit)
+amount float
 );
 
 create table price (
 price_id serial primary key,
 filename text,
-material text,
+material text references material,
 unit varchar(64) references unit,
 location varchar(12),
 year integer,
 authority text,
 price float);
 
-create table change (
-type text,
-old text,
-new text
-);
-
-create or replace function replace_unit(old varchar(64),new varchar(64)) 
+create or replace function replace_unit(old varchar(64),new varchar(64))
 RETURNS varchar(64)
 AS $$
-insert into farm_budget_data.change (type,old,new) values ('unit',$1,$2);
 update farm_budget_data.production set unit=$2 where unit=$1;
 update farm_budget_data.operation set unit=$2 where unit=$1;
-update farm_budget_data.material set unit=$2 where unit=$1;
 update farm_budget_data.price set unit=$2 where unit=$1;
 delete from unit where unit=$1;
 select $2;
@@ -83,35 +82,18 @@ insert into farm_budget_data.unit (unit) values ($2);
 select replace_unit($1,$2);
 $$ LANGUAGE SQL;
 
-create or replace function replace_material_unit(material varchar(64),old varchar(64), new varchar(64)) 
+create or replace function replace_material(old varchar(64),new varchar(64))
 RETURNS varchar(64)
 AS $$
-update farm_budget_data.production set unit=$3 where material=$1 and unit=$2;
-update farm_budget_data.price set unit=$3 where material=$1 and unit=$2;
-delete from material where material=$1 and unit=$2;
-select $1;
+update farm_budget_data.production set material=$2 where material=$1;
+update farm_budget_data.price set material=$2 where material=$1;
+delete from farm_budget_data.material where material=$1;
+select $2;
 $$ LANGUAGE SQL;
 
-create or replace function add_replace_material_unit(material varchar(64),old varchar(64), new varchar(64)) 
+create or replace function add_replace_material(old varchar(64), new varchar(64))
 RETURNS varchar(64)
 AS $$
-insert into farm_budget_data.material select material,$3,class,description from farm_budget_data.material where material=$1 and unit=$2;
-select replace_material_unit($1,$2,$3);
+insert into farm_budget_data.material select $2,class,description from farm_budget_data.material where material=$1;
+select replace_material($1,$2);
 $$ LANGUAGE SQL;
-
-create or replace function replace_material(old varchar(64),unit varchar(64),new varchar(64)) 
-RETURNS varchar(64)
-AS $$
-update farm_budget_data.production set material=$3 where material=$1 and unit=$2;
-update farm_budget_data.price set material=$3 where material=$1 and unit=$2;
-delete from farm_budget_data.material where material=$1 and unit=$2;
-select $3;
-$$ LANGUAGE SQL;
-
-create or replace function add_replace_material(old varchar(64),unit varchar(64), new varchar(64)) 
-RETURNS varchar(64)
-AS $$
-insert into farm_budget_data.material select $3,unit,class,description from farm_budget_data.material where material=$1 and unit=$2;
-select replace_material($1,$2,$3);
-$$ LANGUAGE SQL;
-

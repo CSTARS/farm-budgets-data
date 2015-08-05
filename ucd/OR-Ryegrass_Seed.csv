@@ -1,18 +1,18 @@
-material,location,phase,commodity,unit,amount
-40-0-0-6,OR,,RYEGRASS SEED,[lb_av],340
-Lime,OR,,RYEGRASS SEED,[ston_av],0.4
-Maintenance and Repair,OR,,RYEGRASS SEED,,1
-Labor (Machine),OR,,RYEGRASS SEED,h,1.5599
-Labor (non-machine),OR,,RYEGRASS SEED,h,0.2382
-oes452091,OR,,RYEGRASS SEED,h,1.56
-oes452092,OR,,RYEGRASS SEED,h,0.24
-Commision Assess,OR,,RYEGRASS SEED,[scwt_av],17.5
-Seed Test,OR,,RYEGRASS SEED,[scwt_av],17.5
-Glyphosate GAL1,OR,,RYEGRASS SEED,[gal_us],0.085
-Banvel,OR,,RYEGRASS SEED,[gal_us],0.0195
-"2,4-D",OR,,RYEGRASS SEED,[gal_us],0.0625
-Fuel - Diesel,OR,,RYEGRASS SEED,[gal_us],8.6127
-Surfactant-Induce,OR,,RYEGRASS SEED,[gal_us],0.03
-0-0-60,OR,,RYEGRASS SEED,[lb_av],35
-Surfactant-Induce,OR,,RYEGRASS SEED,[lb_av],0.03
-Seed Clean and Bag,OR,,RYEGRASS SEED,[lb_av],1750
+material,location,phase,operation,commodity,unit,amount
+0-0-60,OR,,,RYEGRASS SEED,[lb_av],35
+"2,4-D",OR,,,RYEGRASS SEED,[gal_us],0.0625
+40-0-0-6,OR,,,RYEGRASS SEED,[lb_av],340
+Banvel,OR,,Pest Control,RYEGRASS SEED,[gal_us],0.0195
+Commision Assess,OR,,,RYEGRASS SEED,[scwt_av],17.5
+Fuel - Diesel,OR,,,RYEGRASS SEED,[gal_us],8.6127
+Glyphosate GAL1,OR,,Pest Control,RYEGRASS SEED,[gal_us],0.085
+Labor (Machine),OR,,,RYEGRASS SEED,h,1.5599
+Labor (non-machine),OR,,,RYEGRASS SEED,h,0.2382
+Lime,OR,,,RYEGRASS SEED,[ston_av],0.4
+Maintenance and Repair,OR,,,RYEGRASS SEED,,1
+oes452091,OR,,,RYEGRASS SEED,h,1.56
+oes452092,OR,,,RYEGRASS SEED,h,0.24
+Seed Clean and Bag,OR,,,RYEGRASS SEED,[lb_av],1750
+Seed Test,OR,,,RYEGRASS SEED,[scwt_av],17.5
+Surfactant-Induce,OR,,,RYEGRASS SEED,[gal_us],0.03
+Surfactant-Induce,OR,,,RYEGRASS SEED,[lb_av],0.03

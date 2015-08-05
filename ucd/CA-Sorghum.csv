@@ -1,20 +1,20 @@
-material,location,phase,commodity,unit,amount
-Lube,CA,,SORGHUM,,1
-Repair,CA,,SORGHUM,,1
-Plant,CA,,SORGHUM,,1
-Injection-Sidedress NH3,CA,,SORGHUM,,1
-Harvest Combine Grain,CA,,SORGHUM,,4
-Harvest: Haul Grain,CA,,SORGHUM,,4
-80-0-0,CA,,SORGHUM,[lb_av],140
-Water,CA,,SORGHUM,[acr_us].[in_us],30
-Labor (Machine),CA,,SORGHUM,h,1.67
-Labor (non-machine),CA,,SORGHUM,h,0.5
-oes452091,CA,,SORGHUM,h,1.67
-oes452092,CA,,SORGHUM,h,0.5
-Fuel - Gas,CA,,SORGHUM,[gal_us],0.95
-Fuel - Diesel,CA,,SORGHUM,[gal_us],7.52
-Sorghum,CA,,SORGHUM,[lb_av],10
-Prowl H20,CA,,SORGHUM,[pt_us],3
-Lorsban 4E,CA,,SORGHUM,[pt_us],1
-Lorsban 15G,CA,,SORGHUM,[oz_av],2
-Yukon,CA,,SORGHUM,[oz_av],6
+material,location,phase,operation,commodity,unit,amount
+80-0-0,CA,,,SORGHUM,[lb_av],140
+Fuel - Diesel,CA,,,SORGHUM,[gal_us],7.52
+Fuel - Gas,CA,,,SORGHUM,[gal_us],0.95
+Harvest Combine Grain,CA,,,SORGHUM,,4
+Harvest: Haul Grain,CA,,,SORGHUM,,4
+Injection-Sidedress NH3,CA,,,SORGHUM,,1
+Labor (Machine),CA,,,SORGHUM,h,1.67
+Labor (non-machine),CA,,,SORGHUM,h,0.5
+Lorsban 15G,CA,,Pest Control,SORGHUM,[oz_av],2
+Lorsban 4E,CA,,Pest Control,SORGHUM,[pt_us],1
+Lube,CA,,,SORGHUM,,1
+oes452091,CA,,,SORGHUM,h,1.67
+oes452092,CA,,,SORGHUM,h,0.5
+Plant,CA,,,SORGHUM,,1
+Prowl H20,CA,,Pest Control,SORGHUM,[pt_us],3
+Repair,CA,,,SORGHUM,,1
+Sorghum Seed,CA,,,SORGHUM,[lb_av],10
+Water,CA,,,SORGHUM,[acr_us].[in_us],30
+Yukon,CA,,,SORGHUM,[oz_av],6

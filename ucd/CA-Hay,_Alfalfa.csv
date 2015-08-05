@@ -1,43 +1,23 @@
-material,location,phase,commodity,unit,amount
-Roadside Hay,CA,,"HAY, ALFALFA",[ston_av],8
-Select Max,CA,,"HAY, ALFALFA",[foz_us],16
-Fuel - Gas,CA,,"HAY, ALFALFA",[gal_us],0.83
-Fuel - Diesel,CA,,"HAY, ALFALFA",[gal_us],0.08
-Water,CA,,"HAY, ALFALFA",[acr_us].[in_us],54
-Maintenance,CA,,"HAY, ALFALFA",,0
-Repair,CA,,"HAY, ALFALFA",,1
-Air Application,CA,,"HAY, ALFALFA",,2
-Ground Application,CA,,"HAY, ALFALFA",,3
-Swath Rake,CA,,"HAY, ALFALFA",,7
-Tissue Analysis,CA,,"HAY, ALFALFA",each,0.05
-Broadcast Fertilizer,CA,,"HAY, ALFALFA",,1
-oes452091,CA,,"HAY, ALFALFA",h,0.58
-oes452092,CA,,"HAY, ALFALFA",h,1.82
-11-52-0,CA,,"HAY, ALFALFA",[lb_av],75
-Maintenance,CA,,"HAY, ALFALFA",,0
-Repair,CA,,"HAY, ALFALFA",,1
-Air Application,CA,,"HAY, ALFALFA",,2
-Ground Application,CA,,"HAY, ALFALFA",,3
-Swath Rake,CA,,"HAY, ALFALFA",,7
-Tissue Analysis,CA,,"HAY, ALFALFA",each,0.05
-Broadcast Fertilizer,CA,,"HAY, ALFALFA",,1
-Water,CA,,"HAY, ALFALFA",[acr_us].[in_us],54
-Select Max,CA,,"HAY, ALFALFA",[foz_us],16
-Fuel - Gas,CA,,"HAY, ALFALFA",[gal_us],0.83
-Fuel - Diesel,CA,,"HAY, ALFALFA",[gal_us],0.08
-Labor (Machine),CA,,"HAY, ALFALFA",h,0.58
-Labor (non-machine),CA,,"HAY, ALFALFA",h,1.82
-Labor (Machine),CA,,"HAY, ALFALFA",h,0.58
-Lannate 90 SP,CA,,"HAY, ALFALFA",[lb_av],0.5
-Treflan TR 10,CA,,"HAY, ALFALFA",[lb_av],20
-Karmex,CA,,"HAY, ALFALFA",[lb_av],1.5
-11-52-0,CA,,"HAY, ALFALFA",[lb_av],75
-Lannate 90 SP,CA,,"HAY, ALFALFA",[lb_av],0.5
-Treflan TR 10,CA,,"HAY, ALFALFA",[lb_av],20
-Karmex,CA,,"HAY, ALFALFA",[lb_av],1.5
-Labor (non-machine),CA,,"HAY, ALFALFA",h,1.82
-Roadside Hay,CA,,"HAY, ALFALFA",[ston_av],8
-Lorsban 4E,CA,,"HAY, ALFALFA",[pt_us],2
-Velpar L,CA,,"HAY, ALFALFA",[pt_us],2
-Lorsban 4E,CA,,"HAY, ALFALFA",[pt_us],2
-Velpar L,CA,,"HAY, ALFALFA",[pt_us],2
+material,location,phase,operation,commodity,unit,amount
+11-52-0,CA,,,"HAY, ALFALFA",[lb_av],75
+Air Application,CA,,Pest Control,"HAY, ALFALFA",[acr_us]/[acr_us],2
+Broadcast Fertilizer,CA,,Pest Control,"HAY, ALFALFA",,1
+Fuel - Diesel,CA,,,"HAY, ALFALFA",[gal_us],0.08
+Fuel - Gas,CA,,,"HAY, ALFALFA",[gal_us],0.83
+Ground Application,CA,,,"HAY, ALFALFA",,3
+Karmex,CA,,Pest Control,"HAY, ALFALFA",[lb_av],1.5
+Labor (Machine),CA,,,"HAY, ALFALFA",h,0.58
+Labor (non-machine),CA,,,"HAY, ALFALFA",h,1.82
+Lannate 90 SP,CA,,Pest Control,"HAY, ALFALFA",[lb_av],0.5
+Lorsban 4E,CA,,Pest Control,"HAY, ALFALFA",[pt_us],2
+Maintenance,CA,,,"HAY, ALFALFA",,0
+oes452091,CA,,,"HAY, ALFALFA",h,0.58
+oes452092,CA,,,"HAY, ALFALFA",h,1.82
+Repair,CA,,,"HAY, ALFALFA",,1
+Roadside Hay,CA,,,"HAY, ALFALFA",[ston_av],8
+Select Max,CA,,Pest Control,"HAY, ALFALFA",[foz_us],16
+Swath Rake,CA,,,"HAY, ALFALFA",,7
+Tissue Analysis,CA,,,"HAY, ALFALFA",each,0.05
+Treflan TR 10,CA,,Pest Control,"HAY, ALFALFA",[lb_av],20
+Velpar L,CA,,Pest Control,"HAY, ALFALFA",[pt_us],2
+Water,CA,,,"HAY, ALFALFA",[acr_us].[in_us],54

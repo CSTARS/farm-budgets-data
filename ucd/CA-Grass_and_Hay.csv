@@ -1,16 +1,16 @@
-material,location,phase,commodity,unit,amount
-Water,CA,,GRASS AND HAY,[acr_us].[in_us],25
-oes452091,CA,,GRASS AND HAY,h,2.78
-Maintenance,CA,,GRASS AND HAY,each,1
-Repair,CA,,GRASS AND HAY,each,1
-Application,CA,,GRASS AND HAY,each,1
-oes452092,CA,,GRASS AND HAY,h,0.5
-46-0-0,CA,,GRASS AND HAY,[lb_av],100
-Swathing,CA,,GRASS AND HAY,[acr_us],2
-Rake,CA,,GRASS AND HAY,[acr_us],2
-Labor (Machine),CA,,GRASS AND HAY,h,2.78
-Labor (non-machine),CA,,GRASS AND HAY,h,0.5
-Baling,CA,,GRASS AND HAY,bale,100
-Fuel - Gas,CA,,GRASS AND HAY,[gal_us],3.59
-Fuel - Diesel,CA,,GRASS AND HAY,[gal_us],6.73
-Clarity,CA,,GRASS AND HAY,[pt_us],1
+material,location,phase,operation,commodity,unit,amount
+46-0-0,CA,,,GRASS AND HAY,[lb_av],100
+Air Application,CA,,Pest Control,GRASS AND HAY,[acr_us]/[acr_us],1
+Baling,CA,,Pest Control,GRASS AND HAY,bale,100
+Clarity,CA,,Pest Control,GRASS AND HAY,[pt_us],1
+Fuel - Diesel,CA,,,GRASS AND HAY,[gal_us],6.73
+Fuel - Gas,CA,,,GRASS AND HAY,[gal_us],3.59
+Labor (Machine),CA,,,GRASS AND HAY,h,2.78
+Labor (non-machine),CA,,,GRASS AND HAY,h,0.5
+Maintenance,CA,,,GRASS AND HAY,each,1
+oes452091,CA,,,GRASS AND HAY,h,2.78
+oes452092,CA,,,GRASS AND HAY,h,0.5
+Rake,CA,,,GRASS AND HAY,[acr_us],2
+Repair,CA,,,GRASS AND HAY,each,1
+Swathing,CA,,,GRASS AND HAY,[acr_us],2
+Water,CA,,,GRASS AND HAY,[acr_us].[in_us],25

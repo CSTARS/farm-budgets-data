@@ -1,14 +1,14 @@
-material,location,phase,commodity,unit,amount
-UN32,CA,,ASPARAGUS,[lb_av],90
-Labor (Machine),CA,,ASPARAGUS,h,19.4
-Labor (non-machine),CA,,ASPARAGUS,h,12.14
-oes452091,CA,,ASPARAGUS,h,19.4
-oes452092,CA,,ASPARAGUS,h,12.14
-Packing,CA,,ASPARAGUS,[scwt_av],133
-Additional Cost of harvest,CA,,ASPARAGUS,[scwt_av],133
-Ridomil Gold EC,CA,,ASPARAGUS,[foz_us],4
-Fuel - Diesel,CA,,ASPARAGUS,[gal_us],51.3
-Karmex DF,CA,,ASPARAGUS,[lb_av],2
-Di-Syston,CA,,ASPARAGUS,[pt_us],1
-Lorsban 4E,CA,,ASPARAGUS,[pt_us],2
-Rally 40 WSP,CA,,ASPARAGUS,[oz_av],5
+material,location,phase,operation,commodity,unit,amount
+,CA,harvest,general,ASPARAGUS,us$/[scwt_av],9.28
+Di-Syston,CA,,Pest Control,ASPARAGUS,[pt_us],1
+Fuel - Diesel,CA,,,ASPARAGUS,[gal_us],51.3
+Karmex DF,CA,,Pest Control,ASPARAGUS,[lb_av],2
+Labor (Machine),CA,,,ASPARAGUS,h,19.4
+Labor (non-machine),CA,,,ASPARAGUS,h,12.14
+Lorsban 4E,CA,,Pest Control,ASPARAGUS,[pt_us],2
+oes452091,CA,,,ASPARAGUS,h,19.4
+oes452092,CA,,,ASPARAGUS,h,12.14
+Packing,CA,,,ASPARAGUS,[scwt_av],133
+Rally 40 WSP,CA,,Pest Control,ASPARAGUS,[oz_av],5
+Ridomil Gold EC,CA,,Pest Control,ASPARAGUS,[foz_us],4
+UN32,CA,,,ASPARAGUS,[lb_av],90

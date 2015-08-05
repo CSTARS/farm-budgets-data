@@ -1,35 +1,19 @@
-material,location,phase,commodity,unit,amount
-Capture,WA,,CANOLA,[acr_us],1
-Labor (Machine),WA,,CANOLA,[acr_us],0.99
-Lubricants,WA,,CANOLA,[acr_us],1
-Canola,WA,,CANOLA,[lb_av],4
-Canola,WA,,CANOLA,[lb_av],1500
-Nitrogen (dry),WA,,CANOLA,[lb_av],100
-Phosphorous (dry),WA,,CANOLA,[lb_av],15
-Sulfur (dry),WA,,CANOLA,[lb_av],15
-Canola,WA,,CANOLA,[lb_av],1500
-Nitrogen (dry),WA,,CANOLA,[lb_av],100
-Phosphorous (dry),WA,,CANOLA,[lb_av],15
-Sulfur (dry),WA,,CANOLA,[lb_av],15
-Canola,WA,,CANOLA,[lb_av],4
-Repair,WA,,CANOLA,[acr_us],1
-Rental Sprayer,WA,,CANOLA,[acr_us],1
-Custom Aerial Spray,WA,,CANOLA,[acr_us],1
-Rental Ripper Shooter,WA,,CANOLA,[acr_us],1
-Capture,WA,,CANOLA,[acr_us],1
-Labor (Machine),WA,,CANOLA,[acr_us],0.99
-Lubricants,WA,,CANOLA,[acr_us],1
-Repair,WA,,CANOLA,[acr_us],1
-Rental Sprayer,WA,,CANOLA,[acr_us],1
-Custom Aerial Spray,WA,,CANOLA,[acr_us],1
-Rental Ripper Shooter,WA,,CANOLA,[acr_us],1
-oes452091,WA,,CANOLA,h,0.99
-oes452092,WA,,CANOLA,h,0
-Fuel,WA,,CANOLA,[gal_us],9.01
-Fuel,WA,,CANOLA,[gal_us],9.01
-Ammonium Sulfate,WA,,CANOLA,[oz_av],50
-Ammonium Sulfate,WA,,CANOLA,[oz_av],50
-M90,WA,,CANOLA,[oz_av],1.5
-M90,WA,,CANOLA,[oz_av],1.5
-Roundup,WA,,CANOLA,[foz_us],10
-Roundup,WA,,CANOLA,[foz_us],10
+material,location,phase,operation,commodity,unit,amount
+Ammonium Sulfate,WA,,Pest Control,CANOLA,[oz_av],50
+Canola Seed,WA,,,CANOLA,[lb_av],4
+Canola Seed,WA,,,CANOLA,[lb_av],1500
+Capture,WA,,,CANOLA,[acr_us],1
+Custom Aerial Spray,WA,,,CANOLA,[acr_us],1
+Fuel,WA,,,CANOLA,[gal_us],9.01
+Labor (Machine),WA,,,CANOLA,[acr_us],0.99
+Lubricants,WA,,,CANOLA,[acr_us],1
+M90,WA,,Pest Control,CANOLA,[oz_av],1.5
+Nitrogen (dry),WA,,,CANOLA,[lb_av],100
+oes452091,WA,,,CANOLA,h,0.99
+oes452092,WA,,,CANOLA,h,0
+Phosphorous (dry),WA,,,CANOLA,[lb_av],15
+Rental Ripper Shooter,WA,,,CANOLA,[acr_us],1
+Rental Sprayer,WA,,,CANOLA,[acr_us],1
+Repair,WA,,,CANOLA,[acr_us],1
+Roundup,WA,,Pest Control,CANOLA,[foz_us],10
+Sulfur (dry),WA,,,CANOLA,[lb_av],15

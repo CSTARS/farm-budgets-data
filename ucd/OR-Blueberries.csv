@@ -1,11 +1,7 @@
-material,location,phase,commodity,unit,amount
-Labor (Machine),OR,,BLUEBERRIES,h,100
-Labor (Machine),OR,,BLUEBERRIES,h,100
-oes452091,OR,,BLUEBERRIES,h,100
-oes452092,OR,,BLUEBERRIES,h,0
-Fuel - Diesel,OR,,BLUEBERRIES,[gal_us],13
-Fuel - Diesel,OR,,BLUEBERRIES,[gal_us],13
-Harvest,OR,,BLUEBERRIES,[lb_av],16200
-Harvest,OR,,BLUEBERRIES,[lb_av],16200
-Sawdust,OR,,BLUEBERRIES,unit,3.67
-Sawdust,OR,,BLUEBERRIES,unit,3.67
+material,location,phase,operation,commodity,unit,amount
+Fuel - Diesel,OR,,,BLUEBERRIES,[gal_us],13
+Harvest,OR,,,BLUEBERRIES,[lb_av],16200
+Labor (Machine),OR,,,BLUEBERRIES,h,100
+oes452091,OR,,,BLUEBERRIES,h,100
+oes452092,OR,,,BLUEBERRIES,h,0
+Sawdust,OR,,,BLUEBERRIES,unit,3.67

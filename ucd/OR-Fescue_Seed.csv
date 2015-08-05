@@ -1,20 +1,20 @@
-material,location,phase,commodity,unit,amount
-Surfactant-Induce,OR,,FESCUE SEED,[gal_us],0.12
-Goal,OR,,FESCUE SEED,[gal_us],0.05
-"2,4-D",OR,,FESCUE SEED,[gal_us],0.2
-Labor (Machine),OR,,FESCUE SEED,h,1.2749
-Labor (non-machine),OR,,FESCUE SEED,h,0.1936
-oes452091,OR,,FESCUE SEED,h,1.27
-oes452092,OR,,FESCUE SEED,h,0.19
-Commission Assess,OR,,FESCUE SEED,[scwt_av],17
-Purity and Germ,OR,,FESCUE SEED,[scwt_av],17
-Seed Cleand and Bag,OR,,FESCUE SEED,[scwt_av],17
-Banvel,OR,,FESCUE SEED,[gal_us],0.125
-Quilt,OR,,FESCUE SEED,[gal_us],0.156
-Fuel - Diesel,OR,,FESCUE SEED,[gal_us],9.0833
-16-16-16,OR,,FESCUE SEED,[lb_av],200
-40-0-0-6,OR,,FESCUE SEED,[lb_av],355
-0-0-60,OR,,FESCUE SEED,[lb_av],60
-Apogee,OR,,FESCUE SEED,[lb_av],0.5
-Axiom LB,OR,,FESCUE SEED,[lb_av],0.75
-Diuron,OR,,FESCUE SEED,[lb_av],2
+material,location,phase,operation,commodity,unit,amount
+0-0-60,OR,,,FESCUE SEED,[lb_av],60
+16-16-16,OR,,,FESCUE SEED,[lb_av],200
+"2,4-D",OR,,,FESCUE SEED,[gal_us],0.2
+40-0-0-6,OR,,,FESCUE SEED,[lb_av],355
+Apogee,OR,,Pest Control,FESCUE SEED,[lb_av],0.5
+Axiom LB,OR,,Pest Control,FESCUE SEED,[lb_av],0.75
+Banvel,OR,,Pest Control,FESCUE SEED,[gal_us],0.125
+Commission Assess,OR,,,FESCUE SEED,[scwt_av],17
+Diuron,OR,,Pest Control,FESCUE SEED,[lb_av],2
+Fuel - Diesel,OR,,,FESCUE SEED,[gal_us],9.0833
+Goal,OR,,Pest Control,FESCUE SEED,[gal_us],0.05
+Labor (Machine),OR,,,FESCUE SEED,h,1.2749
+Labor (non-machine),OR,,,FESCUE SEED,h,0.1936
+oes452091,OR,,,FESCUE SEED,h,1.27
+oes452092,OR,,,FESCUE SEED,h,0.19
+Purity and Germ,OR,,,FESCUE SEED,[scwt_av],17
+Quilt,OR,,Pest Control,FESCUE SEED,[gal_us],0.156
+Seed Cleand and Bag,OR,,,FESCUE SEED,[scwt_av],17
+Surfactant-Induce,OR,,,FESCUE SEED,[gal_us],0.12

@@ -1,0 +1,42 @@
+material,class,description
+3-Wheel Ag Sprayer,equipment,
+Challenger tractor,equipment
+Cooler/van,equipment
+Eliminator,equipment
+FR 6080 FH,equipment
+Large tractor,equipment
+Mid-size tractor,equipment
+Semi-tractor trailer,equipment
+Small tractor,equipment
+Support Truck,equipment
+Tandem axle truck,equipment
+Tractor and sprayer,equipment
+Labor--3-Wheel ag sprayer,labor,
+Labor--Challenger tractor,labor,
+Labor--Cooler/van,labor,
+Labor--FR 6080 FH,labor,
+Laborer,labor,
+Labor--Large tractor,labor,
+Labor--Mid-size tractor,labor,
+Labor--Semi-tractor trailer,labor,
+Labor--Small tractor,labor,
+Labor--Supervisor,labor,
+Labor--Support Truck,labor,
+Labor--Tandem axle truck,labor,
+Labor--Tractor and Sprayer,labor,
+hoeing,labor,
+Equipment Fuel,fuel,Off Road Diesel
+"2,4-D",fertilizer,
+Coragen,pesticide,
+Dimilin,pesticide,
+Fusilade,pesticide,
+Glyphosate,pesticide,
+Goal 2XL,pesticide,
+Imidacloprid5,pesticide,
+Oust,pesticide,
+Rozol,pesticide,rodenticide
+Sureguard,pesticide,
+Transline,pesticide,
+Trifluralin,pesticide,
+Poplar Cutting,seed,Poplar cutting for planting
+Irrigation,water,

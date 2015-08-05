@@ -1,5 +1,6 @@
 unit,description
 [acr_us],Acre
+[acr_us]/[acr_us],
 [acr_us].[in_us],Acre Inch
 bag,Bag
 bale,Bale
@@ -16,6 +17,9 @@ oz,Remove
 [pt_us],Pint
 [qt_us],Quart
 [scwt_av],U.S. Hundredweight
+[scwt_av]/[acr_us],
 [ston_av],U.S. Ton
 thou,Thousand
 unit,Unit
+us$,US Dollar
+us$/[scwt_av],

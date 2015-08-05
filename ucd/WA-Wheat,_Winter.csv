@@ -1,20 +1,20 @@
-material,location,phase,commodity,unit,amount
-Osprey,WA,,"WHEAT, WINTER",[foz_us],4.75
-Roundup,WA,,"WHEAT, WINTER",[foz_us],18
-Starane+Salvo,WA,,"WHEAT, WINTER",[foz_us],22
-Maintenance,WA,,"WHEAT, WINTER",,1
-Repair,WA,,"WHEAT, WINTER",,1
-Sprayer,WA,,"WHEAT, WINTER",,2
-Riper Shooter,WA,,"WHEAT, WINTER",,1
-Stuble Shredder,WA,,"WHEAT, WINTER",,0.5
-Labor (Machine),WA,,"WHEAT, WINTER",h,1.16
-oes452091,WA,,"WHEAT, WINTER",h,1.16
-oes452092,WA,,"WHEAT, WINTER",h,0
-Fuel - Diesel,WA,,"WHEAT, WINTER",[gal_us],8.17
-Nitrogen (dry),WA,,"WHEAT, WINTER",[lb_av],90
-Phosphorous (dry),WA,,"WHEAT, WINTER",[lb_av],30
-Sulfur (dry),WA,,"WHEAT, WINTER",[lb_av],15
-Wheat,WA,,"WHEAT, WINTER",[lb_av],90
-Brox M,WA,,"WHEAT, WINTER",[foz_us],1.6
-Excel 90,WA,,"WHEAT, WINTER",[foz_us],3.2
-Ammonium Sulfate,WA,,"WHEAT, WINTER",[oz_av],50
+material,location,phase,operation,commodity,unit,amount
+Ammonium Sulfate,WA,,Pest Control,"WHEAT, WINTER",[oz_av],50
+Brox M,WA,,Pest Control,"WHEAT, WINTER",[foz_us],1.6
+Excel 90,WA,,Pest Control,"WHEAT, WINTER",[foz_us],3.2
+Fuel - Diesel,WA,,,"WHEAT, WINTER",[gal_us],8.17
+Labor (Machine),WA,,,"WHEAT, WINTER",h,1.16
+Maintenance,WA,,,"WHEAT, WINTER",,1
+Nitrogen (dry),WA,,,"WHEAT, WINTER",[lb_av],90
+oes452091,WA,,,"WHEAT, WINTER",h,1.16
+oes452092,WA,,,"WHEAT, WINTER",h,0
+Osprey,WA,,Pest Control,"WHEAT, WINTER",[foz_us],4.75
+Phosphorous (dry),WA,,,"WHEAT, WINTER",[lb_av],30
+Repair,WA,,,"WHEAT, WINTER",,1
+Riper Shooter,WA,,,"WHEAT, WINTER",,1
+Roundup,WA,,Pest Control,"WHEAT, WINTER",[foz_us],18
+Sprayer,WA,,,"WHEAT, WINTER",,2
+Starane+Salvo,WA,,Pest Control,"WHEAT, WINTER",[foz_us],22
+Stuble Shredder,WA,,,"WHEAT, WINTER",,0.5
+Sulfur (dry),WA,,,"WHEAT, WINTER",[lb_av],15
+Wheat Seed,WA,,,"WHEAT, WINTER",[lb_av],90

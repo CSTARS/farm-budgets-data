@@ -1,17 +1,17 @@
-material,location,phase,commodity,unit,amount
-18-0-5-4,CA,,BROCCOLI,[lb_av],10
-Planting,CA,,BROCCOLI,thou,39
-Postharvest and packaging,CA,,BROCCOLI,box,582
-Labor (Machine),CA,,BROCCOLI,h,4.56
-Water,CA,,BROCCOLI,[acr_us].[in_us],30
-Labor (non-machine),CA,,BROCCOLI,h,5
-oes452091,CA,,BROCCOLI,h,4.56
-oes452092,CA,,BROCCOLI,h,5
-Fuel - Diesel,CA,,BROCCOLI,[gal_us],37
-Dacthal,CA,,BROCCOLI,[lb_av],7
-Admire,CA,,BROCCOLI,[foz_us],10
-Goal Tender,CA,,BROCCOLI,[foz_us],16
-Leverage,CA,,BROCCOLI,[foz_us],3
-LI 700,CA,,BROCCOLI,[foz_us],8
-Quadris,CA,,BROCCOLI,[foz_us],14
-Synapse WG,CA,,BROCCOLI,[oz_av],2
+material,location,phase,operation,commodity,unit,amount
+18-0-5-4,CA,,,BROCCOLI,[lb_av],10
+Admire,CA,,Pest Control,BROCCOLI,[foz_us],10
+Dacthal,CA,,Pest Control,BROCCOLI,[lb_av],7
+Fuel - Diesel,CA,,,BROCCOLI,[gal_us],37
+Goal Tender,CA,,Pest Control,BROCCOLI,[foz_us],16
+Labor (Machine),CA,,,BROCCOLI,h,4.56
+Labor (non-machine),CA,,,BROCCOLI,h,5
+Leverage,CA,,Pest Control,BROCCOLI,[foz_us],3
+LI 700,CA,,Pest Control,BROCCOLI,[foz_us],8
+oes452091,CA,,,BROCCOLI,h,4.56
+oes452092,CA,,,BROCCOLI,h,5
+Planting,CA,,,BROCCOLI,thou,39
+Postharvest and packaging,CA,,,BROCCOLI,box,582
+Quadris,CA,,Pest Control,BROCCOLI,[foz_us],14
+Synapse WG,CA,,Pest Control,BROCCOLI,[oz_av],2
+Water,CA,,,BROCCOLI,[acr_us].[in_us],30

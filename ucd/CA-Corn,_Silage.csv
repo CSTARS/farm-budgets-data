@@ -1,16 +1,16 @@
-material,location,phase,commodity,unit,amount
-Corn,CA,,"CORN, SILAGE",thou,33
-80-00-00,CA,,"CORN, SILAGE",[lb_av],180
-Ground Application,CA,,"CORN, SILAGE",[acr_us],1
-Plant,CA,,"CORN, SILAGE",[acr_us],1
-Water,CA,,"CORN, SILAGE",[acr_us].[in_us],44
-oes452091,CA,,"CORN, SILAGE",h,1.85
-oes452092,CA,,"CORN, SILAGE",h,0.9
-Fuel - Gas,CA,,"CORN, SILAGE",[gal_us],0.6
-Fuel - Diesel,CA,,"CORN, SILAGE",[gal_us],10.98
-10-34-00,CA,,"CORN, SILAGE",[lb_av],200
-Labor (Machine),CA,,"CORN, SILAGE",h,1.85
-Labor (non-machine),CA,,"CORN, SILAGE",h,0.9
-Harvest,CA,,"CORN, SILAGE",[ston_av],26
-Prowl H20,CA,,"CORN, SILAGE",[pt_us],3
-Yukon,CA,,"CORN, SILAGE",[oz_av],6
+material,location,phase,operation,commodity,unit,amount
+10-34-00,CA,,,"CORN, SILAGE",[lb_av],200
+80-00-00,CA,,,"CORN, SILAGE",[lb_av],180
+Corn Seed,CA,,,"CORN, SILAGE",thou,33
+Fuel - Diesel,CA,,,"CORN, SILAGE",[gal_us],10.98
+Fuel - Gas,CA,,,"CORN, SILAGE",[gal_us],0.6
+Ground Application,CA,,,"CORN, SILAGE",[acr_us],1
+Harvest,CA,,,"CORN, SILAGE",[ston_av],26
+Labor (Machine),CA,,,"CORN, SILAGE",h,1.85
+Labor (non-machine),CA,,,"CORN, SILAGE",h,0.9
+oes452091,CA,,,"CORN, SILAGE",h,1.85
+oes452092,CA,,,"CORN, SILAGE",h,0.9
+Plant,CA,,,"CORN, SILAGE",[acr_us],1
+Prowl H20,CA,,Pest Control,"CORN, SILAGE",[pt_us],3
+Water,CA,,,"CORN, SILAGE",[acr_us].[in_us],44
+Yukon,CA,,,"CORN, SILAGE",[oz_av],6

@@ -1,21 +1,21 @@
-material,location,phase,commodity,unit,amount
-Micro-Tech,ID,,"CORN, SILAGE",[qt_us],2
-Harvest,ID,,"CORN, SILAGE",[ston_av],30
-Corn,ID,,"CORN, SILAGE",bag,0.48
-Lube,ID,,"CORN, SILAGE",[acr_us],1
-Repair,ID,,"CORN, SILAGE",[acr_us],1
-Ground Application,ID,,"CORN, SILAGE",[acr_us],2
-Water,ID,,"CORN, SILAGE",[acr_us],1
-Labor (Machine),ID,,"CORN, SILAGE",h,2.6
-Labor (non-machine),ID,,"CORN, SILAGE",h,3.8
-oes452091,ID,,"CORN, SILAGE",h,2.6
-oes452092,ID,,"CORN, SILAGE",h,3.8
-Fuel - Gas,ID,,"CORN, SILAGE",[gal_us],1.25
-Fuel - Diesel,ID,,"CORN, SILAGE",[gal_us],13
-Dry Nitrogen,ID,,"CORN, SILAGE",[lb_av],210
-Dry P2O5,ID,,"CORN, SILAGE",[lb_av],80
-K20,ID,,"CORN, SILAGE",[lb_av],100
-Sulfur,ID,,"CORN, SILAGE",[lb_av],30
-Counter 15G L-N-L,ID,,"CORN, SILAGE",[lb_av],8
-Ammonium Sulfate,ID,,"CORN, SILAGE",[lb_av],2
-Roundup Original Max,ID,,"CORN, SILAGE",[foz_us],40
+material,location,phase,operation,commodity,unit,amount
+Ammonium Sulfate,ID,,Pest Control,"CORN, SILAGE",[lb_av],2
+Corn Seed,ID,,,"CORN, SILAGE",bag,0.48
+Counter 15G L-N-L,ID,,Pest Control,"CORN, SILAGE",[lb_av],8
+Dry Nitrogen,ID,,,"CORN, SILAGE",[lb_av],210
+Dry P2O5,ID,,,"CORN, SILAGE",[lb_av],80
+Fuel - Diesel,ID,,,"CORN, SILAGE",[gal_us],13
+Fuel - Gas,ID,,,"CORN, SILAGE",[gal_us],1.25
+Ground Application,ID,,,"CORN, SILAGE",[acr_us],2
+Harvest,ID,,,"CORN, SILAGE",[ston_av],30
+K20,ID,,,"CORN, SILAGE",[lb_av],100
+Labor (Machine),ID,,,"CORN, SILAGE",h,2.6
+Labor (non-machine),ID,,,"CORN, SILAGE",h,3.8
+Lube,ID,,,"CORN, SILAGE",[acr_us],1
+Micro-Tech,ID,,Pest Control,"CORN, SILAGE",[qt_us],2
+oes452091,ID,,,"CORN, SILAGE",h,2.6
+oes452092,ID,,,"CORN, SILAGE",h,3.8
+Repair,ID,,,"CORN, SILAGE",[acr_us],1
+Roundup Original Max,ID,,Pest Control,"CORN, SILAGE",[foz_us],40
+Sulfur,ID,,,"CORN, SILAGE",[lb_av],30
+Water,ID,,,"CORN, SILAGE",[acr_us],1

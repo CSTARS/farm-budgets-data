@@ -1,31 +1,17 @@
-material,location,phase,commodity,unit,amount
-M90,WA,,BARLEY,[oz_av],3
-Roundup,WA,,BARLEY,[foz_us],18
-Starane+Sword,WA,,BARLEY,[foz_us],22
-Starane+Sword,WA,,BARLEY,[foz_us],22
-Fuel,WA,,BARLEY,[gal_us],8.18
-Rental Sprayer,WA,,BARLEY,[acr_us],2
-Labor (Machine),WA,,BARLEY,[acr_us],0.97
-Lubricants,WA,,BARLEY,[acr_us],1
-Repair,WA,,BARLEY,[acr_us],1
-Rental Sprayer,WA,,BARLEY,[acr_us],2
-oes452091,WA,,BARLEY,h,0.97
-oes452092,WA,,BARLEY,h,0
-Fuel,WA,,BARLEY,[gal_us],8.18
-Barley Seed,WA,,BARLEY,[lb_av],80
-Nitrogen (dry),WA,,BARLEY,[lb_av],60
-Phosphorous (dry),WA,,BARLEY,[lb_av],12
-Sulfur (dry),WA,,BARLEY,[lb_av],15
-Barley Seed,WA,,BARLEY,[lb_av],80
-Nitrogen (dry),WA,,BARLEY,[lb_av],60
-Phosphorous (dry),WA,,BARLEY,[lb_av],12
-Sulfur (dry),WA,,BARLEY,[lb_av],15
-Achieve SC,WA,,BARLEY,[foz_us],9.2
-Achieve SC,WA,,BARLEY,[foz_us],9.2
-Ammonium Sulfate,WA,,BARLEY,[oz_av],50
-Ammonium Sulfate,WA,,BARLEY,[oz_av],50
-Labor (Machine),WA,,BARLEY,[acr_us],0.97
-Lubricants,WA,,BARLEY,[acr_us],1
-Repair,WA,,BARLEY,[acr_us],1
-M90,WA,,BARLEY,[oz_av],3
-Roundup,WA,,BARLEY,[foz_us],18
+material,location,phase,operation,commodity,unit,amount
+Achieve SC,WA,,Pest Control,BARLEY,[foz_us],9.2
+Ammonium Sulfate,WA,,Pest Control,BARLEY,[oz_av],50
+Barley Seed,WA,,,BARLEY,[lb_av],80
+Fuel,WA,,,BARLEY,[gal_us],8.18
+Labor (Machine),WA,,,BARLEY,[acr_us],0.97
+Lubricants,WA,,,BARLEY,[acr_us],1
+M90,WA,,Pest Control,BARLEY,[oz_av],3
+Nitrogen (dry),WA,,,BARLEY,[lb_av],60
+oes452091,WA,,,BARLEY,h,0.97
+oes452092,WA,,,BARLEY,h,0
+Phosphorous (dry),WA,,,BARLEY,[lb_av],12
+Rental Sprayer,WA,,,BARLEY,[acr_us],2
+Repair,WA,,,BARLEY,[acr_us],1
+Roundup,WA,,Pest Control,BARLEY,[foz_us],18
+Starane+Sword,WA,,Pest Control,BARLEY,[foz_us],22
+Sulfur (dry),WA,,,BARLEY,[lb_av],15
