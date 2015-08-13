@@ -6,10 +6,33 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Quinn Hart <qjhart@ucdavis.edu>",
   "license": "ISC",
   "dependencies": {
+    "config": "^1.15.0",
+    "csv": "^0.4.6",
+    "fast-csv": "^0.6.0",
     "mongodb": "^1.4.30",
-    "fast-csv": "^0.6.0"
-  }
+    "pg": "^4.4.1",
+    "pgservice": "0.0.2",
+    "walk": "^2.3.9"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSTARS/farm-budgets-data.git"
+  },
+  "keywords": [
+    "AHB",
+    "farm",
+    "budgets",
+    "poplar"
+  ],
+  "bugs": {
+    "url": "https://github.com/CSTARS/farm-budgets-data/issues"
+  },
+  "homepage": "https://github.com/CSTARS/farm-budgets-data#readme"
 }

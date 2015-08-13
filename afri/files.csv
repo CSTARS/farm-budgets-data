@@ -1,5 +1,0 @@
-type,authority,location,year,filename
-price,afri,US,2015,prices.csv
-material,afri,,,materials.csv
-material_use,afri,,,material_fuel.csv
-material_use,afri,,,material_labor.csv

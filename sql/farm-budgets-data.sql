@@ -2,20 +2,29 @@ drop schema farm_budget_data cascade;
 create schema farm_budget_data;
 set search_path=farm_budget_data,public;
 
-CREATE TYPE phase_t AS ENUM ('planting', 'annual', 'harvest');
-
+CREATE TYPE csvtype_t AS ENUM (
+  'materials','material_requirements','prices'
+  'phases','phase_requirements'
+  );
 -- The units of measure should be as listed here: http://unitsofmeasure.org/ucum.html
 -- If they are not, then a description needs to be provided.
 -- See if we can poach this. https://github.com/jmandel/ucum.js
+create table files (
+  filename text primary key,
+  type csvtype_t,
+  location text,
+  year integer,
+  commodity text
+);
 
-create table unit (
+create table units (
 unit varchar(64) primary key,
 description text
 );
 
 \COPY unit(unit,description) from units.csv with csv header
 
-create table material (
+create table materials (
 material text primary key,
 class text,
 description text
@@ -23,15 +32,14 @@ description text
 
 \COPY material from materials.csv with csv header
 
-create table operation (
+create table phase_requirements (
 phase phase_t,
 operation text,
 unit varchar(64) references unit,
 description text,
 primary key(operation,unit)
 );
-
-\COPY operation from operations.csv with csv header
+-- many phase requirements
 
 create table yield (
   filename text,
@@ -69,7 +77,6 @@ create or replace function replace_unit(old varchar(64),new varchar(64))
 RETURNS varchar(64)
 AS $$
 update farm_budget_data.production set unit=$2 where unit=$1;
-update farm_budget_data.operation set unit=$2 where unit=$1;
 update farm_budget_data.price set unit=$2 where unit=$1;
 delete from unit where unit=$1;
 select $2;

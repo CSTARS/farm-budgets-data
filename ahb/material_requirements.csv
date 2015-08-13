@@ -9,8 +9,8 @@ Eliminator,Equipment Fuel,19.36,[gal_us]/h
 Eliminator,Labor--Eliminator,1,h/h
 FR 6080 FH,Equipment Fuel,13.2,[gal_us]/h
 FR 6080 FH,Labor--FR 6080 FH,1,h/h
-herbicide - establish,Glyphosate,200,[qt_us]/100.[acr_us]
-herbicide - establish,Laborer,96,h/100.[acr_us]
+herbicide - manual,Glyphosate,200,[qt_us]/100.[acr_us]
+herbicide - manual,Laborer,96,h/100.[acr_us]
 hoeing,Laborer,192,h/100.[acr_us]
 Large tractor,Equipment Fuel,13.2,[gal_us]/h
 Large tractor,Labor--Large tractor,1,h/h
