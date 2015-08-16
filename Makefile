@@ -7,7 +7,7 @@ path:=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 PG.service:=farm-budgets-data
 PG:=psql service=${PG.service} --variable=cwd=${path}
 
-include nass.mk
+#include nass.mk
 
 files.csv:=$(shell find . -name files.csv)
 auto.csv:=$(shell find . -name units.csv -o -name materials.csv -o -name material_requirements.csv -o -name prices.csv)
@@ -23,20 +23,22 @@ INFO::
 
 import:
 	${PG} -f 'sql/farm-budgets-data.sql';
-	for c in ${production.csv}; do\
-	 ${PG} -c "\COPY farm_budget_data.production (material,location,phase,operation,commodity,unit,amount) from $$c with csv header";\
-	 f=`basename $$c .csv | sed -e 's/^...//'`;\
-	${PG} -c "update farm_budget_data.production set commodity=upper(trim( both from replace('$$f','_',' '))), filename='$$c' where commodity is null";\
-	${PG} -c "update farm_budget_data.production set filename='$$c' where filename is null";\
-	done;
-	for p in ${prices.csv}; do\
-	 ${PG} -c "\COPY farm_budget_data.price (material,location,year,price,unit) from $$p with csv header";\
-	${PG} -c "update farm_budget_data.price set filename='$$p' where filename is null";\
-	done;
-	for p in ${yields.csv}; do\
-	 ${PG} -c "\COPY farm_budget_data.yield (commodity,location,unit,value) from $$p with csv header";\
-	 ${PG} -c "update farm_budget_data.yield set filename='$$p' where filename is null";\
-	done;
+
+foo:
+	# for c in ${production.csv}; do\
+	#  ${PG} -c "\COPY farm_budget_data.production (material,location,phase,operation,commodity,unit,amount) from $$c with csv header";\
+	#  f=`basename $$c .csv | sed -e 's/^...//'`;\
+	# ${PG} -c "update farm_budget_data.production set commodity=upper(trim( both from replace('$$f','_',' '))), filename='$$c' where commodity is null";\
+	# ${PG} -c "update farm_budget_data.production set filename='$$c' where filename is null";\
+	# done;
+	# for p in ${prices.csv}; do\
+	#  ${PG} -c "\COPY farm_budget_data.price (material,location,year,price,unit) from $$p with csv header";\
+	# ${PG} -c "update farm_budget_data.price set filename='$$p' where filename is null";\
+	# done;
+	# for p in ${yields.csv}; do\
+	#  ${PG} -c "\COPY farm_budget_data.yield (commodity,location,unit,value) from $$p with csv header";\
+	#  ${PG} -c "update farm_budget_data.yield set filename='$$p' where filename is null";\
+	# done;
 
 export:
 	${PG} -f 'sql/export.sql';

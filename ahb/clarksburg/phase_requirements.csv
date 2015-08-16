@@ -10,25 +10,27 @@ site prep,Trifluralin,50,[qt_us],"herbicide - preemergent"
 planting,Semi-tractor trailer,20,h,"Transport Nursery to field"
 planting,Poplar Cutting,145000,each,
 planting,Cooler/van,1080,h,
-planting,Laborer,40*12,h,
+planting,Laborer,480,h,
 crop care - yr0,herbicide - manual,25,[acr_us],
 crop care - yr0,hoeing,140,[acr_us],"2 times over 70 acres each."
-crop care - yr1,"Tillage",Small Tractor,48,h,
+crop care - yr1,Small Tractor,48,h,"Tillage"
 crop care - yr1,hoeing,500,[arc_us],"5 times"
 crop care - yr1,herbicide - manual,150,[arc_us],"3 times, 1/2 field"
-crop care - yr1,Laborer,12*8,h,"Interplanting"
-harvest - yr1,FR 6080 FH,26,h
-harvest - yr1,Tandom axle truck,104,h
-harvest - yr1,Support truck,26,h
+crop care - yr1,Laborer,96,h,"Interplanting"
+harvest - yr1,FR 6080 FH,26,h,""
+harvest - yr1,Tandom axle truck,104,h,
+harvest - yr1,Support truck,26,h,
 crop care - post harvest,Mid-size tractor,30,h,"Post harvest clean up"
 crop care - post harvest,Tractor and sprayer,8,h,"Dormant Herbicide"
 crop care - post harvest,Glyphosate,200,[qt_us],"Dormant Herbicide"
 crop care - post harvest,Trifluralin,200,[qt_us],"Dormant Herbicide"
 crop care - post harvest,herbicide - manual,100,[acr_us],"post emergent"
-crop care - established,hoeing,150,[acr_us]
-crop care - established,herbicide - manual,100,[acr_us]
-harvest - established,FR 6080 FH,35,h
-harvest - established,Tandem axle truck,175,h
-harvest - established,Support Truck,35,h
-restoration,disking,3,1
-restoration,herbicide - restoration,2,1
+crop care - established,hoeing,150,[acr_us],
+crop care - established,herbicide - manual,100,[acr_us],
+harvest - established,FR 6080 FH,35,h,
+harvest - established,Tandem axle truck,175,h,
+harvest - established,Support Truck,35,h,
+restoration,Large tractor,12,h,"disking"
+restoration,Tractor and sprayer,20,h,"herbicide"
+restoration,Glyphosate,200,[qt_us],"herbicide"
+restoration,"2,4-D",200,[qt_us],"herbicide"

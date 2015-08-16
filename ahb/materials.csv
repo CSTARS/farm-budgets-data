@@ -1,43 +1,43 @@
-material,class,description
-3-Wheel Ag Sprayer,equipment,
-Challenger tractor,equipment
-Cooler/van,equipment
-Eliminator,equipment
-FR 6080 FH,equipment
-Large tractor,equipment
-Mid-size tractor,equipment
-Semi-tractor trailer,equipment
-Small tractor,equipment
-Support Truck,equipment
-Tandem axle truck,equipment
-Tractor and sprayer,equipment
-Labor--3-Wheel ag sprayer,labor,
-Labor--Challenger tractor,labor,
-Labor--Cooler/van,labor,
-Labor--FR 6080 FH,labor,
-Laborer,labor,
-Labor--Large tractor,labor,
-Labor--Mid-size tractor,labor,
-Labor--Semi-tractor trailer,labor,
-Labor--Small tractor,labor,
-Labor--Supervisor,labor,
-Labor--Support Truck,labor,
-Labor--Tandem axle truck,labor,
-Labor--Tractor and Sprayer,labor,
-hoeing,labor,
-herbicide - manual,labor,
-Equipment Fuel,fuel,Off Road Diesel
-"2,4-D",fertilizer,
-Coragen,pesticide,
-Dimilin,pesticide,
-Fusilade,pesticide,
-Glyphosate,pesticide,
-Goal 2XL,pesticide,
-Imidacloprid5,pesticide,
-Oust,pesticide,
-Rozol,pesticide,rodenticide
-Sureguard,pesticide,
-Transline,pesticide,
-Trifluralin,pesticide,
-Poplar Cutting,seed,Poplar cutting for planting
-Irrigation,water,
+material,unit,class,description
+3-Wheel Ag Sprayer,h,equipment,
+Challenger tractor,h,equipment,
+Cooler/van,h,equipment,
+Eliminator,h,equipment,
+FR 6080 FH,h,equipment,
+Large tractor,h,equipment,
+Mid-size tractor,h,equipment,
+Semi-tractor trailer,h,equipment,
+Small tractor,h,equipment,
+Support Truck,h,equipment,
+Tandem axle truck,h,equipment,
+Tractor and sprayer,h,equipment,
+Labor--3-Wheel ag sprayer,h,labor,
+Labor--Challenger tractor,h,labor,
+Labor--Cooler/van,h,labor,
+Labor--FR 6080 FH,h,labor,
+Laborer,h,labor,
+Labor--Large tractor,h,labor,
+Labor--Mid-size tractor,h,labor,
+Labor--Semi-tractor trailer,h,labor,
+Labor--Small tractor,h,labor,
+Labor--Supervisor,h,labor,
+Labor--Support Truck,h,labor,
+Labor--Tandem axle truck,h,labor,
+Labor--Tractor and Sprayer,h,labor,
+hoeing,h,labor,
+herbicide - manual,h,labor,
+Equipment Fuel,gal,fuel,Off Road Diesel
+"2,4-D",[qt_us],fertilizer,
+Coragen,[qt_us],pesticide,
+Dimilin,[qt_us],pesticide,
+Fusilade,[qt_us],pesticide,
+Glyphosate,[qt_us],pesticide,
+Goal 2XL,[qt_us],pesticide,
+Imidacloprid5,[qt_us],pesticide,
+Oust,[qt_us],pesticide,
+Rozol,pesticide,[qt_us],rodenticide
+Sureguard,[qt_us],pesticide,
+Transline,[qt_us],pesticide,
+Trifluralin,[qt_us],pesticide,
+Poplar Cutting,1,seed,Poplar cutting for planting
+Irrigation,acr_us].[in_us],water,
