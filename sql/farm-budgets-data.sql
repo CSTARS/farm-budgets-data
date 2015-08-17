@@ -2,15 +2,6 @@ drop schema "farm-budgets-data" cascade;
 create schema "farm-budgets-data";
 set search_path="farm-budgets-data",public;
 
--- CREATE TYPE csvtype_t AS ENUM (
---   'materials',
---   'material_requirements',
---   'prices',
---   'phases',
---   'phase_requirements',
---   'yields'
--- );
-
 create type import_return_t as (
   filename text,
   "table" text,
@@ -55,7 +46,7 @@ create table material_requirements (
   unit text
 );
 
-  create table phases (
+  create table schedule (
     filename text,
     start date,
     duration interval,
@@ -64,7 +55,7 @@ create table material_requirements (
     unit text
   );
 
-  create table phase_requirements (
+  create table phases (
     filename text,
     phase text,
     material text,
@@ -91,37 +82,50 @@ create or replace view budget_as_json as
 with
 pr as (
   select array_to_json(array_agg(array_to_json(
-    ARRAY[to_json(material),to_json(price),to_json(unit)]))) as prices
+    ARRAY[to_json(material),to_json(price),to_json(unit)])),true) as prices
   from prices
 ),
 mr as (
   select material,array_to_json(array_agg(array_to_json(
-    ARRAY[to_json(requires),to_json(amount),to_json(unit)]))) as requirements
+    ARRAY[to_json(requires),to_json(amount),to_json(unit)])),true) as requirements
   from material_requirements group by material
 ),
 m as (
   select array_to_json(array_agg(array_to_json(
     ARRAY[to_json(material),to_json(class),to_json(description),requirements])),true) as materials
-  from materials join mr using (material)
-),
-phr as (
-  select filename,phase,array_to_json(array_agg(array_to_json(
-    ARRAY[to_json(material),to_json(amount),to_json(unit),to_json(note)])),true) as requirements
-  from phase_requirements group by phase,filename
+  from materials left join mr using (material)
 ),
 ph as (
+  select filename,
+  array_to_json(ARRAY
+    [to_json(phase),
+    array_to_json(array_agg(array_to_json(ARRAY[
+      to_json(material),
+      to_json(amount),
+      to_json(unit),
+      to_json(note)
+    ])),true)]) as phase
+  from phases group by filename,phase
+),
+phs as (
+  select filename,
+  array_to_json(array_agg(phase)) as phases
+  from ph group by filename
+),
+s as (
   select filename,array_to_json(array_agg(array_to_json(
     ARRAY[to_json(start),to_json(duration),to_json(phase),
-          to_json(yield),to_json(unit),requirements])),true) as phases
-  from phases join phr using (filename,phase)
+          to_json(yield),to_json(unit)])),true) as schedule
+  from schedule
   group by filename
 ),
 f as (
   select array_to_json(array_agg(array_to_json(
     ARRAY[to_json(farm),to_json(location),to_json(commodity),
-          to_json(size),to_json(unit),phases])),true) as farms
+          to_json(size),to_json(unit),phases,schedule])),true) as farms
 from farms f join
-ph on (array_to_string(ARRAY[f.filename,f.farm],'/')=ph.filename)
+s on (array_to_string(ARRAY[f.filename,f.farm],'/')=s.filename)
+join phs on (array_to_string(ARRAY[f.filename,f.farm],'/')=phs.filename)
 ),
 a as (
   select * from pr,f,m
@@ -187,7 +191,7 @@ END LOOP;
 -- Add In Farms
 FOR myfile in select farm from farms where filename=authority
 LOOP
-foreach farmfile_fn in ARRAY ARRAY['phases','phase_requirements']
+foreach farmfile_fn in ARRAY ARRAY['schedule','phases']
 LOOP
 farm_fn=array_to_string(ARRAY[auth_fn,myfile.farm],'/');
 select into vals
@@ -229,14 +233,14 @@ from price_lists l join prices p on (l.prices=p.filename)
 where l.filename=authority
 group by prices
 union
-select p.filename,'phases' as table,count(*)
-from farms f join phases p
+select p.filename,'schedule' as table,count(*)
+from farms f join schedule p
 on (array_to_string(ARRAY[f.filename,f.farm],'/')=p.filename)
 where f.filename=authority
 group by p.filename
 union
-select p.filename,'phase_requirements' as table,count(*)
-from farms f join phase_requirements p
+select p.filename,'phases' as table,count(*)
+from farms f join phases p
 on (array_to_string(ARRAY[f.filename,f.farm],'/')=p.filename)
 where f.filename=authority
 group by p.filename

@@ -1,0 +1,23 @@
+start,duration,phase,yield,units
+2015-06-01,3 mon,site prep,,
+2015-10-01,1 mon,planting,,
+2015-11-01,1 yr,crop care - yr0,,
+2016-11-01,1 yr,crop care - yr1,,
+2017-10-01,1 mon,harvest - yr2,9,[ston_us]/[acr_us]
+2017-11-01,1 yr,crop care - post harvest,,
+2018-11-01,1 yr,crop care - established,,
+2019-11-01,1 yr,crop care - established,,
+2020-10-01,1 mon,harvest - established,27.5,[ston_us]/[acr_us]
+2021-11-01,1 yr,crop care - post harvest,,
+2022-11-01,1 yr,crop care - established,,
+2023-11-01,1 yr,crop care - established,,
+2023-10-01,1 mon,harvest - established,27.5,[ston_us]/[acr_us]
+2025-11-01,1 yr,crop care - post harvest,,
+2026-11-01,1 yr,crop care - established,,
+2027-11-01,1 yr,crop care - established,,
+2028-10-01,1 mon,harvest - established,27.5,[ston_us]/[acr_us]
+2029-11-01,1 yr,crop care - post harvest,,
+2030-11-01,1 yr,crop care - established,,
+2031-11-01,1 yr,crop care - established,,
+2032-10-01,1 mon,harvest - established,27.5,[ston_us]/[acr_us]
+2032-11-01,3 mon,restoration,,

@@ -24,6 +24,10 @@ INFO::
 import:
 	${PG} -f 'sql/farm-budgets-data.sql';
 
+budget.json:
+	${PG} -At --pset=footer -c 'select budget from "farm-budgets-data".budget_as_json' > budget.json
+
+
 foo:
 	# for c in ${production.csv}; do\
 	#  ${PG} -c "\COPY farm_budget_data.production (material,location,phase,operation,commodity,unit,amount) from $$c with csv header";\

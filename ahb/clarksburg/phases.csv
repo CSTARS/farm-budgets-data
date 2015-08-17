@@ -1,23 +1,36 @@
-start,duration,phase,yield,units
-2015-06-01,3 mon,site prep,,
-2015-10-01,1 mon,planting,,
-2015-11-01,1 yr,crop care - yr0,,
-2016-11-01,1 yr,crop care - yr1,,
-2017-10-01,1 mon,harvest - yr2,9,[ston_us]/[acr_us]
-2017-11-01,1 yr,crop care - post harvest,,
-2018-11-01,1 yr,crop care - established,,
-2019-11-01,1 yr,crop care - established,,
-2020-10-01,1 mon,harvest - established,27.5,[ston_us]/[acr_us]
-2021-11-01,1 yr,crop care - post harvest,,
-2022-11-01,1 yr,crop care - established,,
-2023-11-01,1 yr,crop care - established,,
-2023-10-01,1 mon,harvest - established,27.5,[ston_us]/[acr_us]
-2025-11-01,1 yr,crop care - post harvest,,
-2026-11-01,1 yr,crop care - established,,
-2027-11-01,1 yr,crop care - established,,
-2028-10-01,1 mon,harvest - established,27.5,[ston_us]/[acr_us]
-2029-11-01,1 yr,crop care - post harvest,,
-2030-11-01,1 yr,crop care - established,,
-2031-11-01,1 yr,crop care - established,,
-2032-10-01,1 mon,harvest - established,27.5,[ston_us]/[acr_us]
-2032-11-01,3 mon,restoration,,
+phase,material,amount,unit,note
+site prep,Tractor and sprayer,3,h,"Initial Spraying"
+site prep,Glyphosate,100,[qt_us],"Initial Spraying"
+site prep,Goal 2XL,125,[qt_us],"Initial Spraying"
+site prep,Large tractor,20,h,"Initial Tillage"
+site prep,Large tractor,10,h,"Ripping"
+site prep,Large tractor,25,h,"Row Marking"
+site prep,Challenger tractor,25,h,"herbicide - preemergent"
+site prep,Trifluralin,50,[qt_us],"herbicide - preemergent"
+planting,Semi-tractor trailer,20,h,"Transport Nursery to field"
+planting,Poplar Cutting,145000,each,
+planting,Cooler/van,1080,h,
+planting,Laborer,480,h,
+crop care - yr0,herbicide - manual,25,[acr_us],
+crop care - yr0,hoeing,140,[acr_us],"2 times over 70 acres each."
+crop care - yr1,Small Tractor,48,h,"Tillage"
+crop care - yr1,hoeing,500,[arc_us],"5 times"
+crop care - yr1,herbicide - manual,150,[arc_us],"3 times, 1/2 field"
+crop care - yr1,Laborer,96,h,"Interplanting"
+harvest - yr1,FR 6080 FH,26,h,""
+harvest - yr1,Tandom axle truck,104,h,
+harvest - yr1,Support truck,26,h,
+crop care - post harvest,Mid-size tractor,30,h,"Post harvest clean up"
+crop care - post harvest,Tractor and sprayer,8,h,"Dormant Herbicide"
+crop care - post harvest,Glyphosate,200,[qt_us],"Dormant Herbicide"
+crop care - post harvest,Trifluralin,200,[qt_us],"Dormant Herbicide"
+crop care - post harvest,herbicide - manual,100,[acr_us],"post emergent"
+crop care - established,hoeing,150,[acr_us],
+crop care - established,herbicide - manual,100,[acr_us],
+harvest - established,FR 6080 FH,35,h,
+harvest - established,Tandem axle truck,175,h,
+harvest - established,Support Truck,35,h,
+restoration,Large tractor,12,h,"disking"
+restoration,Tractor and sprayer,20,h,"herbicide"
+restoration,Glyphosate,200,[qt_us],"herbicide"
+restoration,"2,4-D",200,[qt_us],"herbicide"
