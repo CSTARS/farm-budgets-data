@@ -50,14 +50,14 @@ create table material_requirements (
     filename text,
     start date,
     duration interval,
-    phase text,
+    operation text,
     yield float,
     unit text
   );
 
-  create table phases (
+  create table operations (
     filename text,
-    phase text,
+    operation text,
     material text,
     amount float,
     unit varchar(64),
@@ -78,59 +78,58 @@ create table price_lists (
     unit varchar(64)
   );
 
+
 create or replace view budget_as_json as
 with
 pr as (
-  select array_to_json(array_agg(array_to_json(
-    ARRAY[to_json(material),to_json(price),to_json(unit)])),true) as prices
-  from prices
+  select array_to_json(array_agg(
+    row_to_json((select r from (select material,price,unit) as r))
+    ),true) as prices
+  from prices p
 ),
 mr as (
-  select material,array_to_json(array_agg(array_to_json(
-    ARRAY[to_json(requires),to_json(amount),to_json(unit)])),true) as requirements
-  from material_requirements group by material
+  select material,array_to_json(array_agg(
+    row_to_json((select r from (select requires as material,amount,unit) as r))
+  ),true) as requires
+  from material_requirements mr group by material
 ),
 m as (
-  select array_to_json(array_agg(array_to_json(
-    ARRAY[to_json(material),to_json(class),to_json(description),requirements])),true) as materials
+  select array_to_json(array_agg(
+    row_to_json((select r from (select material,unit,class,description,requires) as r))
+    ),true) as materials
   from materials left join mr using (material)
 ),
-ph as (
-  select filename,
-  array_to_json(ARRAY
-    [to_json(phase),
-    array_to_json(array_agg(array_to_json(ARRAY[
-      to_json(material),
-      to_json(amount),
-      to_json(unit),
-      to_json(note)
-    ])),true)]) as phase
-  from phases group by filename,phase
+ml as (
+  select filename,operation,array_to_json(array_agg(
+    row_to_json((select r from (select material,amount,unit,note) as r))
+  ),true) as materials
+  from operations group by filename,operation
 ),
-phs as (
-  select filename,
-  array_to_json(array_agg(phase)) as phases
-  from ph group by filename
+ops as (
+  select filename,array_to_json(array_agg(
+    row_to_json((select r from (select operation,materials) as r))
+  ),true) as operations
+  from ml group by filename
 ),
 s as (
-  select filename,array_to_json(array_agg(array_to_json(
-    ARRAY[to_json(start),to_json(duration),to_json(phase),
-          to_json(yield),to_json(unit)])),true) as schedule
+  select filename,array_to_json(array_agg(
+    row_to_json((select r from (select start,duration,operation,yield,unit) as r))
+  ),true) as schedule
   from schedule
   group by filename
 ),
 f as (
-  select array_to_json(array_agg(array_to_json(
-    ARRAY[to_json(farm),to_json(location),to_json(commodity),
-          to_json(size),to_json(unit),phases,schedule])),true) as farms
+  select array_to_json(array_agg(
+    row_to_json((select r from (select farm,location,commodity,size,unit,operations,schedule) as r))
+  ),true) as farm
 from farms f join
 s on (array_to_string(ARRAY[f.filename,f.farm],'/')=s.filename)
-join phs on (array_to_string(ARRAY[f.filename,f.farm],'/')=phs.filename)
-),
-a as (
-  select * from pr,f,m
+join ops on (array_to_string(ARRAY[f.filename,f.farm],'/')=ops.filename)
 )
-select row_to_json(a,true) as budget from a;
+select
+row_to_json((select r from (select farm,materials,prices) as r),true)
+  as budget
+from f,m,pr;
 
 
 create or replace function import_authority(base text,authority text)
@@ -191,7 +190,7 @@ END LOOP;
 -- Add In Farms
 FOR myfile in select farm from farms where filename=authority
 LOOP
-foreach farmfile_fn in ARRAY ARRAY['schedule','phases']
+foreach farmfile_fn in ARRAY ARRAY['schedule','operations']
 LOOP
 farm_fn=array_to_string(ARRAY[auth_fn,myfile.farm],'/');
 select into vals
@@ -239,8 +238,8 @@ on (array_to_string(ARRAY[f.filename,f.farm],'/')=p.filename)
 where f.filename=authority
 group by p.filename
 union
-select p.filename,'phases' as table,count(*)
-from farms f join phases p
+select p.filename,'operations' as table,count(*)
+from farms f join operations p
 on (array_to_string(ARRAY[f.filename,f.farm],'/')=p.filename)
 where f.filename=authority
 group by p.filename

@@ -24,9 +24,9 @@ INFO::
 import:
 	${PG} -f 'sql/farm-budgets-data.sql';
 
-budget.json:
-	${PG} -At --pset=footer -c 'select budget from "farm-budgets-data".budget_as_json' > budget.json
-
+poplar-example.json:
+	${PG} -At --pset=footer -c 'select budget from "farm-budgets-data".budget_as_json' |\
+	jq 'del(.[][][] | select(. == null)) | del(.[][][]|select(. == "")) | del(.[][][][][] | select(. == null)) | del(.[][][][][][][] | select(. ==null))' 2>/dev/null > $@
 
 foo:
 	# for c in ${production.csv}; do\
