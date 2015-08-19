@@ -24,8 +24,8 @@ Labor--Supervisor,h,labor,
 Labor--Support Truck,h,labor,
 Labor--Tandem axle truck,h,labor,
 Labor--Tractor and Sprayer,h,labor,
-hoeing,h,labor,
-herbicide - manual,h,labor,
+hoeing,[acr_us],labor,
+herbicide - manual,[acr_us],herbicide,'Manual Application of herbicide'
 Equipment Fuel,gal,fuel,Off Road Diesel
 "2,4-D",[qt_us],fertilizer,
 Coragen,[qt_us],pesticide,
